@@ -1,6 +1,4 @@
 # TOGAF® 10 — Die vollständige Lernanleitung
-## Vom Anfänger zum Profi: Alles was du wissen musst, um TOGAF 10 konkret anzuwenden
-
 ---
 
 # KAPITEL 1 — Was ist TOGAF 10 und warum brauche ich es?

@@ -232,7 +232,7 @@ Typischer Output:
 
 Erfasse den heutigen Zustand mit Interviews, Dokumenten, Systemlisten, Prozesslandkarten und vorhandenen Architekturmodellen.
 
-Coach-Fragen:
+Fragen:
 
 - Welche Quellen beschreiben die heutige Realität?
 - Wo gibt es unsichere Annahmen?
@@ -247,7 +247,7 @@ Typischer Output:
 
 Prüfe mit Fachexperten, ob die Beschreibung der Realität stimmt.
 
-Coach-Fragen:
+Fragen:
 
 - Wer kennt die Realität am besten?
 - Welche Aussage ist belegt?
@@ -262,7 +262,7 @@ Typischer Output:
 
 Erfasse die Zielarchitektur aus Vision, Anforderungen, Zielbildern und Architekturentscheidungen.
 
-Coach-Fragen:
+Fragen:
 
 - Welche Zielbilder sind genehmigt?
 - Welche Anforderungen treiben das Target?
@@ -277,7 +277,7 @@ Typischer Output:
 
 Prüfe, ob die Zielarchitektur vollständig, verständlich und widerspruchsfrei ist.
 
-Coach-Fragen:
+Fragen:
 
 - Welche Zielbestandteile fehlen möglicherweise?
 - Sind alle Stakeholder-Bedarfe abgedeckt?
@@ -292,7 +292,7 @@ Typischer Output:
 
 Entscheide, ob du Capabilities, Prozesse, Anwendungen, Datenobjekte, Schnittstellen oder Technologien vergleichst.
 
-Coach-Fragen:
+Fragen:
 
 - Welche Ebene ist für die Entscheidung nützlich?
 - Ist der Detailgrad für Management und Umsetzung passend?
@@ -307,7 +307,7 @@ Typischer Output:
 
 Erstelle eine Tabelle mit Baseline-Elementen und Target-Elementen.
 
-Coach-Fragen:
+Fragen:
 
 - Ist die Matrix lesbar?
 - Sind die Begriffe eindeutig?
@@ -322,7 +322,7 @@ Typischer Output:
 
 Ordne jedes Element Retained, Added, Eliminated oder Accidentally Eliminated zu.
 
-Coach-Fragen:
+Fragen:
 
 - Was bleibt?
 - Was kommt neu?
@@ -353,7 +353,7 @@ Typischer Output:
 
 Bewerte Business Impact, technischen Impact, Kostenwirkung, Sicherheitswirkung und Migrationswirkung.
 
-Coach-Fragen:
+Fragen:
 
 - Was passiert, wenn wir den Gap nicht schließen?
 - Wer ist betroffen?
@@ -368,7 +368,7 @@ Typischer Output:
 
 Lege fest, wann der Gap spätestens bearbeitet werden muss.
 
-Coach-Fragen:
+Fragen:
 
 - Bis wann muss das gelöst sein?
 - Was blockiert andere Arbeiten?
@@ -383,7 +383,7 @@ Typischer Output:
 
 Kombiniere Impact und Dringlichkeit zu einer Priorität.
 
-Coach-Fragen:
+Fragen:
 
 - Welche Gaps sind kritisch?
 - Welche Gaps bringen hohen Nutzen?
@@ -398,7 +398,7 @@ Typischer Output:
 
 Formuliere aus kritischen Gaps konkrete Risiken.
 
-Coach-Fragen:
+Fragen:
 
 - Welches Risiko entsteht?
 - Wie hoch ist das Anfangsrisiko?
@@ -413,7 +413,7 @@ Typischer Output:
 
 Entscheide, ob der Gap durch Projekt, Änderung, Beschaffung, Prozessanpassung oder Abschaltung geschlossen wird.
 
-Coach-Fragen:
+Fragen:
 
 - Welche Maßnahme passt am besten?
 - Kann ein Gap durch mehrere Maßnahmen geschlossen werden?
@@ -428,7 +428,7 @@ Typischer Output:
 
 Jeder Gap braucht eine verantwortliche Person oder Rolle.
 
-Coach-Fragen:
+Fragen:
 
 - Wer verantwortet die Entscheidung?
 - Wer verantwortet die Umsetzung?
@@ -443,7 +443,7 @@ Typischer Output:
 
 Lasse die Ergebnisse durch Architecture Board, Fachbereich und Umsetzungsteam prüfen.
 
-Coach-Fragen:
+Fragen:
 
 - Wer muss zustimmen?
 - Wer kann fachlich widersprechen?
@@ -458,7 +458,7 @@ Typischer Output:
 
 Speichere Matrix, Entscheidungen, Gaps, Risiken und Maßnahmen im Architecture Repository.
 
-Coach-Fragen:
+Fragen:
 
 - Wo wird das Ergebnis gespeichert?
 - Wer pflegt es?
@@ -473,7 +473,7 @@ Typischer Output:
 
 Gib priorisierte Gaps an Opportunities and Solutions und Migration Planning weiter.
 
-Coach-Fragen:
+Fragen:
 
 - Was braucht Phase E?
 - Was braucht Phase F?

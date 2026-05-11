@@ -1,5 +1,4 @@
-# TOGAF Business Scenarios – Hands-On für Einsteiger
-## Schritt-für-Schritt-Anleitung in einfacher Sprache
+# TOGAF Business Scenarios
 
 ---
 

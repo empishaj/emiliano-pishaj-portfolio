@@ -58,11 +58,9 @@ Ohne Gap Analysis bleibt Architektur oft ein schönes Bild.
 Mit Gap Analysis wird daraus ein belastbarer Änderungsplan.
 
 
-## Was du als Coach zuerst verstehen musst
+## Was du als EA zuerst verstehen musst
 
-Als Coach erklärst du Gap Analysis nicht als Tabelle.
-
-Du erklärst sie als Denkprozess.
+Eine Gap Analysis ist nicht nur eine Tabelle - sondern ein Denkprozess!
 
 Menschen verstehen Tabellen erst, wenn sie den Zweck verstanden haben.
 

@@ -3,10 +3,10 @@
 **Engineering Manager · Hands-on Line Manager · Java Chapter Lead**  
 Engineering Leadership · DevSecOps · AI Enablement · CI/CD · Delivery Governance
 
-Germany · +49 152 53402518 · pishaj.emiliano@gmail.com  
-GitHub: https://github.com/Empishaj/emiliano-pishaj-portfolio
-LinkedIn: https://www.linkedin.com/in/emiliano-pishaj-41525b68/
-Languages: German (C2), English (C1)
+Germany · +49 152 53402518 · pishaj.emiliano@gmail.com	
+GitHub: https://github.com/Empishaj/emiliano-pishaj-portfolio	
+LinkedIn: https://www.linkedin.com/in/emiliano-pishaj-41525b68/	
+Languages: German (C2), English (C1)	
 
 ---
 
@@ -48,7 +48,7 @@ Schwerpunkte: Delivery Governance, CI/CD Quality Gates, DORA-basierte Transparen
 
 ## ERFAHRUNG
 
-### Anonymisierter Mobilitätssoftware-Anbieter im ÖPNV-Umfeld  
+### Mobilitätssoftware-Anbieter im ÖPNV-Umfeld  
 **Java Chapter Lead · Disciplinary Engineering Manager**  
 Germany · 02/2025 – Present
 
@@ -67,7 +67,7 @@ Java Chapter Lead für eine Java-basierte Ticketing-Suite im Bereich Online-Vert
 
 ---
 
-### Anonymisierter EdTech-/Plattformanbieter  
+### EdTech-/Plattformanbieter  
 **Engineering Manager · Java Tech Lead**  
 Germany · 11/2022 – 01/2025
 
@@ -84,7 +84,7 @@ Aufbau und Führung eines internationalen Plattformteams mit 8 Engineers. Verant
 
 ---
 
-### Anonymisierter regionaler Telekommunikationsanbieter  
+### Telekommunikationsanbieter  
 **Billing Systems Specialist**  
 Germany · 10/2012 – 03/2022
 
@@ -118,7 +118,7 @@ Projektmandat zur Modernisierung und Weiterentwicklung von Java-Anwendungen im P
 
 ---
 
-### Anonymisiertes Schweizer Energie-/Infrastrukturunternehmen  
+### Schweizer Energie-/Infrastrukturunternehmen  
 **Technical Business Consultant · Interim CTO Mandate**  
 Switzerland · Remote · Part-time · 03/2021 – 10/2022
 
@@ -137,7 +137,7 @@ Interim-CTO-Mandat mit Berichtslinie an das Executive Board. Technische Führung
 
 ---
 
-### Anonymisiertes Schweizer Investment-/Private-Equity-Umfeld  
+### Schweizer Investment-/Private-Equity-Umfeld  
 **Technical Business Consultant**  
 Switzerland · Remote · Part-time · 01/2020 – 03/2022
 
@@ -151,7 +151,7 @@ Teilzeit-Remote-Mandat mit Fokus auf CRM-Systemdesign, Workflow-Digitalisierung 
 
 ---
 
-### Anonymisiertes E-Commerce-/Digital-Operations-Mandat  
+### E-Commerce-/Digital-Operations-Mandat  
 **Technical Business Consultant**  
 Germany · Remote · Part-time · 01/2018 – 08/2020
 
@@ -167,7 +167,8 @@ Teilzeit-Remote-Mandat mit End-to-End-Verantwortung für ein kleines E-Commerce-
 
 ---
 
-### Eigene Softwareentwicklungs- und Managed-Hosting-Agentur  
+### EMPICEIT
+### Softwareentwicklungs- und Managed-Hosting-Agentur  
 **Founder · Business Owner**  
 Germany · 09/2006 – 09/2012
 

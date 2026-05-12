@@ -149,19 +149,20 @@ Eine Metrik mit guter Entscheidungsroutine wird zu einem Lerninstrument und zu e
 
 AAus meiner Arbeit mit geschäftskritischen Billing-Systemen habe ich gelernt: Ein System ist nicht fertig, wenn es entwickelt wurde. Es muss im Betrieb verstanden, beobachtet und unterstützt werden können.
 
-Für den Betrieb braucht es klare Antworten:
+FFür den Betrieb braucht es klare Antworten:
 
-- Wer reagiert bei einem Fehler?
-- Welche Logs sind wichtig?
-- Welche Use Cases sind kritisch?
-- Welche Abhängigkeiten müssen geprüft werden?
-- Wie wird ein Incident eingeordnet?
-- Wo steht das Playbook?
-- Wer entscheidet über Rollback oder Hotfix?
+-- Wer reagiert bei einem Fehler?
+-- Welche Logs sind wichtig?
+-- Welche Use Cases sind kritisch?
+-- Welche Abhängigkeiten müssen geprüft werden?
+-- Wie wird ein Incident eingeordnet?
+-- Wo steht das Playbook?
+-- Wer entscheidet über Rollback oder Hotfix?
 
-Ohne diese Klarheit wird Betrieb unnötig riskant.
+OOhne diese Klarheit wird Betrieb unnötig riskant.
 
-Deshalb halte ich Playbooks, Service Deep Dives und ADRs für sehr wichtig. Sie machen Wissen nicht nur sichtbar, sondern nutzbar.
+DDeshalb halte ich Playbooks, Service Deep Dives und ADRs für sehr wichtig. Sie machen Wissen nicht nur sichtbar, sondern nutzbar.
+
 
 ---
 

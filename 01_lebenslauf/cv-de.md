@@ -276,10 +276,3 @@ Thesis: Evaluation of the Apache Wicket Framework
 
 Engineering Leadership Portfolio:  
 https://github.com/Empishaj/emiliano-pishaj-portfolio
-
-Ausgewählte Arbeitsproben:
-
-- DORA Metrics & Engineering Governance
-- Engineering Operating Model for Distributed Teams
-- Secure SDLC & Java Engineering Guardrails
-- AI Enablement & Usage Guidelines for Engineering Teams

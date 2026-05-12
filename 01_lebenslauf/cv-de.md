@@ -3,9 +3,9 @@
 **Engineering Manager · Hands-on Line Manager · Java Chapter Lead**  
 Engineering Leadership · DevSecOps · AI Enablement · CI/CD · Delivery Governance
 
-Germany · +49 152 53402518 · pishaj.emiliano@gmail.com	
-GitHub: https://github.com/Empishaj/emiliano-pishaj-portfolio	
-LinkedIn: https://www.linkedin.com/in/emiliano-pishaj-41525b68/	
+Germany · +49 152 53402518 · pishaj.emiliano@gmail.com <br/>
+GitHub: https://github.com/Empishaj/emiliano-pishaj-portfolio <br/>
+LinkedIn: https://www.linkedin.com/in/emiliano-pishaj-41525b68/ <br/>
 Languages: German (C2), English (C1)	
 
 ---

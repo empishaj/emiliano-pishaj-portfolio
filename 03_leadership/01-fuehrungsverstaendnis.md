@@ -1,12 +1,11 @@
-# 01 – Führungsverständnis
+# Führungsverständnis
 
 ## Einordnung
 
 Dieses Dokument beschreibt, wie ich über Führung in Engineering-Organisationen denke.
 
 Es soll zeigen, wie ich arbeite, worauf ich achte und welche Erfahrungen mein Führungsbild geprägt haben. Meine Sicht auf Führung kommt nicht aus Theorie allein. Sie ist in der Praxis entstanden: aus Softwareentwicklung, Betrieb, Plattformarbeit, Delivery-Verantwortung, technischer Führung und der disziplinarischen Führung von Engineering-Teams.
-
-Ich schreibe bewusst einfach. Führung muss im Alltag verständlich bleiben. Wenn ein Führungsprinzip nur auf einer Folie gut klingt, aber im Team nicht hilft, ist es für mich nicht tragfähig.
+ 
 
 ---
 

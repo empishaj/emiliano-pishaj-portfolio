@@ -1,23 +1,5 @@
 # QG-JAVA-003 — Pattern Matching und Switch Expressions richtig einsetzen
-
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-003 |
-| Titel | Pattern Matching und Switch Expressions richtig einsetzen |
-| Status | Accepted / verbindlicher Standard für neue Kontrollflusslogik über Typvarianten, Datenvarianten und geschlossene Domänentypen |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur |
-| Primärer Kontext | Java 21+, SaaS-Plattformen, Domänenlogik, Service-Layer, API- und Integrationslogik, sichere Fallunterscheidung |
-| Java-Baseline | Java 21+ als verbindlicher Standard für Pattern Matching in `switch`, Record Patterns und Guarded Patterns. Pattern Matching für `instanceof` ist seit Java 16 final; Switch Expressions sind seit Java 14 final; Pattern Matching for `switch` und Record Patterns sind seit Java 21 final. |
-| Primäre Java-Features | Pattern Matching für `instanceof`, Switch Expressions, Pattern Matching for `switch`, Record Patterns |
-| Verwandte Java-Features | Records, Sealed Classes, Sealed Interfaces, Enums, Exhaustiveness Checking, Guarded Patterns mit `when` |
-| Letzte Validierung | 2026-05-02 |
-| Validierte Quellenbasis | OpenJDK JEP 361, OpenJDK JEP 394, OpenJDK JEP 440, OpenJDK JEP 441, Oracle Java SE 21 Language Documentation, OWASP Input Validation Cheat Sheet, OWASP Logging Cheat Sheet, OWASP Deserialization Cheat Sheet, OWASP Secure Code Review Cheat Sheet |
-| Technische Beispielvalidierung | Die zentralen Java-21-Beispiele ohne externe Framework-Abhängigkeiten wurden mit `javac --release 21` syntaktisch geprüft. |
-| Verbindlichkeit | Diese Richtlinie gilt für neue Java-21+-Codepfade verbindlich, in denen Typprüfungen, Variantenbehandlung, geschlossene Domänentypen oder mehrarmige Fallunterscheidungen implementiert werden. Abweichungen sind zulässig, wenn ein technischer oder fachlicher Grund im Pull Request nachvollziehbar dokumentiert wird. |
-
+ 
 ---
 
 ## 1. Zweck dieser Richtlinie

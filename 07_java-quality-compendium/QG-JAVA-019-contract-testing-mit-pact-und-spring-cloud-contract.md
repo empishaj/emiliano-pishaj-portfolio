@@ -1,69 +1,5 @@
 # QG-JAVA-019 — Contract Testing mit Pact und Spring Cloud Contract
 
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-| --- | --- |
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-019 |
-| Titel | Contract Testing mit Pact und Spring Cloud Contract |
-| Status | Accepted / verbindlicher Qualitätsstandard für API-Verträge zwischen Services |
-| Version | 2.0 |
-| Datum | 2026-05-03 (überarbeitet von 1.0.0 vom 2026-05-03) |
-| Review-Zyklus | Halbjährlich oder bei Major-Änderung von Pact JVM, Spring Cloud Contract, Spring Boot oder Java |
-| Kategorie | Testing · Microservices · API-Kompatibilität · CI/CD |
-| Zielgruppe | Java-Entwickler, Tech Leads, QA, Architektur, DevOps, Platform Engineering, Security |
-| Java-Baseline | Java 21 |
-| Framework-Baseline | Spring Boot 3.4+, JUnit 5.10+, Pact JVM 4.6+, Spring Cloud Contract 4.1+ (passend zur verwendeten Spring-Cloud-Release-Train-Version) |
-| Verbindlichkeit | Verbindlich für alle Service-zu-Service-Schnittstellen, die unabhängig deployed oder von mehreren Consumern genutzt werden. Abweichungen sind im Pull Request nachvollziehbar zu begründen. |
-| Technischer Prüfstatus | Code-Beispiele sind gegen Pact JVM 4.6+ und Spring Cloud Contract 4.1+ referenzbasiert validiert; Provider-State-Beispiele setzen Testcontainers-isolierte Datenbanken voraus |
-| Security-Relevanz | Hoch: API-Verträge beeinflussen Datenminimierung, Zugriffskontext, Fehlerantworten, PII-Leaks, Mandantengrenzen und Rückwärtskompatibilität |
-| Schwester-Guidelines | QG-JAVA-006 (Spring-Boot-Serviceschicht), QG-JAVA-008 (Objektorientierung) |
-| Wesentliche Änderungen ggü. v1.0 | Korrigierte Provider-State-Beispiele · `consumerVersionSelectors` als Pflicht · `publishVerificationResults` ergänzt · `record-deployment`-Workflow · Random Port statt fester Port · `LambdaDsl` als moderne API · `MockMvcTestTarget`-Alternative · Bidirectional Contracts (Pact V4) · Messaging Contracts mit `MessagePact` · Spring Cloud Contract Stub Runner · Performance- und Wartungsaspekte · Tenant-Beispiel in Provider States · vollständige ArchUnit-Sektion · strukturell an QG-JAVA-006 v2 angeglichen |
-
----
-
-## Inhaltsverzeichnis
-
-1. [Zweck dieser Richtlinie](#1-zweck-dieser-richtlinie)
-2. [Kurzregel für Entwickler](#2-kurzregel-für-entwickler)
-3. [Verbindlicher Standard](#3-verbindlicher-standard)
-4. [Geltungsbereich](#4-geltungsbereich)
-5. [Begriffe](#5-begriffe)
-6. [Technischer Hintergrund](#6-technischer-hintergrund)
-7. [Wann Contract Testing erforderlich ist](#7-wann-contract-testing-erforderlich-ist)
-8. [Pact: Consumer-Driven Contract Testing](#8-pact-consumer-driven-contract-testing)
-9. [Consumer-Contract-Regeln](#9-consumer-contract-regeln)
-10. [Provider-Verifikation mit Pact](#10-provider-verifikation-mit-pact)
-11. [Pact Broker, Versionierung und Deployment-Gates](#11-pact-broker-versionierung-und-deployment-gates)
-12. [Spring Cloud Contract](#12-spring-cloud-contract)
-13. [Bidirectional Contracts (Pact V4)](#13-bidirectional-contracts-pact-v4)
-14. [Messaging Contracts](#14-messaging-contracts)
-15. [Pact oder Spring Cloud Contract?](#15-pact-oder-spring-cloud-contract)
-16. [Anti-Patterns](#16-anti-patterns)
-17. [Security- und SaaS-Aspekte](#17-security--und-saas-aspekte)
-18. [Contract Testing, OpenAPI und GraphQL](#18-contract-testing-openapi-und-graphql)
-19. [Teststrategie](#19-teststrategie)
-20. [CI/CD-Standard](#20-cicd-standard)
-21. [Performance- und Wartungsaspekte](#21-performance--und-wartungsaspekte)
-22. [Review-Checkliste](#22-review-checkliste)
-23. [Automatisierbare Prüfungen](#23-automatisierbare-prüfungen)
-24. [Migration bestehender Tests](#24-migration-bestehender-tests)
-25. [Ausnahmen](#25-ausnahmen)
-26. [Definition of Done](#26-definition-of-done)
-27. [Quellen und weiterführende Literatur](#27-quellen-und-weiterführende-literatur)
-
-### Wie liest du dieses Dokument
-
-Dieses Dokument ist mit ca. 100 KB ein Nachschlagewerk, kein Lesebuch. Drei Lesepfade werden empfohlen:
-
-**Wenn du neu im Team bist:** Starte mit Sektion 2 (Kurzregel), lies dann Sektion 1 (Zweck), Sektion 7 (Wann erforderlich), Sektion 8 (Pact-Grundablauf) und Sektion 16 (Anti-Patterns). Damit hast du die mentale Karte für 80 % aller Contract-Test-Reviews.
-
-**Wenn du im Code-Review bist:** Springe direkt zu Sektion 22 (Review-Checkliste). Jede Zeile hat einen Anker zur Detail-Sektion mit der Begründung. Bei Verstoß gegen eine Muss-Regel: Sektion 3.1.
-
-**Wenn du etwas Spezifisches suchst:** Inhaltsverzeichnis oben. Häufigste Punkte: Provider States → Sektion 10. Broker-Gates → Sektion 11. Tool-Wahl → Sektion 15. Messaging → Sektion 14. Performance → Sektion 21.
-
-**Wenn du eine Tool-Entscheidung treffen musst:** Sektion 7 (ist Contract Testing erforderlich?), dann Sektion 15 (Pact vs. SCC), dann Sektion 13 (Bidirectional als drittes Modell).
 
 ---
 
@@ -1014,9 +950,7 @@ Contracts für Fehlerfälle dürfen keine Stacktraces, SQL-Fehler, interne Klass
   "stackTrace": "..."
 }
 ```
-
-Diese Disziplin verbindet Contract Testing direkt mit QG-JAVA-006 v2 Sektion 13.2 (API-Fehler-Mapping).
-
+ 
 ### 17.4 Authentifizierung und Autorisierung
 
 Contracts können erwartete Statuscodes und Header abbilden, ersetzen aber keine Security-Tests.
@@ -1543,5 +1477,3 @@ Eine Service-zu-Service-API erfüllt diese Richtlinie, wenn alle folgenden Bedin
 * JUnit 5 Parallel Execution: <https://junit.org/junit5/docs/current/user-guide/#writing-tests-parallel-execution>
 
 ---
-
-*Diese Richtlinie ersetzt die Erstfassung vom 2026-05-03 (v1.0). Für inhaltliche Querverweise auf Service-Layer-Themen siehe QG-JAVA-006 (Spring-Boot-Serviceschicht: Struktur und Qualität) — insbesondere Sektion 11.6 (Optimistic Locking, 409-Mapping), Sektion 12.4 (`findByIdAndTenantId`), Sektion 13.2 (API-Fehler-Mapping mit ProblemDetail), Sektion 14.5 (User Enumeration) und Sektion 14.6 (Tenant-Context-Pattern).*

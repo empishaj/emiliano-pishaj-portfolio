@@ -1,24 +1,5 @@
 # QG-JAVA-029 — Entwurfsmuster: Structural Patterns richtig anwenden
-
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-029 |
-| Titel | Entwurfsmuster: Structural Patterns richtig anwenden |
-| Status | Accepted / verbindlicher Standard für Strukturmuster im Java-Code |
-| Version | 1.0.0 |
-| Datum | 2024-10-09 |
-| Kategorie | Design Patterns / GoF / Strukturmuster / Architektur |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, Architektur, QA, Security |
-| Java-Baseline | Java 21 |
-| Framework-Kontext | Java 21, Spring Boot 3.x, Spring AOP, Spring Security, Spring Cache, Spring Transaction Management |
-| Geltungsbereich | Adapter, Decorator, Proxy, Facade, Composite, Bridge, Flyweight, Anti-Corruption Layer, externe Systeme, Spring-Proxies, Service-Grenzen, SaaS-/Tenant-Kontext |
-| Verbindlichkeit | Strukturmuster werden eingesetzt, wenn Objektstrukturen, Schnittstellen, Zugriffe oder Subsysteme klarer, entkoppelter und testbarer gestaltet werden müssen. Sie dürfen nicht genutzt werden, um einfache direkte Abhängigkeiten unnötig zu verschleiern. |
-| Technische Validierung | Gegen GoF-Strukturmuster, Refactoring.Guru, Spring-AOP-Proxying, Spring Transaction Proxy-Verhalten und Java-Records-Dokumentation eingeordnet |
-| Kurzentscheidung | Structural Patterns lösen nicht die Frage „Wie erzeuge ich Objekte?“, sondern „Wie verbinde, kapsle, erweitere oder vereinfache ich bestehende Objekte und Schnittstellen?“. Im Java-/Spring-Alltag sind sie besonders wichtig für externe Systeme, Legacy-Integration, technische Querschnittsfunktionen, Security, Caching, Transaktionen, API-Fassaden und komplexe Domänenstrukturen. |
-
+ 
 ---
 
 ## 1. Zweck

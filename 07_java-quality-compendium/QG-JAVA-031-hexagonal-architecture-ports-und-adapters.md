@@ -1,24 +1,5 @@
 # QG-JAVA-031 — Hexagonal Architecture: Ports & Adapters
-
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-031 |
-| Titel | Hexagonal Architecture: Ports & Adapters |
-| Status | Accepted / verbindlicher Standard für domänenkritische Services und neue fachlich komplexe Module |
-| Version | 1.0.0 |
-| Datum | 2024-08-19 |
-| Kategorie | Architektur / Domain Design / Testbarkeit |
-| Zielgruppe | Java-Entwickler, Tech Leads, Architektur, QA, Security, Plattform-Team |
-| Java-Baseline | Java 21 |
-| Framework-Baseline | Spring Boot 3.x, Spring Framework 6.x, JUnit 5, ArchUnit |
-| Geltungsbereich | Domänenkritische Services, Microservices, Integrationsmodule, fachliche Use Cases, Systeme mit mehreren technischen Adaptern oder hohem Änderungsdruck |
-| Verbindlichkeit | Hexagonal Architecture SOLLTE für fachlich komplexe oder integrationsreiche Services verwendet werden. Für einfache CRUD-Services ist eine bewusst einfachere Schichtenarchitektur zulässig. |
-| Technische Validierung | Gegen Alistair Cockburns Ports-&-Adapters-Konzept, Spring Dependency Injection und ArchUnit-Regeln eingeordnet |
-| Kurzentscheidung | Die Domäne bleibt frei von Framework-, Transport-, Persistenz- und Infrastrukturdetails. Kommunikation mit der Außenwelt erfolgt über Ports und Adapter. Abhängigkeiten zeigen nach innen. |
-
+ 
 ---
 
 ## 1. Zweck

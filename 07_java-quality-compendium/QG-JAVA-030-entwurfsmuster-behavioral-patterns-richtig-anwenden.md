@@ -1,24 +1,6 @@
 # QG-JAVA-030 — Entwurfsmuster: Behavioral Patterns richtig anwenden
 
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-030 |
-| Titel | Entwurfsmuster: Behavioral Patterns richtig anwenden |
-| Status | Accepted / verbindlicher Standard für Verhaltensmuster im Java-Code |
-| Version | 1.0.0 |
-| Datum | 2025-04-28 |
-| Kategorie | Design Patterns / GoF / Verhaltensmuster / Objektorientierung |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, Architektur, QA |
-| Java-Baseline | Java 21 |
-| Framework-Kontext | Java 21, Spring Boot 3.x, Spring Framework Events, Spring Security Filter Chain, Spring AOP, Spring Transactions |
-| Geltungsbereich | Strategy, Observer/Event, Command, Chain of Responsibility, State, Template Method, Iterator, Mediator, Visitor, Memento, fachliche Workflows, Validierungsketten, Event-basierte Entkopplung, Algorithmus-Auswahl, Zustandsautomaten |
-| Verbindlichkeit | Verhaltensmuster werden eingesetzt, wenn Verhalten, Ablauf, Zustandswechsel oder Verantwortungsverteilung explizit, testbar und erweiterbar modelliert werden müssen. Sie dürfen nicht verwendet werden, um einfache Kontrollflüsse unnötig zu abstrahieren. |
-| Technische Validierung | Gegen GoF-Pattern-Katalog, Refactoring.Guru, Spring Application Events, Spring Security Filter Chain, Spring AOP und Java-21-Sprachmittel eingeordnet |
-| Kurzentscheidung | Behavioral Patterns lösen nicht „Wie baue ich Klassen zusammen?“, sondern „Wie verteile ich Verhalten, Entscheidungen, Abläufe und Zustandsänderungen sauber?“. In Java 21 werden viele klassische Muster moderner umgesetzt: Strategy oft mit Interfaces und Lambdas, State mit sealed Interfaces, Observer über Spring Events oder Messaging, Chain über geordnete Handler, Template Method nur bewusst wegen Vererbung, Iterator meist über `Iterable`, `Stream` oder `Spliterator`. |
-
+ 
 ---
 
 ## 1. Zweck

@@ -1,133 +1,151 @@
 # Emiliano Pishaj
 
-**Engineering Manager · Hands-on Line Manager · Java Chapter Lead**  
-Engineering Leadership · Delivery Governance · DevSecOps · AI Enablement · Java/JVM
+**Engineering Manager – Java Platform & Delivery Governance**
 
-Gjermani · +49 152 53402518 · pishaj.emiliano@gmail.com  
-GitHub: https://github.com/Empishaj/emiliano-pishaj-portfolio  
-LinkedIn: https://www.linkedin.com/in/emiliano-pishaj-41525b68/  
-Gjuhë: Gjermanisht (nivel gjuhe amtare), Anglisht (C1), Shqip (rrjedhshëm)
+📞 +49 152 5 340 25 18 · ✉️ pishaj.emiliano@gmail.com · 📍 Leer, Gjermani / Remote në mbarë Gjermaninë
+
+🔗 [LinkedIn](https://www.linkedin.com/in/emiliano-pishaj-41525b68/) · 🔗 [GitHub Portfolio](https://github.com/empishaj/emiliano-pishaj-portfolio)
 
 ---
 
-## PËRMBLEDHJE
+## Profili i shkurtër
 
-Engineering Leader me përvojë të thellë në Java dhe Platform Engineering. Aktualisht përgjegjës për menaxhimin e drejtpërdrejtë të një Java Engineering Chapter me rreth 22 engineers në Gjermani, si edhe me ekipe nearshore në Portugali dhe Poloni. Përvojë në people leadership, hiring, performance reviews, coaching, engineering standards, stakeholder alignment dhe zhvillim teknik të platformave komplekse.
+Engineering Manager me mbi 15 vjet përvojë profesionale në kontekste të bazuara në Java dhe platforma, ku përfshihen disa vjet në role të Engineering Leadership me përgjegjësi të kumuluar për organizata inxhinierike prej 8 deri në 22 personash, si dhe një mandat si Interim-CTO me linjë raportimi të drejtpërdrejtë me drejtimin ekzekutiv. Fokusi është te aftësimi i ekipeve (team enablement), Delivery Governance, DevSecOps dhe cilësia teknike.
 
-Fokus kryesor: Delivery Governance, transparencë e bazuar në DORA, CI/CD quality guardrails, Secure SDLC, DevSecOps, praktika engineering të orientuara nga OWASP dhe AI Enablement praktik për engineering teams. Kredibilitet teknik në Java 21+, Spring Boot, Quarkus, APIs, Microservices, SQL databases, Docker, Kubernetes, GitLab CI/CD dhe AWS.
+Unë i udhëheq ekipet përmes pritshmërive të qarta, coaching-ut, punësimit (hiring), vlerësimeve të performancës, orientimit teknik dhe rutinave të besueshme inxhinierike — me qëllim që ato të punojnë më të pavarura, më të sigurta dhe me ndikim më të madh.
 
----
-
-## ARRITJET KRYESORE
-
-- Menaxhim i drejtpërdrejtë i një Java Engineering Chapter të shpërndarë me rreth 22 engineers.
-- Ndërtim dhe zhvillim i rutinave të leadership për coaching, zhvillim, performance reviews, hiring dhe onboarding.
-- Bashkë-konceptim i një Engineering Operating Model me role, struktura ekipesh, ndërfaqe bashkëpunimi dhe governance routines.
-- Prezantim i DORA-oriented delivery transparency, CI/CD quality guardrails dhe GitLab pipeline standards.
-- Vendosje e praktikave DevSecOps dhe OWASP-aligned secure coding guidelines në një kontekst të afërt me ISO 27001.
-- Zhvillim i formateve AI Enablement dhe udhëzimeve të përdorimit të AI për engineering teams.
-- Lektor me kohë të pjesshme për Java dhe AI Automation në një institucion publik arsimor në Ostfriesland.
+**Gjuhët:** Gjermanisht (gjuhë amtare) · Anglisht (C1) · Shqip (rrjedhshëm)
 
 ---
 
-## PËRVOJË
+## Kompetencat
 
-### Ofrues software për mobilitet në fushën e transportit publik  
-**Java Chapter Lead · Disciplinary Engineering Manager**  
-Gjermani · 02/2025 – sot
+### Drejtimi i njerëzve dhe zhvillimi organizativ
+Drejtim disiplinor i ekipeve inxhinierike të shpërndara · Coaching dhe mentorim · Procese të Recruiting, Onboarding dhe Performance · Zhvillimi i punonjësve dhe rrugët e karrierës · Drejtim ndërkulturor përmes vendndodhjeve, zonave kohore dhe kulturave · Engineering Operating Model · Role, struktura ekipore dhe rutina qeverisjeje · Drejtim me objektiva sipas OKR · Menaxhim i stakeholder-ëve deri në nivel C-Level
 
-Java Chapter Lead për një Java-based ticketing suite në fushën e online distribution dhe ticketing për transportin publik. Përgjegjësi për chapter leadership, zhvillimin teknik të Java platform, Engineering Operating Model dhe AI Enablement.
+### Delivery dhe Engineering Governance
+Roadmapping · Metrikat DORA · CI/CD-Pipelines dhe Quality Gates · Transparencë në delivery · Praktika agile sipas Scrum dhe Kanban · Planifikim i kapaciteteve dhe i projekteve · Formate të kulturës inxhinierike (Hackathon-e, Service Deep Dives, Chapter-Surveys) · Cilësi e softuerit e orientuar drejt ISO/IEC 25010
 
-- Menaxhim i rreth 22 engineers në ekipe të brendshme dhe nearshore locations në Portugali dhe Poloni.
-- Përgjegjësi për coaching, mentoring, development plans, performance reviews, hiring dhe onboarding.
-- Zhvillim teknik i një Java-based platform me Java 21, Spring Boot, Quarkus dhe Microservices.
-- Bashkë-formësim i roleve, strukturave të ekipeve, ndërfaqeve të bashkëpunimit dhe governance routines së bashku me development leadership.
-- Prezantim i DevSecOps practices, OWASP-aligned secure coding guidelines dhe formateve për përdorimin e AI.
+### Arkitektura dhe Platforma
+Përgjegjësi për platformën Java · Arkitektura të bazuara në Microservices · Ndërtim end-to-end i platformave · Dizajn arkitekture dhe sistemi · Code Reviews · Zhvillim i platformave të Inteligjencës Artificiale · Ndërtim i platformave API · Modernizim në cloud · Shkallëzueshmëri (scalability) e peizazheve të ndërlikuara të sistemeve
 
-**Tech / Mjedisi:** Java 21, Spring Boot, Quarkus, Microservices, GitLab CI/CD, Docker, Kubernetes, SQL, OWASP, DevSecOps.
+### Siguria dhe Pajtueshmëria
+DevSecOps · Udhëzime për Secure Coding të orientuara nga OWASP · Standarde Clean Code · Secure SDLC · Konteksti i certifikimit ISO 27001 · Protokolle sigurie, auditime dhe kontrolle operative · Kërkesa të rregulluara të sektorit publik
 
-### Ofrues EdTech / Platform Provider  
-**Engineering Manager · Java Tech Lead**  
-Gjermani · 11/2022 – 01/2025
+### Tech Stack
+Java 21 · Spring Boot · Quarkus · Apache Wicket · REST APIs · Microservices · MarkLogic · Camunda · Oracle · MySQL · Linux · Bash · GitLab CI/CD · Docker · Kubernetes · AWS · Maven · NGINX · Tomcat · Grafana · SonarQube
 
-Ndërtim dhe drejtim i një platform team ndërkombëtar me 8 engineers. Përgjegjësi për një AI-supported translation platform si bazë teknologjike për shkallëzim ndërkombëtar.
-
-- Ndërtim dhe drejtim i një engineering team ndërkombëtar në disa lokacione, zona kohore dhe kultura.
-- Përgjegjësi end-to-end për konceptim, arkitekturë dhe implementim të një AI Translation Platform.
-- Përgjegjësi për ndërtimin dhe operimin e një Java platform komplekse me SiteFusion, MarkLogic dhe Camunda.
-- Realizim i architecture work, system design, code reviews, hiring dhe team development.
-
-**Tech / Mjedisi:** Java 21, Spring Boot, SiteFusion, MarkLogic, Camunda, Workflow Engine, Architecture and System Design.
-
-### Ofrues telekomunikacioni  
-**Billing Systems Specialist**  
-Gjermani · 10/2012 – 03/2022
-
-Java Engineering dhe përgjegjësi sistemi për mission-critical telecommunications billing environments për më shumë se 9.5 vite.
-
-- Zhvillim i Java solutions për billing logic komplekse, data processing dhe system integration.
-- Ndërtim i aplikacioneve dhe tools të brendshme me Java 8 dhe Apache Wicket.
-- Optimizim i data-intensive Oracle processing për billing runs, reconciliation dhe audit trails.
-- Zhvillim i Linux/Bash automations dhe pjesëmarrje në GitLab CI/CD processes.
-- Koordinim ndërmjet IT Operations, Carrier Management, Finance/Accounting dhe operational stakeholders.
-
-**Tech / Mjedisi:** Java 8, Apache Wicket, Oracle DB, Linux, Bash, GitLab CI/CD, DevOps.
+### AI Enablement
+AI Key User · Vendosja e standardeve të AI-së dhe e udhëzimeve për përdorimin e AI-së në inxhinieri · Platforma të bazuara në AI si Enabler strategjikë
 
 ---
 
-## PROJEKTE TË ZGJEDHURA
+## Përvoja profesionale
 
-### Public-Sector Java Modernisation  
-**Senior Java Developer · IT Consultant**  
-Gjermani · Remote · Part-time · 05/2022 – 10/2022
+### Java Chapter Lead / Line Manager
+**eos.uptrade GmbH (Siemens Mobility Group)** · 02/2025 – aktualisht
 
-Projekt i kufizuar në kohë për modernizimin dhe zhvillimin e mëtejshëm të Java applications në public-sector environment.
+- **Drejtimi i Chapter-it dhe zhvillimi i punonjësve** — Drejtimi i Java Chapter-it me afërsisht 22 zhvillues dhe zhvilluese; përgjegjësi për transferimin e dijes, zhvillimin profesional, si dhe për proceset e Recruiting-ut, Onboarding-ut dhe Performance-it; coaching dhe mentorim brenda Chapter-it.
+- **Engineering Operating Model** — Bashkë-dizajnimi i Operating Model-it së bashku me Head of Development, sidomos në lidhje me rolet, strukturat ekipore dhe rutinat e qeverisjes.
+- **Përgjegjësia për platformën TS4** — Zhvillimi i mëtejshëm teknik dhe cilësia e platformës TS4 të bazuar në Java mbi Java 21, Spring Boot dhe Quarkus; dizajni i arkitekturave të sigurta dhe të shkallëzueshme me Microservices.
+- **DevSecOps dhe siguria në kontekstin e ISO 27001** — Vendosja dhe zhvillimi i mëtejshëm i proceseve DevSecOps, si dhe përcaktimi dhe zbatimi i udhëzimeve për Clean Code, OWASP dhe Secure Coding në kuadër të certifikimit ISO 27001.
+- **Delivery Governance** — Ndërtimi dhe qeverisja e CI/CD-Pipeline-ve, e metrikave DORA dhe e Quality Gates-ve për përmirësimin e transparencës, shpejtësisë së dorëzimit dhe besueshmërisë.
+- **AI Enablement** — Zhvillimi dhe shoqërimi i formateve të AI Enablement-it, si dhe mbështetja e vendosjes së udhëzimeve për përdorimin e AI-së brenda fushës së inxhinierisë.
+- **Këshillim dhe kultura inxhinierike** — Këshillimi i Product Owner-ëve dhe i ekipeve për çështje teknike dhe arkitekturore; nxitja e bashkëpunimit ndërmjet Product, QA, DevOps dhe Architecture; iniciativa për formate të mësimit dhe të kulturës.
 
-- Analizë dhe refactoring i legacy Java codebases për përmirësimin e maintainability dhe modernisation readiness.
-- Zbatim i technical work packages nën kërkesa operationale, compliance dhe reliability.
+### Engineering Manager (Java Tech Lead)
+**IU Group** · 11/2022 – 01/2025
 
-### Kompani zvicerane në fushën e energjisë / infrastrukturës  
-**Technical Business Consultant · Interim CTO Mandate**  
-Zvicër · Remote · Part-time · 03/2021 – 10/2022
+- **Ndërtimi dhe drejtimi i ekipit inxhinierik** — Ndërtimi dhe drejtimi teknik i një ekipi inxhinierik ndërkombëtar dhe ndërfunksional me tetë zhvillues, përtej vendndodhjeve, zonave kohore dhe kulturave.
+- **Platforma e AI-së end-to-end** — Përgjegjësi end-to-end për konceptimin, arkitekturën dhe zbatimin e një platforme të AI-së për përkthimin e automatizuar të skripteve të studimit në gjuhën gjermane si Enabler strategjik për zgjerimin ndërkombëtar të IU-së.
+- **Bashkëpunim ndërfunksional** — Ndërtimi dhe drejtimi i ekipit TEAQ, si dhe bashkëpunimi ndërfunksional me departamentet e specializuara, me Product Management dhe me didaktikën akademike.
+- **Platforma dhe zgjidhja teknike** — Përgjegjësi për ndërtimin dhe mirëmbajtjen e një zgjidhjeje teknike të ndërlikuar mbi bazën e SiteFusion (Java, MarkLogic, Camunda); mbështetje për përdorimin e njërit prej sistemeve më të ndërlikuara të organizatës.
+- **Arkitekturë, cilësi dhe këshillim** — Hartimi i dizajnit arkitekturor dhe të sistemit, si dhe kryerja e Code Reviews; sigurimi i përmbushjes së kërkesave të biznesit dhe këshillim teknik për ndërmarrjen.
+- **Stakeholder-Management dhe njerëz** — Menaxhimi i stakeholder-ëve të brendshëm dhe të jashtëm deri në nivel të drejtimit ekzekutiv; udhëheqje e ekipit, zhvillim i punonjësve dhe zhvillim i intervistave dhe i punësimeve.
 
-- Technical leadership mbi IT infrastructure, software delivery, cloud modernisation, security dhe API platform development.
-- Drejtim dhe mbështetje e katër development teams me gjithsej rreth 20 engineers.
-- Rezultate të raportuara nga klienti: rreth 30% më pak operating costs, rreth 45% rritje e efficiency, rreth 40% rritje e project completion rate, rreth 50% më pak security-relevant incidents, rreth 25% më e shkurtër time-to-market.
+### Specialist Sistemesh Billing
+**EWE TEL GmbH** · 10/2012 – 03/2022
 
----
-
-## MËSIMDHËNIE / TRANSFERIM DIJEJE
-
-### Institucion publik arsimor në Ostfriesland  
-**Lektor për Java dhe AI Automation** · Part-time · që nga 08/2024
-
-- Mësim i bazave praktike në Java programming, AI automation dhe process improvement me AI tools.
-- Përgatitje e temave teknike komplekse në forma të kuptueshme për nivele të ndryshme eksperience dhe grupe mësimore.
-
----
-
-## PROFILI I KOMPETENCAVE
-
-- **Leadership & Organisation:** Menaxhim i drejtpërdrejtë, hiring, onboarding, coaching, performance reviews, development plans, stakeholder management, distributed teams.
-- **Engineering Governance:** Operating Model, role, decision paths, DORA-based transparency, CI/CD quality guardrails, technical roadmaps.
-- **Software Engineering:** Java 21+, Spring Boot, Quarkus, REST APIs, Microservices, SOLID, Clean Code, Refactoring, Apache Wicket, Camunda, MarkLogic.
-- **DevSecOps & Operations:** Secure SDLC, OWASP-aligned practices, GitLab CI/CD, Maven, Git, Docker, Kubernetes, Linux/Bash, Tomcat, NGINX.
-- **Databases:** SQL, MySQL, Oracle, PostgreSQL, data-intensive processing, reconciliation, audit-trail-related processes.
-- **AI & Knowledge Transfer:** AI Enablement, AI Automation, usage guidelines, technical teaching, business communication.
+- **Mjedisi i faturimit (Billing)** — Mirëmbajtje, zgjerim dhe përshtatje e pavarur e një mjedisi të dedikuar të faturimit ndaj kërkesave të reja biznesore dhe operacionale.
+- **Zgjidhje Billing të bazuara në Java** — Zhvillim dhe zgjerim i zgjidhjeve për logjikë të ndërlikuar të faturimit, përpunim të të dhënave dhe integrim sistemesh me Java 8, Apache Wicket dhe baza të dhënash Oracle.
+- **Automatizim dhe praktika DevOps** — Automatizim i proceseve të përsëritura të operacioneve, monitorimit dhe faturimit me Linux/Bash; pjesëmarrje në mënyrat e punës të orientuara nga GitLab CI/CD dhe DevOps.
 
 ---
 
-## ARSIMIM & ZHVILLIM PROFESIONAL
+## Mandate të zgjedhura projekti
 
-**Bachelor of Science (B.Sc.) në Informatikë**  
-University of Applied Sciences Emden/Leer · 09/2006 – 09/2011  
-Tema e diplomës: Evaluation of the Apache Wicket Framework
+### Technical Business Consultant · Mandati Interim-CTO
+**New Energy Neftenbach AG** · Zvicër · Remote · Me kohë të pjesshme · 03/2021 – 10/2022
 
-Zhvillime profesionale të zgjedhura: Scrum Master Online Specialization, Digital Product Management, Siemens Cybersecurity Training 2026, Employment Law for Managers, AWS Architecture, License to Lead, Delegation & Accountability, Conflict Management & Difficult Conversations, AGG for Managers, Agile Project Leadership.
+- **Drejtimi teknik dhe këshillimi i drejtimit ekzekutiv** — Linjë raportimi e drejtpërdrejtë me drejtimin ekzekutiv; këshillim për çështje teknologjike, arkitekturore dhe të sigurisë.
+- **Drejtim i shumë ekipeve në Brazil** — Drejtim teknik i katër ekipeve të zhvillimit (rreth 20 inxhinierë); vendosja e mënyrave të punës agile sipas Scrum dhe Kanban.
+- **Modernizim në cloud** — Drejtimi i nismave të migrimit në cloud me një reduktim të dokumentuar të kostove operative me rreth 30 %, përkrah një përmirësimi të dukshëm të shkallëzueshmërisë së peizazhit të sistemeve.
+- **Siguria e IT-së** — Vendosja e protokolleve të përmirësuara të sigurisë, e auditimeve të rregullta dhe e kontrolleve operative të efektshme; reduktim i dokumentuar me rreth 50 % i incidenteve të lidhura me sigurinë.
+- **Platforma API** — Ndërtimi i një platforme të fuqishme API për integrime me palë të treta, me një reduktim të dokumentuar të Time-to-Market për funksione të reja me rreth 25 %.
+- **Efikasiteti i Delivery-t** — Vendosja konsekuente e praktikave agile me një rritje të dokumentuar të efikasitetit të zhvillimit me rreth 45 % dhe me një rritje të shkallës së përfundimit të projekteve me rreth 40 %.
+
+### Senior Java Engineer — Mandat Modernizimi në Sektorin Publik
+**Virtual7 GmbH** · Gjermani · Remote · Me kohë të pjesshme · 05/2022 – 10/2022
+
+Analizë dhe Refactoring i bazave të kodit Java të vjetra (Legacy) në aplikacione të rregulluara të sektorit publik; zbatim i paketave teknike të punës nën kërkesat operacionale, të pajtueshmërisë (compliance) dhe të besueshmërisë; mbështetje e praktikave Delivery të orientuara nga DevOps përmes një dorëzimi dhe dokumentimi të strukturuar.
+
+### Technical Business Consultant — Dixhitalizim i CRM-së dhe i Workflow-ut
+**Royal Business Club GmbH** · Zvicër · Remote · Me kohë të pjesshme · 01/2020 – 03/2022
+
+Konceptimi i një Setup-i CRM dhe Workflow për dixhitalizimin e proceseve qendrore të biznesit në fushën e investimit / Private Equity-t; drejtim teknik i një ekipi Delivery prej tre zhvilluesish; koordinim i stakeholder-ëve, i prioriteteve dhe i cilësisë së zbatimit.
 
 ---
 
-## PORTFOLIO / SHEMBUJ PUNE
+## Përvoja sipërmarrëse
 
-Engineering Leadership Portfolio:  
-https://github.com/Empishaj/emiliano-pishaj-portfolio
+### Themelues
+**EMPICE-IT** · 09/2006 – 09/2012
+
+Ndërtimi dhe drejtimi i një agjencie të zhvillimit të softuerit dhe të Managed-Hosting-ut për ndërmarrjet lokale; përgjegjësi për fitimin e klientëve, konceptimin teknik, zhvillimin e softuerit, operimin e serverëve Linux, Hosting dhe mbështetje.
+
+---
+
+## Mësimdhënia dhe transferimi i dijes
+
+### Pedagog për Java dhe AI Automation
+**Volkshochschule Leer** · me kohë të pjesshme · 08/2024 – aktualisht
+
+Mësimdhënie e bazave të Java-s, e njohurive të avancuara në Java dhe e qasjeve praktike ndaj automatizimit të mbështetur nga AI për të rritur me nivele të ndryshme njohurish paraprake. Shembuj praktikë me mjete moderne LLM si ChatGPT dhe Claude.
+
+---
+
+## Arsimimi
+
+### Bachelor of Science (B.Sc.) në Informatikë
+**Hochschule Emden/Leer** · 09/2006 – 09/2011
+
+Punimi i diplomës: *Vlerësim i Framework-ut Apache Wicket*
+
+---
+
+## Trajnime dhe certifikata
+
+| Data    | Certifikata                                    | Ofruesi                                   |
+|---------|------------------------------------------------|-------------------------------------------|
+| 04/2026 | Scrum Master: Online Specialization            | Coursera / LearnQuest                     |
+| 01/2026 | Digital Product Management                     | University of Virginia Darden / Coursera  |
+| 01/2026 | Siemens Cybersecurity Training 2026            | Siemens                                   |
+| 10/2025 | E drejta e punës për drejtuesit                | Tannenfelde                               |
+| 10/2024 | Amazon Web Services: Architecture              | LinkedIn Learning                         |
+| 07/2024 | License to Lead                                | IU Group                                  |
+| 05/2024 | Delegation & Accountability                    | LinkedIn Learning                         |
+| 05/2024 | Conflict Management & Difficult Conversations  | LinkedIn Learning                         |
+| 03/2023 | AGG (ligji kundër diskriminimit) për drejtuesit| Haufe Akademie                            |
+| 11/2022 | Agile Project Leadership                       | LinkedIn Learning                         |
+
+---
+
+## Portfolio
+
+**Engineering Leadership Portfolio** — [github.com/empishaj/emiliano-pishaj-portfolio](https://github.com/empishaj/emiliano-pishaj-portfolio)
+
+Tekste profesionale për tema të Engineering Leadership-it (ndër të tjera, metrikat DORA si instrument qeverisjeje, Ownership si gjendje sistemi, një vështrim strategjik mbi Java-n); shkrime reflektuese mbi lidhjen ndërmjet të menduarit Sociotechnical-Systems dhe kulturës inxhinierike.
+
+---
+
+🌐 **Gjuhë të tjera:** [Deutsch](./README.de.md) · [English (UK)](./README.en.md)

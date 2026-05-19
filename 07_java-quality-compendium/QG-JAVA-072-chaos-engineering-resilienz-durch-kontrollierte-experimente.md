@@ -1,22 +1,5 @@
 # QG-JAVA-072 — Chaos Engineering: Resilienz durch kontrollierte Experimente
-
-## Dokumentenstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-072 |
-| Titel | Chaos Engineering: Resilienz durch kontrollierte Experimente |
-| Status | Accepted / verbindlicher Standard für kontrollierte Resilienzexperimente in Java-/Spring-Boot-Systemen |
-| Sprache | Deutsch |
-| Java-Baseline | Java 21 |
-| Framework-Baseline | Spring Boot 3.x, Spring Boot Actuator, Micrometer, OpenTelemetry; optional Chaos Monkey for Spring Boot 4.x, Resilience4j, Kubernetes |
-| Kategorie | Testing / Resilience / Observability / Betriebssicherheit / SaaS-Plattformqualität |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA Engineers, SRE/DevOps Engineers, Platform Engineers, Security Reviewer, Product Owner, Incident Manager |
-| Verbindlichkeit | Chaos-Experimente DÜRFEN nur mit Hypothese, Steady-State-Definition, begrenztem Blast Radius, Rollback-/Stop-Mechanismus, Observability, Verantwortlichen und dokumentiertem Ergebnis durchgeführt werden. Zufälliges „Kaputtmachen“ von Systemen ist verboten. |
-| Qualitätsziel | Resilienzmechanismen wie Timeouts, Retries, Circuit Breaker, Bulkheads, Rate Limits, Fallbacks, Degradation und Recovery-Verhalten sollen überprüfbar werden, bevor echte Ausfälle sie unter Druck testen. |
-| Prüfstatus | Inhalt fachlich gegen Principles of Chaos Engineering, Chaos Monkey for Spring Boot Reference Guide, Spring Boot Actuator, Resilience4j, OpenTelemetry Collector und OWASP-nahe Betriebs-/Logging-Grundsätze validiert. |
-| Letzte fachliche Prüfung | 2026-05-03 |
+ 
 
 ---
 

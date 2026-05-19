@@ -1,24 +1,5 @@
 # QG-JAVA-049 — Code Review und Pull-Request-Prozess
-
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-049 |
-| Titel | Code Review und Pull-Request-Prozess |
-| Status | Accepted / verbindlicher Standard für Pull Requests und Code Reviews |
-| Version | 1.0.0 |
-| Datum | 2024-04-23 |
-| Kategorie | Engineering-Prozess / Qualitätssicherung / Teamarbeit |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur, Engineering Management |
-| Java-Baseline | Java 21 |
-| Plattform-Kontext | GitHub, GitLab oder vergleichbare Pull-/Merge-Request-Plattformen |
-| Geltungsbereich | Alle Codeänderungen an produktiven Services, Tests, Build-Konfiguration, Infrastruktur-Code, API-Verträgen, Datenbankmigrationen und sicherheitsrelevanten Artefakten |
-| Verbindlichkeit | Jede produktive Änderung erfolgt über Pull Request oder Merge Request. Direkte Pushes auf geschützte Hauptbranches sind nicht zulässig. |
-| Technische Validierung | Gegen GitHub Protected Branches, Pull Request Reviews, CODEOWNERS, Google Engineering Review-Prinzipien und OWASP Secure Code Review eingeordnet |
-| Kurzentscheidung | Code Review ist ein verbindlicher Qualitäts-, Lern- und Risikokontrollprozess. Ein Review prüft Korrektheit, Sicherheit, Design, Tests, Wartbarkeit, Betriebsfähigkeit und Verständlichkeit. |
-
+ 
 ---
 
 ## 1. Zweck

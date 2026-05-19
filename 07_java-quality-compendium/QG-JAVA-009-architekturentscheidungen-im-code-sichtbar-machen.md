@@ -542,12 +542,7 @@ Maven:
     <scope>test</scope>
 </dependency>
 ```
-
-Gradle:
-
-```groovy
-testImplementation 'com.tngtech.archunit:archunit-junit5:1.4.2'
-```
+ 
 
 Die konkrete Version ist im Projekt zentral über Dependency Management zu pflegen.
 

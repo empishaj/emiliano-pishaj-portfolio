@@ -1,7 +1,5 @@
 # 04 — M wie Messbar
-
-> Dies ist Teil IV des SMART-Workbooks. Voriges Kapitel: `03-S-spezifisch.md`. Nächstes Kapitel: `05-A-erreichbar.md`.
-
+ 
 ---
 
 ## 4.1 Worum es in diesem Buchstaben geht
@@ -330,5 +328,4 @@ das, was ich eigentlich wollte? Oder habe ich nur die Zahl?
 Wenn die ehrliche Antwort *„nur die Zahl"* lautet, geh zurück und ändere die Messung. Die Mühe ist es wert. Was du jetzt vermeidest, ersparst du dir später als Enttäuschung.
 
 Wenn die Antwort *„ja, das wäre es"* lautet, hast du den zweiten Buchstaben.
-
-Weiter zu `05-A-erreichbar.md`.
+ 

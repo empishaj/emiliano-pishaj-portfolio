@@ -1,7 +1,6 @@
 # 05 — A wie Erreichbar
 
-> Dies ist Teil V des SMART-Workbooks. Voriges Kapitel: `04-M-messbar.md`. Nächstes Kapitel: `06-R-relevant.md`.
-
+ 
 ---
 
 ## 5.1 Worum es in diesem Buchstaben geht
@@ -310,5 +309,4 @@ ___________________________________________________________
 Ein gut gewähltes Ziel löst beides aus, in unterschiedlichem Verhältnis. Wenn da nur Last ist und keine Neugier, hast du es zu hoch geschraubt oder es ist nicht wirklich deines. Wenn da nur Neugier ist und keine Last, ist es zu klein.
 
 Beide Stimmen in einer guten Mischung — das ist der Hinweis, dass die Zahl stimmt.
-
-Weiter zu `06-R-relevant.md`.
+ 

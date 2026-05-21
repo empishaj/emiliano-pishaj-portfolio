@@ -1,6 +1,4 @@
 # 08 — Dein erstes Ziel
-
- 
 ---
 
 ## 8.1 Worum es in diesem Kapitel geht

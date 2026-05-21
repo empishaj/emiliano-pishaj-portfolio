@@ -1,7 +1,5 @@
 # Mit SMART arbeiten, ohne mechanisch zu werden
-
-*Eine Praxis-Anleitung*
-
+ 
 ---
 
 ## Worum es in dieser Anleitung geht

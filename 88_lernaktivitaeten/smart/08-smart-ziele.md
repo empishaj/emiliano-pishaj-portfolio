@@ -1,6 +1,5 @@
 # 09 — Vom Ziel zur Handlung
 
- 
 ---
 
 ## 9.1 Worum es in diesem Kapitel geht

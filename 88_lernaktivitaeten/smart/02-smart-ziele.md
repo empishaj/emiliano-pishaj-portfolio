@@ -1,7 +1,5 @@
 # 03 — S wie Spezifisch
-
-> Dies ist Teil III des SMART-Workbooks. Voriges Kapitel: `02-verstehen.md`. Nächstes Kapitel: `04-M-messbar.md`.
-
+ 
 ---
 
 ## 3.1 Worum es in diesem Buchstaben geht
@@ -341,5 +339,4 @@ ich dann wissen, ob ich das erreicht habe?
 Wenn ja, hast du den ersten Buchstaben.
 
 Wenn nein, gönn dir noch eine Schleife. Es lohnt sich.
-
-Weiter zu `04-M-messbar.md`.
+ 

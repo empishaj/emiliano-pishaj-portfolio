@@ -1,7 +1,5 @@
 # 07 — T wie Zeitgebunden
-
-> Dies ist Teil VII des SMART-Workbooks. Voriges Kapitel: `06-R-relevant.md`. Nächstes Kapitel: `08-erstes-ziel.md`.
-
+ 
 ---
 
 ## 7.1 Worum es in diesem Buchstaben geht

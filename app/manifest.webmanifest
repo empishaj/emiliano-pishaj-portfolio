@@ -1,0 +1,35 @@
+{
+  "id": "./",
+  "name": "B1 Deutsch Trainer – Goethe/ÖSD Prüfungsvorbereitung",
+  "short_name": "B1 Deutsch",
+  "description": "Offline-fähiger B1-Deutschtrainer mit Grammatik, Wortschatz, Lesen, Hören, Schreiben, Sprechen, Prüfungssimulation und Fehlerbuch.",
+  "lang": "de",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#f5f7fb",
+  "theme_color": "#1d4ed8",
+  "orientation": "portrait-primary",
+  "categories": [
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

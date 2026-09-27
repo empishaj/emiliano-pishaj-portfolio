@@ -1,6 +1,6 @@
 # Emiliano Pishaj
 
-**Engineering Manager – Java Platform & Delivery Governance**
+**Enterprise Architect ab 10/2026 | Engineering Leadership | Java Platform & Delivery Governance**
 
 📞 +49 152 5 340 25 18 · ✉️ pishaj.emiliano@gmail.com · 📍 Leer / Remote bundesweit
 
@@ -10,9 +10,11 @@
 
 ## Kurzprofil
 
-Engineering Manager mit 15+ Jahren Berufserfahrung in Java- und Plattformkontexten, davon mehrere Jahre in Engineering-Leadership-Rollen mit kumulierter Verantwortung für Engineering-Organisationen zwischen 8 und 22 Personen sowie für ein Interim-CTO-Mandat mit direkter Berichtslinie an die Geschäftsleitung. Fokus auf Team Enablement, Delivery Governance, DevSecOps und technische Qualität.
+Engineering Leader mit 15+ Jahren Berufserfahrung in Java-, Plattform- und komplexen IT-Umgebungen, davon mehrere Jahre in Engineering-Leadership-Rollen mit Verantwortung für Engineering-Organisationen zwischen 8 und 22 Personen sowie Erfahrung aus einem Interim-CTO-Mandat mit direkter Berichtslinie an die Geschäftsleitung.
 
-Ich führe Teams durch klare Erwartungen, Coaching, Hiring, Performance Reviews, technische Orientierung und verlässliche Engineering-Routinen, damit sie selbstständiger, sicherer und wirksamer liefern können.
+Zum **01.10.2026 Wechsel zur SINC GmbH als Enterprise Architect**. Der bisherige Schwerpunkt aus Softwarearchitektur, Plattform Engineering, DevSecOps, Delivery Governance, technischer Führung und Stakeholder-Management wird damit gezielt um organisationsweite Enterprise-Architecture-Perspektiven erweitert.
+
+Besondere Stärke ist die Verbindung von technischer Tiefe mit Führungs-, Governance- und Beratungskompetenz: komplexe technische Sachverhalte strukturieren, Abhängigkeiten und Risiken sichtbar machen, Entscheidungen vorbereiten und Engineering-Organisationen zu nachhaltiger Umsetzung befähigen.
 
 **Sprachen:** Deutsch (muttersprachlich) · Englisch (C1) · Albanisch (fließend)
 
@@ -20,30 +22,40 @@ Ich führe Teams durch klare Erwartungen, Coaching, Hiring, Performance Reviews,
 
 ## Kompetenzen
 
+### Enterprise Architecture & Architecture Governance
+Enterprise-Architecture-Grundlagen und TOGAF-10-Vertiefung · Architektur- und Systemanalyse · Zielbild- und Roadmap-Denken · Architecture Decision Records · Entscheidungs- und Governance-Strukturen · Stakeholder-Analyse · Risiko- und Abhängigkeitsanalyse · Transformationsplanung · Architekturkommunikation zwischen Fachlichkeit, IT, Security, Betrieb und Management
+
 ### People Leadership & Organisationsentwicklung
 Disziplinarische Führung verteilter Engineering-Teams · Coaching und Mentoring · Recruiting, Onboarding und Performance-Prozesse · Mitarbeiterentwicklung und Karrierepfade · Interkulturelle Führung über Standorte, Zeitzonen und Kulturen · Engineering Operating Model · Rollen, Teamstrukturen und Governance-Routinen · OKR-basierte Zielsteuerung · Stakeholder-Management bis C-Level
 
 ### Delivery & Engineering Governance
-Roadmapping · DORA-Metriken · CI/CD-Pipelines und Qualitätsgates · Delivery-Transparenz · Agile Praktiken nach Scrum und Kanban · Kapazitäts- und Projektplanung · Engineering-Kulturformate (Hackathons, Service Deep Dives, Chapter-Umfragen) · Softwarequalität orientiert an ISO/IEC 25010
+Roadmapping · DORA-Metriken · CI/CD-Pipelines und Qualitätsgates · Delivery-Transparenz · Agile Praktiken nach Scrum und Kanban · Kapazitäts- und Projektplanung · Engineering-Kulturformate (Hackathons, Service Deep Dives, Chapter-Umfragen) · Softwarequalität orientiert an ISO/IEC 25010 · technische Entscheidungsprozesse
 
-### Architektur & Plattform
-Java-Plattformverantwortung · Microservice-Architekturen · End-to-End-Plattformaufbau · Architektur- und Systemdesign · Code Reviews · KI-Plattformentwicklung · API-Plattform-Aufbau · Cloud-Modernisierung · Skalierbarkeit komplexer Systemlandschaften
+### Software-, Integrations- & Plattformarchitektur
+Java-Plattformverantwortung · Microservice-Architekturen · End-to-End-Plattformaufbau · Architektur- und Systemdesign · REST APIs · API-Plattformen · Domain-Driven Design · Hexagonal Architecture · Resilience Patterns · Cloud-Modernisierung · Containerplattformen · Skalierbarkeit komplexer Systemlandschaften
 
-### Security & Compliance
-DevSecOps · OWASP-orientierte Secure-Coding-Guidelines · Clean-Code-Standards · Secure-SDLC · ISO-27001-Zertifizierungsumfeld · Sicherheitsprotokolle, Audits und operative Kontrollen · Regulierte Public-Sector-Anforderungen
+### Security, DevSecOps & Betriebsfähigkeit
+DevSecOps · OWASP-orientierte Secure-Coding-Guidelines · Clean-Code-Standards · Secure SDLC · ISO-27001-Zertifizierungsumfeld · Sicherheitsprotokolle, Audits und operative Kontrollen · CI/CD Security Gates · Observability · Logging · Monitoring · Resilience · regulierte Public-Sector-Anforderungen
 
 ### Tech-Stack
 Java 21 · Spring Boot · Quarkus · Apache Wicket · REST APIs · Microservices · MarkLogic · Camunda · Oracle · MySQL · Linux · Bash · GitLab CI/CD · Docker · Kubernetes · AWS · Maven · NGINX · Tomcat · Grafana · SonarQube
 
 ### AI Enablement
-AI Key User · Einführung von AI-Standards und AI-Nutzungsrichtlinien im Engineering · KI-gestützte Plattformen als strategische Enabler
+AI Key User · Einführung von AI-Standards und AI-Nutzungsrichtlinien im Engineering · KI-gestützte Plattformen als strategische Enabler · Einsatz moderner LLM-Werkzeuge für Engineering, Analyse und Wissensarbeit
 
 ---
 
 ## Berufserfahrung
 
+### Enterprise Architect
+**SINC GmbH** · Start 01.10.2026
+
+Wechsel aus einer Engineering-Leadership- und Plattformrolle in die Enterprise Architecture. Der Einstieg erweitert das bisherige Profil aus Softwarearchitektur, Plattform Engineering, Security, Delivery Governance und technischer Führung um organisationsweite Architekturarbeit und strategische IT-Transformation.
+
+**Konkrete Mandate, Verantwortungsbereiche und nachweisbare Ergebnisse werden nach Aufnahme der Tätigkeit ergänzt.**
+
 ### Java Chapter Lead / Line Manager
-**eos.uptrade GmbH (Siemens Mobility Group)** · 02/2025 – heute
+**eos.uptrade GmbH (Siemens Mobility Group)** · 02/2025 – 09/2026
 
 - **Chapter-Führung & Mitarbeiterentwicklung** — Leitung des Java Chapters mit rund 22 Entwicklerinnen und Entwicklern; Verantwortung für Wissenstransfer, fachliche Förderung sowie für Recruiting-, Onboarding- und Performance-Prozesse; Coaching und Mentoring im Chapter.
 - **Engineering Operating Model** — Co-Design des Operating Models gemeinsam mit dem Head of Development, insbesondere in Bezug auf Rollen, Teamstrukturen und Governance-Routinen.
@@ -51,7 +63,7 @@ AI Key User · Einführung von AI-Standards und AI-Nutzungsrichtlinien im Engine
 - **DevSecOps & Security im ISO-27001-Kontext** — Einführung und Weiterentwicklung von DevSecOps-Prozessen sowie Definition und Umsetzung von Clean-Code-, OWASP- und Secure-Coding-Guidelines im Rahmen der ISO-27001-Zertifizierung.
 - **Delivery Governance** — Aufbau und Governance von CI/CD-Pipelines, DORA-Metriken und Qualitätsgates zur Verbesserung von Transparenz, Liefergeschwindigkeit und Zuverlässigkeit.
 - **AI Enablement** — Entwicklung und Begleitung von AI-Enablement-Formaten sowie Unterstützung bei der Einführung von AI-Nutzungsrichtlinien im Engineering-Bereich.
-- **Beratung & Engineering-Kultur** — Beratung von Product Owner und Squads in technischen und architektonischen Fragestellungen; Förderung der Zusammenarbeit zwischen Product, QA, DevOps und Architecture; Initiierung von Lern- und Kulturformaten.
+- **Beratung & Engineering-Kultur** — Beratung von Product Ownern und Squads in technischen und architektonischen Fragestellungen; Förderung der Zusammenarbeit zwischen Product, QA, DevOps und Architecture; Initiierung von Lern- und Kulturformaten.
 
 ### Engineering Manager (Java Tech Lead)
 **IU Group** · 11/2022 – 01/2025
@@ -142,10 +154,12 @@ Bachelorarbeit: *Evaluation des Apache-Wicket-Frameworks*
 
 ## Portfolio
 
-**Engineering Leadership Portfolio** — [github.com/empishaj/emiliano-pishaj-portfolio](https://github.com/empishaj/emiliano-pishaj-portfolio)
+**Engineering Leadership & Architecture Portfolio** — [github.com/empishaj/emiliano-pishaj-portfolio](https://github.com/empishaj/emiliano-pishaj-portfolio)
 
-Fachliche Texte zu Engineering-Leadership-Themen (u. a. DORA-Metriken als Governance-Instrument, Ownership als Systemzustand, strategischer Java-Überblick); reflektierende Beiträge zur Verbindung von Sociotechnical-Systems-Denken und Engineering-Kultur.
+Portfolio mit technischen und methodischen Arbeiten zu Java Engineering, Softwarearchitektur, API Design, Domain-Driven Design, Event-Driven Architecture, Resilience, Observability, DevOps, Security, Architekturentscheidungen, Engineering Governance, Leadership und Enterprise-Architecture-Lernaktivitäten.
+
+Ziel der kontinuierlichen Weiterentwicklung ist die Verbindung von **Engineering-Tiefe, Enterprise Architecture, Governance und Leadership**.
 
 ---
 
-🌐 **Andere Sprachen:** [English (UK)](./README.en.md) · [Shqip](./README.sq.md)
+🌐 **Andere Sprachen:** [English (UK)](./cv-en.md) · [Shqip](./cv-al.md)

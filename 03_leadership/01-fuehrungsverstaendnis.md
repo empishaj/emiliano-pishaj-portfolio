@@ -2,177 +2,183 @@
 
 ## Einordnung
 
-Dieses Dokument beschreibt, wie ich über Führung in Engineering-Organisationen denke.
+Dieses Dokument beschreibt, wie ich über Führung in Engineering- und IT-Organisationen denke und welche Prinzipien ich in Architecture Leadership übertrage.
 
-Es soll zeigen, wie ich arbeite, worauf ich achte und welche Erfahrungen mein Führungsbild geprägt haben. Meine Sicht auf Führung kommt nicht aus Theorie allein. Sie ist in der Praxis entstanden: aus Softwareentwicklung, Betrieb, Plattformarbeit, Delivery-Verantwortung, technischer Führung und der disziplinarischen Führung von Engineering-Teams.
- 
-
----
+Meine Sicht ist aus Softwareentwicklung, Betrieb, Plattformarbeit, Delivery-Verantwortung, technischer Führung und disziplinarischer Führung entstanden. Dazu gehören die Führung eines Java Chapters mit rund 22 Engineers, der Aufbau und die Führung eines internationalen Engineering-Teams mit acht Entwicklern sowie technische und organisatorische Verantwortung in einem Interim-CTO-Mandat.
 
 ## Mein Führungsverständnis in einem Satz
 
-Ich führe so, dass Teams klarer, selbstständiger und wirksamer werden.
+**Ich führe so, dass Menschen, Teams und Organisationen klarer, selbstständiger und entscheidungsfähiger werden.**
 
-Mein Ziel ist nicht, jede Entscheidung selbst zu treffen. Mein Ziel ist, ein Umfeld zu schaffen, in dem gute Entscheidungen dort entstehen, wo der beste Kontext liegt.
+Führung bedeutet für mich nicht, möglichst viele Entscheidungen selbst zu treffen. Gute Führung schafft einen Rahmen, in dem Entscheidungen dort getroffen werden können, wo Kontext, Verantwortung und fachliche Kompetenz zusammenkommen.
 
-Dafür brauchen Teams Klarheit, Vertrauen, gute technische Leitplanken, Feedback, Entwicklung und ein Betriebsmodell, das Verantwortung wirklich tragen kann.
+Dafür braucht es:
 
----
-
-## Was mich geprägt hat
-
-### 1. Führung bedeutet, Menschen und Systeme zusammenzudenken
-
-In meiner aktuellen Rolle führe ich ein Java-Engineering-Chapter mit rund 22 Engineers über Deutschland sowie Nearshore-Teams in Portugal und Polen.
-
-Diese Erfahrung hat mein Führungsverständnis stark geprägt. Bei dieser Größe reicht persönliche Nähe allein nicht aus. Führung braucht verlässliche Routinen: 1:1s, Feedback, Entwicklungspläne, Performance Reviews, Hiring, Onboarding und klare Erwartungen.
-
-Gleichzeitig darf Führung nicht nur Prozess sein. Menschen brauchen Orientierung, Vertrauen, ehrliches Feedback und einen Rahmen, in dem sie gute Arbeit leisten können.
-
-Darum verbinde ich zwei Dinge:
-
-- Menschen ernst nehmen.
-- Das System verbessern, in dem sie arbeiten.
-
-Für mich ist das der Kern moderner Engineering-Führung.
+- klare Ziele und Erwartungen
+- nachvollziehbare Rollen und Verantwortlichkeiten
+- echten Entscheidungsraum
+- technische und organisatorische Leitplanken
+- frühzeitiges Feedback
+- verlässliche Eskalationswege
+- eine Kultur, in der Risiken benannt werden können
+- dokumentierte Entscheidungen und nutzbares Wissen
 
 ---
 
-### 2. Führung braucht Klarheit
+## 1. Menschen und Systeme zusammen denken
 
-In komplexen Plattformumgebungen habe ich gelernt: Viele Probleme entstehen nicht durch fehlenden Einsatz, sondern durch fehlende Klarheit.
+Ich trenne Führungsprobleme nicht vorschnell in „gute“ oder „schlechte“ Mitarbeitende. Menschen handeln immer in einem System aus Rollen, Prioritäten, Schnittstellen, Anreizen, Informationen und Abhängigkeiten.
 
-Unklare Rollen, unklare Schnittstellen und unklare Entscheidungen kosten Teams viel Kraft. Deshalb schaue ich zuerst auf das Betriebsmodell:
+Wenn Leistung oder Zusammenarbeit nicht funktionieren, prüfe ich deshalb zwei Ebenen:
+
+1. Was braucht die einzelne Person an Klarheit, Feedback oder Entwicklung?
+2. Welche Bedingungen im System machen das gewünschte Verhalten leichter oder schwerer?
+
+Diese Sicht verhindert zwei Fehler: individuelles Verhalten vollständig zu entschuldigen oder systemische Probleme ausschließlich einzelnen Personen zuzuschreiben.
+
+---
+
+## 2. Klarheit ist eine Führungsleistung
+
+Viele Probleme in komplexen Organisationen entstehen nicht durch fehlenden Einsatz, sondern durch fehlende Klarheit.
+
+Ich frage deshalb regelmäßig:
 
 - Wer entscheidet was?
 - Wer trägt welche Verantwortung?
-- Wo entstehen Wartezeiten?
-- Wo fehlen Informationen?
-- Welche Regeln sind im Alltag wirklich wirksam?
-- Welche Abhängigkeiten machen Teams langsamer?
-- Wo wird Verantwortung erwartet, aber kein Entscheidungsraum gegeben?
+- Welche Ziele haben Priorität?
+- Welche Abhängigkeiten bestehen?
+- Welche Informationen fehlen?
+- Welche Qualitätsmaßstäbe gelten?
+- Wann muss eskaliert werden?
+- Wo wird Verantwortung erwartet, ohne ausreichenden Entscheidungsraum zu geben?
 
-Das Buch *Team Topologies* von Matthew Skelton und Manuel Pais hat mir geholfen, Teamgrenzen, Schnittstellen und Kommunikationswege noch bewusster zu betrachten. Gute Teamstrukturen sind kein Organigramm-Thema. Sie bestimmen sehr konkret, wie schnell und wie sauber Softwareorganisationen arbeiten können.
-
-Wenn Teams ständig aufeinander warten, ist das für mich kein individuelles Problem einzelner Personen. Dann schaue ich zuerst auf Schnittstellen, Entscheidungswege und Verantwortlichkeiten.
-
----
-
-### 3. Lieferfähigkeit und Qualität gehören zusammen
-
-Beim Aufbau und der Führung des TEAQ-Plattformteams mit 8 Engineers wurde für mich besonders sichtbar, wie wichtig transparente Delivery-Steuerung ist.
-
-Ein Team kann viel arbeiten und trotzdem schwer steuerbar sein, wenn niemand klar sieht, wo Arbeit hängen bleibt, wo Qualität leidet oder wo Risiken entstehen. Deshalb sind Kennzahlen wie DORA-Metriken für mich wertvoll. Nicht, um Menschen zu kontrollieren. Sondern um Flow, Qualität und Stabilität besser zu verstehen.
-
-Das Buch *Accelerate* hat diese Sicht für mich bestätigt: Leistungsfähige Softwareorganisationen betrachten Geschwindigkeit und Stabilität gemeinsam.
-
-Für mich heißt das praktisch:
-
-- schneller liefern, ohne leichtsinnig zu werden
-- Risiken früher sichtbar machen
-- Qualität nicht erst am Ende prüfen
-- Teams nicht über Bauchgefühl steuern
-- Kennzahlen als Lerninstrument nutzen, nicht als Druckmittel
-
-Delivery Governance ist für mich deshalb kein Reporting-Thema. Sie ist ein Mittel, um Teams handlungsfähiger zu machen.
+Für mich ist Klarheit keine Kontrolle. Sie reduziert unnötige Unsicherheit und macht Selbstorganisation erst möglich.
 
 ---
 
-### 4. Führung braucht technisches Verständnis
+## 3. Ownership braucht Entscheidungsraum
 
-Ich komme aus Java Engineering, Billing-Systemen, Plattformarbeit, Microservices, CI/CD und Betrieb. Diese technische Basis ist für meine Führung wichtig.
+Verantwortung kann nicht wirksam delegiert werden, wenn jede relevante Entscheidung weiterhin nach oben eskaliert werden muss.
 
-Ich muss nicht jede Ecke des Codes kennen. Aber ich muss technische Entscheidungen verstehen, Risiken erkennen und gute Fragen stellen können.
+Deshalb gehören für mich drei Dinge zusammen:
 
-Aus meiner fast zehnjährigen Erfahrung mit geschäftskritischen Billing-Systemen habe ich gelernt: Software ist nicht fertig, wenn Code gemerged wurde. Sie muss im Betrieb funktionieren. Sie muss stabil laufen. Sie muss nachvollziehbar bleiben.
+**Verantwortung + Kontext + Entscheidungsraum.**
 
-Deshalb sind mir folgende Punkte wichtig:
+Fehlt eines davon, entsteht häufig Schein-Ownership: Menschen sollen Ergebnisse verantworten, besitzen aber weder ausreichende Informationen noch die Möglichkeit, wirksame Entscheidungen zu treffen.
 
-- Wartbarkeit
-- Betriebssicherheit
-- klare Architekturentscheidungen
-- automatisierte Qualität
-- sichere Entwicklung
-- nachvollziehbare Verantwortung
-- verständliche Dokumentation nahe am Code
-
-Ich lasse technische Entscheidungen nicht im Raum hängen. Wenn ein Team eine wichtige Architekturentscheidung trifft, soll diese Entscheidung nachvollziehbar dokumentiert werden. Dafür nutze ich ADRs direkt im Repository. Eine ADR erklärt, welches Problem gelöst wurde, welche Optionen betrachtet wurden und warum eine Entscheidung getroffen wurde.
-
-Das ist kein bürokratischer Selbstzweck. Es hilft bei Wartung, Onboarding, Reviews und späteren Änderungen.
-
-Zusätzlich halte ich Service Deep Dives für ein starkes Format. Jeder wichtige Service sollte verständlich beschreiben:
-
-- warum er existiert
-- welche fachliche Aufgabe er erfüllt
-- welche Inputs und Outputs er hat
-- wo er in der Wertschöpfungskette steht
-- welche Abhängigkeiten bestehen
-- was passiert, wenn der Service ausfällt
-- welche Risiken und offenen Punkte bekannt sind
-
-Solche Deep Dives machen Wissen teilbar. Sie helfen bei Kapazitätsverschiebungen, Onboarding, Hackathons, Architekturarbeit und Betrieb. Der genaue Effekt hängt vom Kontext ab, aber der Nutzen ist in der Praxis deutlich spürbar: Teams können sich schneller orientieren und Services schneller verstehen.
-
-Ein Service sollte aus meiner Sicht nur dann produktiv betrieben werden, wenn auch klar ist, wie man ihn betreibt. Dazu gehören Playbooks für kritische Use Cases, bekannte Fehlerbilder und wichtige Betriebsabläufe.
+Ich erwarte Verantwortung, schaffe dafür aber auch den notwendigen Rahmen.
 
 ---
 
-### 5. Am Ende geht es um Menschen
+## 4. Technische Führung bedeutet Urteilskraft, nicht Mikromanagement
 
-Als Engineering Manager und Java Tech Lead habe ich ein internationales Plattformteam aufgebaut und geführt. Dort wurde besonders deutlich: Gute Teams entstehen nicht automatisch.
+Meine technische Basis aus Java Engineering, Billing-Systemen, Plattformen, Microservices, CI/CD und Betrieb hilft mir, Risiken und Trade-offs zu verstehen.
 
-Menschen brauchen Feedback, Entwicklung, Verantwortung und Schutz vor unnötiger Reibung.
+Technische Führung bedeutet für mich trotzdem nicht, Spezialisten ihre Arbeit abzunehmen. Meine Aufgabe ist vielmehr:
 
-Ich habe gelernt, dass sich Führung je nach Reifegrad des Teams verändert. Am Anfang ist oft mehr direkte Orientierung nötig. Später geht es stärker darum, Entscheidungsräume zu öffnen, Menschen zu entwickeln und Rahmenbedingungen zu verbessern.
+- gute Fragen zu stellen
+- Auswirkungen sichtbar zu machen
+- fachliche und technische Perspektiven zu verbinden
+- Risiken früh zu erkennen
+- Qualitätsmaßstäbe zu klären
+- Entscheidungen nachvollziehbar zu machen
+- Experten dort entscheiden zu lassen, wo ihr Kontext am stärksten ist
 
-Führung kann sehr technische Arbeit sein. Sie kann aber auch sehr menschlich sein. Manchmal geht es um Architektur, Delivery und Priorisierung. Manchmal geht es darum, zuzuhören, Unsicherheit einzuordnen oder jemanden durch eine schwierige Phase zu begleiten. Und manchmal gehört auch dazu, klar zu sagen, dass Erwartungen nicht erfüllt werden oder dass sich Wege trennen müssen.
-
-Camille Fournier beschreibt in *The Manager’s Path* sehr gut, wie sich technische Führung über Rollen hinweg verändert. Genau diese Entwicklung erkenne ich in meiner eigenen Laufbahn: vom Entwickler über technische Verantwortung hin zur Entwicklung von Menschen und Organisationen.
-
-Für mich heißt das:
-
-- Ich gebe Feedback früh und konkret.
-- Ich entwickle Menschen nicht nur im Jahresgespräch.
-- Ich mache Erwartungen sichtbar.
-- Ich helfe Menschen, den nächsten Entwicklungsschritt zu erkennen.
-- Ich spreche schwierige Themen klar an, aber respektvoll.
-- Ich schütze Teams, wenn Druck von außen unnötig wird.
-- Ich fordere Teams, wenn Verantwortung nicht sauber übernommen wird.
+Bei wichtigen Architekturentscheidungen nutze ich nachvollziehbare Entscheidungsformate wie Architecture Decision Records. Eine gute ADR dokumentiert Kontext, Optionen, Entscheidung, Begründung und Konsequenzen. Das reduziert spätere Wissensverluste und verhindert, dass alte Diskussionen ohne neuen Erkenntnisgewinn wiederholt werden.
 
 ---
 
-### 6. Führung schafft ein Betriebsmodell, nicht nur Meetings
+## 5. Delivery und Qualität gehören zusammen
 
-Gemeinsam mit der Entwicklungsleitung habe ich an einem Engineering Operating Model gearbeitet: Rollen, Teamstrukturen, Schnittstellen und Governance-Routinen.
+Ich halte wenig von einer Trennung zwischen „schnell liefern“ und „sauber liefern“.
 
-Das ist für mich ein zentraler Teil moderner Engineering-Führung.
+In meiner Arbeit mit Plattformteams und geschäftskritischen Systemen habe ich gelernt, dass schlechte Qualität später fast immer als langsamere Delivery zurückkommt: durch Incidents, manuelle Arbeit, schwer veränderbare Systeme und steigende Unsicherheit.
 
-Ein gutes Betriebsmodell beantwortet einfache, aber wichtige Fragen:
+Deshalb nutze ich technische und organisatorische Feedbacksysteme wie:
 
-- Wie arbeiten Teams zusammen?
-- Wie treffen wir Entscheidungen?
-- Wie erkennen wir Risiken früh?
-- Wie sichern wir Qualität?
-- Wie lernen wir aus Problemen?
-- Wie vermeiden wir unnötige Abhängigkeiten?
-- Wie wird Verantwortung sichtbar?
-- Wie bleibt Wissen im System?
+- CI/CD Quality Gates
+- automatisierte Tests
+- DORA-Metriken
+- Architektur- und Code-Reviews
+- Incident Reviews
+- Service Deep Dives
+- Observability
+- Security-Prüfungen
 
-Für mich bedeutet das: Führung sollte Mechanismen bauen, die vielen Menschen helfen, bessere Arbeit zu leisten.
-Ein gutes Betriebsmodell ist genau so ein Mechanismus. Es macht gute Arbeit wahrscheinlicher, ohne jedes Detail zentral steuern zu müssen.
+Kennzahlen dienen dabei nicht zur individuellen Kontrolle. Sie sollen das System verständlicher machen und bessere Entscheidungen ermöglichen.
 
 ---
 
-### 7. Führung macht Wissen nutzbar
+## 6. Wissen muss im System ankommen
 
-Ich unterrichte nebenberuflich Java und KI-Automation an einer öffentlichen Bildungseinrichtung in Ostfriesland. Diese Lehrtätigkeit passt gut zu meinem Führungsverständnis.
+Organisationen werden fragil, wenn kritisches Wissen nur in einzelnen Köpfen existiert.
 
-Gute Führung bedeutet auch, komplexe Themen verständlich zu machen. Das gilt für Java, KI, Architektur, Delivery-Kennzahlen und Security.
+Deshalb versuche ich, Wissen in wiederverwendbare Strukturen zu überführen:
 
-Ich möchte nicht, dass Wissen nur bei einzelnen starken Personen bleibt. Wissen muss im System ankommen: in Standards, Reviews, Dokumentation, Service Deep Dives, ADRs und gemeinsamen Routinen.
+- Standards
+- ADRs
+- Service-Dokumentation
+- Playbooks
+- Architekturübersichten
+- Review-Routinen
+- Onboarding-Material
+- Lessons Learned
 
-Wenn Wissen nur in Köpfen bleibt, wird eine Organisation abhängig von einzelnen Personen. Wenn Wissen im System landet, wird ein Team robuster.
+Ein Service oder eine Plattform sollte nicht nur implementiert, sondern auch erklärbar und betreibbar sein.
 
-Das ist für mich auch im Kontext von KI wichtig. KI-Werkzeuge werden besser nutzbar, wenn fachlicher Kontext, Architekturentscheidungen und technische Regeln sauber dokumentiert sind. Ohne Kontext entsteht schnell formal richtiger, aber fachlich schwacher Output.
+Für mich ist Wissenstransfer deshalb keine Nebenaufgabe. Er ist Teil von Führung und Resilienz.
+
+---
+
+## 7. Feedback gehört in den Arbeitsalltag
+
+Feedback darf keine Überraschung im Jahresgespräch sein.
+
+Gutes Feedback ist:
+
+- zeitnah
+- konkret
+- beobachtbar
+- respektvoll
+- handlungsorientiert
+
+Genauso wichtig ist Feedback an Führung. Wenn Mitarbeitende Probleme, Risiken oder Fehlentscheidungen nur nach oben melden können, wenn sie bereits eskaliert sind, ist das System zu defensiv.
+
+Ich möchte deshalb eine Umgebung, in der fachlicher Widerspruch möglich ist, ohne dass daraus persönlicher Konflikt wird.
+
+---
+
+## 8. Führung verändert sich mit Reife und Kontext
+
+Nicht jedes Team braucht dieselbe Art von Führung.
+
+Neue oder unsichere Teams benötigen häufig mehr Orientierung, engere Feedbackschleifen und klarere Leitplanken. Reife Teams benötigen mehr Entscheidungsraum, weniger operative Eingriffe und stärkere Unterstützung bei übergreifenden Abhängigkeiten.
+
+Die Führungsleistung besteht darin, diesen Unterschied zu erkennen und den eigenen Führungsstil anzupassen.
+
+---
+
+## 9. Architecture Leadership: Wirksamkeit ohne Weisungsbefugnis
+
+In Enterprise Architecture verändert sich die Form von Führung.
+
+Ein Enterprise Architect hat häufig keine disziplinarische Verantwortung für Fachbereiche, Entwicklungsteams, Security, Betrieb oder externe Dienstleister. Trotzdem muss er dazu beitragen, dass gemeinsame Entscheidungen entstehen.
+
+Dafür braucht es andere Hebel:
+
+- fachliche Glaubwürdigkeit
+- strukturierte Analyse
+- transparente Optionen und Trade-offs
+- nachvollziehbare Risiken
+- klare Entscheidungsfragen
+- Moderation unterschiedlicher Perspektiven
+- saubere Eskalation
+- dokumentierte Entscheidungen
+
+Architecture Leadership bedeutet für mich deshalb: **Entscheidungsfähigkeit herstellen, ohne Entscheidungen an sich zu ziehen.**
+
+Gerade in komplexen Organisationen und im Public Sector ist das zentral. Fachlichkeit, IT, Security, Betrieb, Datenschutz, Management und Dienstleister können legitime, aber unterschiedliche Interessen haben. Gute Architekturarbeit macht diese Unterschiede sichtbar und übersetzt sie in belastbare Entscheidungsoptionen.
 
 ---
 
@@ -180,77 +186,46 @@ Das ist für mich auch im Kontext von KI wichtig. KI-Werkzeuge werden besser nut
 
 ### Klarheit vor Tempo
 
-Wenn Ziele, Rollen oder Prioritäten unklar sind, wird Geschwindigkeit teuer. Ich schaffe zuerst Klarheit, damit Teams sicherer und schneller handeln können.
-
-Tempo ohne Klarheit führt oft zu Nach(t)arbeit.
-
----
+Unklare Ziele und Verantwortlichkeiten machen Geschwindigkeit teuer.
 
 ### Ownership braucht Entscheidungsraum
 
-Ich gebe Verantwortung nicht nur als Aufgabe weiter. Ich achte darauf, dass Menschen auch den passenden Entscheidungsraum und Kontext bekommen.
+Verantwortung ohne Entscheidungskompetenz ist kein Empowerment.
 
-Verantwortung ohne Entscheidungsraum ist keine echte Ownership. Sie ist nur zusätzlicher Druck.
+### Qualität ist eine Systemfrage
 
----
-
-### Feedback gehört in den Alltag
-
-Feedback darf keine Überraschung im Jahresgespräch sein. Ich gebe Feedback möglichst zeitnah, konkret und handlungsorientiert.
-
-Gleichzeitig sollen meine Mitarbeitenden mir jederzeit Feedback geben können. Führung funktioniert nicht nur von oben nach unten. Gute Führung braucht Rückmeldung aus dem System.
-
----
-
-### Qualität ist Führungsaufgabe
-
-Qualität entsteht nicht nur durch gute Entwicklerinnen und Entwickler. Qualität entsteht durch Standards, Reviews, Tests, Automatisierung, Architekturentscheidungen und Zeit für saubere Arbeit.
-
-Wenn Qualität immer nur eingefordert, aber nicht ermöglicht wird, entsteht Frust.
-
----
+Qualität entsteht durch Standards, Architektur, Tests, Automatisierung, Zeit und klare Verantwortung.
 
 ### Sicherheit gehört von Anfang an dazu
 
-Secure SDLC, DevSecOps und OWASP-orientierte Praktiken sind für mich Teil guter Softwareentwicklung. Sicherheit darf nicht erst am Ende geprüft werden.
+Security ist Teil von Architektur, Entwicklung, Delivery und Betrieb – kein nachgelagerter Prüfschritt.
 
-Sicherheit muss in Architektur, Entwicklung, Review, CI/CD und Betrieb mitgedacht werden.
+### Lernen muss institutionalisiert werden
 
----
-
-### Lernen muss im System ankommen
-
-Wenn ein Team etwas lernt, sollte dieses Wissen nicht verloren gehen. Es muss in Arbeitsweisen, Dokumentation, Standards und Entscheidungen sichtbar werden.
-
-Nur dann wird nicht nur eine Person besser, sondern das ganze System.
-
----
+Erkenntnisse müssen in Standards, Prozesse, Dokumentation oder Entscheidungen einfließen, sonst bleiben sie individuelles Wissen.
 
 ### Führung soll Abhängigkeit reduzieren
 
-Ich sehe mich als erfolgreich, wenn mein Team mich im Tagesgeschäft weniger braucht.
+Gute Führung macht Menschen und Teams handlungsfähiger, statt sie dauerhaft an einzelne Führungspersonen zu binden.
 
-Nicht, weil Führung unwichtig wird. Sondern weil das Team handlungsfähiger geworden ist.
+### Widerspruch ist wertvoll
 
-Ein starkes Team braucht weiterhin Führung. Aber es braucht weniger operative Abhängigkeit.
+Gute Entscheidungen brauchen fachlichen Dissens. Entscheidend ist, ihn sachlich und lösungsorientiert zu bearbeiten.
 
 ---
 
-## Bücher und Methoden, die mein Denken beeinflussen
+## Denkmodelle, die mich geprägt haben
 
-Diese Bücher und Ansätze haben meine Sicht auf Engineering-Führung, Organisation und Delivery geprägt:
-
-- Camille Fournier: *The Manager’s Path* – Entwicklung von Engineering-Führung, People Management und technischer Führung.
-- Andy Grove: *High Output Management* – Führung über Hebelwirkung, Routinen, 1:1s und Management-Systeme.
-- Matthew Skelton / Manuel Pais: *Team Topologies* – Teamstrukturen, Kommunikationswege und Schnittstellen als Grundlage guter Softwareorganisationen.
-- Nicole Forsgren / Jez Humble / Gene Kim: *Accelerate* – DORA-Metriken, Flow, Stabilität und Leistungsfähigkeit von Softwareorganisationen.
-- Gene Kim / Jez Humble / Patrick Debois / John Willis: *The DevOps Handbook* – Flow, Feedback, kontinuierliches Lernen und Verantwortung in DevOps-Organisationen.
-- Michael D. Watkins: *The First 90 Days* – strukturiertes Ankommen, Stakeholder-Verständnis und frühe Wirksamkeit in neuen Führungsrollen.
-- Architecture Decision Records (ADRs) – nachvollziehbare Dokumentation wichtiger technischer Entscheidungen.
-- Service Deep Dives – systematische Dokumentation von Zweck, Betrieb, Risiken und Abhängigkeiten eines Services.
+- Camille Fournier: *The Manager’s Path*
+- Andy Grove: *High Output Management*
+- Matthew Skelton / Manuel Pais: *Team Topologies*
+- Nicole Forsgren / Jez Humble / Gene Kim: *Accelerate*
+- Gene Kim / Jez Humble / Patrick Debois / John Willis: *The DevOps Handbook*
+- Michael D. Watkins: *The First 90 Days*
+- Architecture Decision Records als leichtgewichtiges Entscheidungsformat
 
 ---
 
 ## Kurzprinzip
 
-Gute Engineering-Führung macht Menschen stärker, Entscheidungen klarer und Systeme verlässlicher.
+**Gute Führung macht Menschen stärker, Verantwortlichkeiten klarer, Entscheidungen nachvollziehbarer und Organisationen weniger abhängig von Einzelpersonen.**

@@ -1,6 +1,6 @@
 # Emiliano Pishaj
 
-**Engineering Manager – Java Platform & Delivery Governance**
+**Enterprise Architect nga 10/2026 | Sektori Publik – Ministri & Institucione Publike | Engineering Leadership | Arkitekturë Softueri, Platformash & Integrimi**
 
 📞 +49 152 5 340 25 18 · ✉️ pishaj.emiliano@gmail.com · 📍 Leer, Gjermani / Remote në mbarë Gjermaninë
 
@@ -8,144 +8,253 @@
 
 ---
 
-## Profili i shkurtër
+## Profili
 
-Engineering Manager me mbi 15 vjet përvojë profesionale në kontekste të bazuara në Java dhe platforma, ku përfshihen disa vjet në role të Engineering Leadership me përgjegjësi të kumuluar për organizata inxhinierike prej 8 deri në 22 personash, si dhe një mandat si Interim-CTO me linjë raportimi të drejtpërdrejtë me drejtimin ekzekutiv. Fokusi është te aftësimi i ekipeve (team enablement), Delivery Governance, DevSecOps dhe cilësia teknike.
+Enterprise Architect me një bazë të fortë teknike të ndërtuar mbi më shumë se 15 vjet përvojë në zhvillimin e softuerit, platform engineering, integrimin e sistemeve dhe operimin e IT-së, si dhe me disa vite përvojë në Engineering Leadership dhe zhvillim teknik-organizativ.
 
-Unë i udhëheq ekipet përmes pritshmërive të qarta, coaching-ut, punësimit (hiring), vlerësimeve të performancës, orientimit teknik dhe rutinave të besueshme inxhinierike — me qëllim që ato të punojnë më të pavarura, më të sigurta dhe me ndikim më të madh.
+Nga **01.10.2026 kaloj te SINC GmbH si Enterprise Architect** me fokus në mandate arkitekturore për **ministri dhe institucione publike**. Ky hap e zgjeron fokusin profesional nga përgjegjësia për platforma të veçanta, ekipe inxhinierike dhe sisteme delivery drejt arkitekturës në nivel organizate: strukturimi i lidhjeve ndërmjet kërkesave funksionale dhe teknologjisë, bërja e dukshme e varësive dhe rreziqeve, zhvillimi i arkitekturave të synuara dhe bazave për vendimmarrje, si dhe mundësimi i transformimit ndërmjet njësive të biznesit, IT-së, sigurisë, operimit, menaxhmentit dhe palëve të jashtme.
+
+Profili im bashkon tri perspektiva që janë të pandashme në peizazhe komplekse IT të sektorit publik:
+
+- **Enterprise Architecture & Governance** — strukturimi i gjendjes aktuale dhe të synuar, vendimeve arkitekturore, roadmaps, varësive dhe mekanizmave të governance-it.
+- **Arkitekturë Teknike & Engineering** — përvojë e thellë me Java, platforma, API, microservices, DevSecOps, CI/CD, cloud, container environments dhe kërkesa operacionale për cilësi.
+- **Leadership & Stakeholder Steering** — drejtimi dhe zhvillimi i organizatave inxhinierike, moderimi i vendimeve teknike dhe komunikimi deri në nivel të drejtimit ekzekutiv dhe menaxhmentit të lartë.
 
 **Gjuhët:** Gjermanisht (gjuhë amtare) · Anglisht (C1) · Shqip (rrjedhshëm)
 
 ---
 
-## Kompetencat
+## Profili i Enterprise Architecture
 
-### Drejtimi i njerëzve dhe zhvillimi organizativ
-Drejtim disiplinor i ekipeve inxhinierike të shpërndara · Coaching dhe mentorim · Procese të Recruiting, Onboarding dhe Performance · Zhvillimi i punonjësve dhe rrugët e karrierës · Drejtim ndërkulturor përmes vendndodhjeve, zonave kohore dhe kulturave · Engineering Operating Model · Role, struktura ekipore dhe rutina qeverisjeje · Drejtim me objektiva sipas OKR · Menaxhim i stakeholder-ëve deri në nivel C-Level
+### Strategjia e Arkitekturës, Arkitektura e Synuar & Transformimi
 
-### Delivery dhe Engineering Governance
-Roadmapping · Metrikat DORA · CI/CD-Pipelines dhe Quality Gates · Transparencë në delivery · Praktika agile sipas Scrum dhe Kanban · Planifikim i kapaciteteve dhe i projekteve · Formate të kulturës inxhinierike (Hackathon-e, Service Deep Dives, Chapter-Surveys) · Cilësi e softuerit e orientuar drejt ISO/IEC 25010
+Analiza e gjendjes aktuale dhe të synuar të peizazheve komplekse IT · Arkitektura të synuara dhe Architecture Visions · Analiza e boshllëqeve dhe varësive · Transition Architectures · Roadmaps transformimi · Technical Debt dhe opsione modernizimi · Qasje e orientuar nga rreziku dhe vendimmarrja · Parime dhe standarde arkitekturore · Architecture Decision Records (ADR)
 
-### Arkitektura dhe Platforma
-Përgjegjësi për platformën Java · Arkitektura të bazuara në Microservices · Ndërtim end-to-end i platformave · Dizajn arkitekture dhe sistemi · Code Reviews · Zhvillim i platformave të Inteligjencës Artificiale · Ndërtim i platformave API · Modernizim në cloud · Shkallëzueshmëri (scalability) e peizazheve të ndërlikuara të sistemeve
+### Perspektiva e Business, Data & Applications
 
-### Siguria dhe Pajtueshmëria
-DevSecOps · Udhëzime për Secure Coding të orientuara nga OWASP · Standarde Clean Code · Secure SDLC · Konteksti i certifikimit ISO 27001 · Protokolle sigurie, auditime dhe kontrolle operative · Kërkesa të rregulluara të sektorit publik
+Analizë e organizatave e orientuar nga aftësitë organizative (capabilities) · Lidhja e detyrave funksionale, proceseve, të dhënave dhe aplikacioneve · Analizë procesesh dhe përgjegjësish · Application Portfolios · Varësi sistemesh · Data Flows dhe Data Ownership · Sisteme autoritative dhe marrëdhënie integrimi · Përkthim i strukturuar i kërkesave funksionale në vendime arkitekturore
 
-### Tech Stack
-Java 21 · Spring Boot · Quarkus · Apache Wicket · REST APIs · Microservices · MarkLogic · Camunda · Oracle · MySQL · Linux · Bash · GitLab CI/CD · Docker · Kubernetes · AWS · Maven · NGINX · Tomcat · Grafana · SonarQube
+### Integrimi & Ndërfaqet
 
-### AI Enablement
-AI Key User · Vendosja e standardeve të AI-së dhe e udhëzimeve për përdorimin e AI-së në inxhinieri · Platforma të bazuara në AI si Enabler strategjikë
+REST APIs · API Design dhe versionim · Interface Contracts · Integrim sinkron dhe asinkron · Event-Driven Architecture · Contract Testing · Integration Patterns · Shkëputje e peizazheve të sistemeve të zhvilluara ndër vite · Vlerësim teknik i varësive ndërmjet ndërfaqeve
+
+### Security, IAM & Compliance
+
+DevSecOps · Secure SDLC · Udhëzime Secure Coding të orientuara nga OWASP · Mjedis certifikimi ISO 27001 · Security Controls · Identity & Access Management si temë arkitekturore · Auditueshmëri · Security-by-Design · Integrimi i kërkesave të sigurisë në vendimet arkitekturore dhe delivery
+
+### Platforma, Cloud & Operueshmëria
+
+Platforma Java · Microservices · Containerisation · Kubernetes · AWS · CI/CD · Quality Gates · Observability · Logging · Monitoring · Resilience Patterns · Kërkesa për operim dhe besueshmëri · Vlerësim teknik i vendimeve për platforma dhe modernizim
+
+### Architecture Governance & Vendimmarrja
+
+Architecture Reviews · Decision Logs · ADRs · Governance Routines · Quality Gates · Vendime arkitekturore të gjurmueshme · Analizë stakeholder-ësh dhe rreziqesh · Komunikim me menaxhmentin dhe executive level · Përkthim i kërkesave arkitekturore në guardrails teknikë të zbatueshëm
 
 ---
 
-## Përvoja profesionale
+## Metoda & Mjete Arkitekturore
+
+TOGAF 10 / ADM – përdorim praktik · Capability Mapping · ArchiMate · BPMN · DMN · arc42 · Architecture Decision Records · Domain-Driven Design · Hexagonal Architecture · REST / OpenAPI · Event-Driven Architecture · Resilience Patterns · Metrikat DORA · ISO/IEC 25010 · OWASP · DevSecOps
+
+---
+
+## Përvoja Profesionale
+
+### Enterprise Architect
+
+**SINC GmbH** · nga 10/2026
+
+Hyrje në Enterprise Architecture me fokus mandatet për **ministri dhe institucione publike**. Roli ndërtohet mbi përvojën afatgjatë në software, platforma, security, delivery dhe leadership dhe e zgjeron atë me perspektivë arkitekturore dhe transformuese në nivel organizate.
+
+**Fokusi i planifikuar i mandateve:**
+
+- Strukturimi i situatave komplekse funksionale dhe teknike në mjedise IT të sektorit publik.
+- Zhvillimi i Architecture Visions, arkitekturave të synuara, opsioneve për vendimmarrje dhe roadmaps transformimi.
+- Lidhja e detyrave funksionale, proceseve, të dhënave, aplikacioneve, integrimit, sigurisë dhe operimit në një pamje konsistente për vendimmarrje.
+- Komunikim arkitekturor dhe koordinim ndërmjet njësive funksionale, IT-së, Security, Operations, Management dhe njësive të tjera organizative të përfshira.
+- Vlerësimi i varësive, rreziqeve, technical debt dhe opsioneve të modernizimit.
+- Mbështetja e vendimeve arkitekturore të gjurmueshme dhe një Architecture Governance të lehtë dhe praktike.
+
+**Shënim:** Mandatet konkrete të klientëve, institucionet publike, emrat e projekteve dhe rezultatet e verifikueshme do të shtohen vetëm pas fillimit të rolit dhe duke respektuar kërkesat e konfidencialitetit.
+
+---
 
 ### Java Chapter Lead / Line Manager
-**eos.uptrade GmbH (Siemens Mobility Group)** · 02/2025 – aktualisht
 
-- **Drejtimi i Chapter-it dhe zhvillimi i punonjësve** — Drejtimi i Java Chapter-it me afërsisht 22 zhvillues dhe zhvilluese; përgjegjësi për transferimin e dijes, zhvillimin profesional, si dhe për proceset e Recruiting-ut, Onboarding-ut dhe Performance-it; coaching dhe mentorim brenda Chapter-it.
-- **Engineering Operating Model** — Bashkë-dizajnimi i Operating Model-it së bashku me Head of Development, sidomos në lidhje me rolet, strukturat ekipore dhe rutinat e qeverisjes.
-- **Përgjegjësia për platformën TS4** — Zhvillimi i mëtejshëm teknik dhe cilësia e platformës TS4 të bazuar në Java mbi Java 21, Spring Boot dhe Quarkus; dizajni i arkitekturave të sigurta dhe të shkallëzueshme me Microservices.
-- **DevSecOps dhe siguria në kontekstin e ISO 27001** — Vendosja dhe zhvillimi i mëtejshëm i proceseve DevSecOps, si dhe përcaktimi dhe zbatimi i udhëzimeve për Clean Code, OWASP dhe Secure Coding në kuadër të certifikimit ISO 27001.
-- **Delivery Governance** — Ndërtimi dhe qeverisja e CI/CD-Pipeline-ve, e metrikave DORA dhe e Quality Gates-ve për përmirësimin e transparencës, shpejtësisë së dorëzimit dhe besueshmërisë.
-- **AI Enablement** — Zhvillimi dhe shoqërimi i formateve të AI Enablement-it, si dhe mbështetja e vendosjes së udhëzimeve për përdorimin e AI-së brenda fushës së inxhinierisë.
-- **Këshillim dhe kultura inxhinierike** — Këshillimi i Product Owner-ëve dhe i ekipeve për çështje teknike dhe arkitekturore; nxitja e bashkëpunimit ndërmjet Product, QA, DevOps dhe Architecture; iniciativa për formate të mësimit dhe të kulturës.
+**eos.uptrade GmbH (Siemens Mobility Group)** · 02/2025 – 09/2026
+
+Përgjegjësi për lidhjen ndërmjet People Leadership, cilësisë teknike të platformës, Engineering Governance dhe zhvillimit organizativ në mjedisin Java.
+
+- **Chapter Leadership & Zhvillimi i Punonjësve** — Drejtimi i Java Chapter-it me rreth 22 software engineers; përgjegjësi për zhvillimin profesional, transferimin e njohurive, recruiting, onboarding, performance processes, coaching dhe mentoring.
+- **Engineering Operating Model** — Bashkë-dizajnimi i Operating Model me Head of Development; formësimi i roleve, strukturave të ekipeve, përgjegjësive dhe governance routines.
+- **Përgjegjësi për Platformën & Arkitekturën** — Zhvillimi teknik dhe cilësia e platformës TS4 të bazuar në Java 21, Spring Boot dhe Quarkus; këshillim për vendime rreth microservices, integrimit dhe platformës.
+- **DevSecOps & Security** — Vendosja dhe përmirësimi i vazhdueshëm i proceseve DevSecOps, si dhe definimi dhe zbatimi i Clean Code, OWASP dhe Secure Coding Guidelines në kontekstin e certifikimit ISO 27001.
+- **Delivery Governance** — Ndërtimi dhe governance i CI/CD pipelines, metrikave DORA dhe quality gates për përmirësimin e transparencës, aftësisë së dorëzimit dhe cilësisë teknike.
+- **Architecture Advisory** — Këshillimi i Product Owners dhe squads për çështje teknike dhe arkitekturore; lidhja ndërmjet Product, Development, QA, DevOps dhe Architecture.
+- **AI Enablement** — Zhvillimi dhe moderimi i formateve AI Enablement dhe mbështetja e standardeve dhe udhëzimeve për përdorimin e AI në Engineering.
+- **Engineering Culture** — Inicimi i formateve për mësim, shkëmbim dhe cilësi me synim forcimin e vendimmarrjes teknike, ownership dhe continuous improvement në nivel organizate.
+
+---
 
 ### Engineering Manager (Java Tech Lead)
+
 **IU Group** · 11/2022 – 01/2025
 
-- **Ndërtimi dhe drejtimi i ekipit inxhinierik** — Ndërtimi dhe drejtimi teknik i një ekipi inxhinierik ndërkombëtar dhe ndërfunksional me tetë zhvillues, përtej vendndodhjeve, zonave kohore dhe kulturave.
-- **Platforma e AI-së end-to-end** — Përgjegjësi end-to-end për konceptimin, arkitekturën dhe zbatimin e një platforme të AI-së për përkthimin e automatizuar të skripteve të studimit në gjuhën gjermane si Enabler strategjik për zgjerimin ndërkombëtar të IU-së.
-- **Bashkëpunim ndërfunksional** — Ndërtimi dhe drejtimi i ekipit TEAQ, si dhe bashkëpunimi ndërfunksional me departamentet e specializuara, me Product Management dhe me didaktikën akademike.
-- **Platforma dhe zgjidhja teknike** — Përgjegjësi për ndërtimin dhe mirëmbajtjen e një zgjidhjeje teknike të ndërlikuar mbi bazën e SiteFusion (Java, MarkLogic, Camunda); mbështetje për përdorimin e njërit prej sistemeve më të ndërlikuara të organizatës.
-- **Arkitekturë, cilësi dhe këshillim** — Hartimi i dizajnit arkitekturor dhe të sistemit, si dhe kryerja e Code Reviews; sigurimi i përmbushjes së kërkesave të biznesit dhe këshillim teknik për ndërmarrjen.
-- **Stakeholder-Management dhe njerëz** — Menaxhimi i stakeholder-ëve të brendshëm dhe të jashtëm deri në nivel të drejtimit ekzekutiv; udhëheqje e ekipit, zhvillim i punonjësve dhe zhvillim i intervistave dhe i punësimeve.
+Drejtim i një ekipi ndërkombëtar Engineering me përgjegjësi end-to-end për një zgjidhje strategjike platforme dhe rol lidhës ndërmjet teknologjisë, njësive funksionale dhe menaxhmentit.
 
-### Specialist Sistemesh Billing
+- **Ndërtimi & Drejtimi i Ekipit Engineering** — Ndërtimi dhe drejtimi teknik i një ekipi ndërkombëtar, cross-functional, me tetë zhvillues në lokacione, zona kohore dhe kultura të ndryshme.
+- **Platformë Strategjike AI** — Përgjegjësi end-to-end për konceptimin, arkitekturën dhe implementimin e një platforme për përkthimin automatik të materialeve të studimit në gjuhën gjermane si enabler për zgjerimin ndërkombëtar të IU.
+- **Arkitekturë & System Design** — Hartimi dhe zhvillimi i architecture dhe system designs, si dhe vlerësimi teknik i opsioneve të zgjidhjes.
+- **Peizazh Kompleks Sistemesh** — Përgjegjësi për ndërtimin dhe mirëmbajtjen e një zgjidhjeje të bazuar në SiteFusion, Java, MarkLogic dhe Camunda dhe për mbështetjen e një prej sistemeve më komplekse të organizatës.
+- **Integrim Cross-functional** — Ndërtimi dhe drejtimi i ekipit TEAQ dhe bashkëpunim i ngushtë me Product Management, njësitë funksionale dhe didaktikën akademike.
+- **Quality & Engineering Governance** — Code Reviews, technical guardrails, quality assurance dhe këshillim për zbatimin e qëndrueshëm të kërkesave të biznesit.
+- **Stakeholder Management** — Drejtimi i stakeholder-ëve të brendshëm dhe të jashtëm deri në nivel të drejtimit ekzekutiv; ndërmjetësim ndërmjet business goals, technical risks dhe opsioneve të implementimit.
+- **People Leadership** — Zhvillimi i punonjësve, coaching, recruiting dhe intervista.
+
+---
+
+### Specialist Sistemesh – Billing
+
 **EWE TEL GmbH** · 10/2012 – 03/2022
 
-- **Mjedisi i faturimit (Billing)** — Mirëmbajtje, zgjerim dhe përshtatje e pavarur e një mjedisi të dedikuar të faturimit ndaj kërkesave të reja biznesore dhe operacionale.
-- **Zgjidhje Billing të bazuara në Java** — Zhvillim dhe zgjerim i zgjidhjeve për logjikë të ndërlikuar të faturimit, përpunim të të dhënave dhe integrim sistemesh me Java 8, Apache Wicket dhe baza të dhënash Oracle.
-- **Automatizim dhe praktika DevOps** — Automatizim i proceseve të përsëritura të operacioneve, monitorimit dhe faturimit me Linux/Bash; pjesëmarrje në mënyrat e punës të orientuara nga GitLab CI/CD dhe DevOps.
+Përgjegjësi teknike afatgjatë në një peizazh kritik billing dhe integrimi me fokus në stabilitet, përpunim të të dhënave, automatizim dhe zhvillimin e mëtejshëm të sistemeve të krijuara ndër vite.
+
+- **Përgjegjësi për Sisteme Kritike të Biznesit** — Mirëmbajtje, zgjerim dhe përshtatje e pavarur e një mjedisi të dedikuar billing ndaj kërkesave funksionale dhe operacionale.
+- **Java & Data Processing** — Zhvillimi dhe përmirësimi i logjikës komplekse të faturimit dhe përpunimit të të dhënave me Java 8, Apache Wicket dhe Oracle.
+- **System Integration** — Implementimi dhe mirëmbajtja e integrimeve teknike ndërmjet aplikacioneve, databazave dhe proceseve operative.
+- **Afërsi me Operimin** — Analiza e incidenteve në production dhe përfshirja e stabilitetit, maintainability dhe operational reliability në vendimet teknike.
+- **Automatizim** — Automatizimi i proceseve të përsëritshme të operimit, monitoring dhe billing me Linux dhe Bash.
+- **Zhvillimi DevOps** — Kontribut në GitLab CI/CD dhe mënyra pune të orientuara nga DevOps, duke lidhur gradualisht development me operations.
 
 ---
 
-## Mandate të zgjedhura projekti
+## Mandate të Përzgjedhura Projekti
 
-### Technical Business Consultant · Mandati Interim-CTO
+### Technical Business Consultant · Mandat Interim CTO
+
 **New Energy Neftenbach AG** · Zvicër · Remote · Me kohë të pjesshme · 03/2021 – 10/2022
 
-- **Drejtimi teknik dhe këshillimi i drejtimit ekzekutiv** — Linjë raportimi e drejtpërdrejtë me drejtimin ekzekutiv; këshillim për çështje teknologjike, arkitekturore dhe të sigurisë.
-- **Drejtim i shumë ekipeve në Brazil** — Drejtim teknik i katër ekipeve të zhvillimit (rreth 20 inxhinierë); vendosja e mënyrave të punës agile sipas Scrum dhe Kanban.
-- **Modernizim në cloud** — Drejtimi i nismave të migrimit në cloud me një reduktim të dokumentuar të kostove operative me rreth 30 %, përkrah një përmirësimi të dukshëm të shkallëzueshmërisë së peizazhit të sistemeve.
-- **Siguria e IT-së** — Vendosja e protokolleve të përmirësuara të sigurisë, e auditimeve të rregullta dhe e kontrolleve operative të efektshme; reduktim i dokumentuar me rreth 50 % i incidenteve të lidhura me sigurinë.
-- **Platforma API** — Ndërtimi i një platforme të fuqishme API për integrime me palë të treta, me një reduktim të dokumentuar të Time-to-Market për funksione të reja me rreth 25 %.
-- **Efikasiteti i Delivery-t** — Vendosja konsekuente e praktikave agile me një rritje të dokumentuar të efikasitetit të zhvillimit me rreth 45 % dhe me një rritje të shkallës së përfundimit të projekteve me rreth 40 %.
+Këshillim i drejtimit ekzekutiv dhe drejtim teknik i disa ekipeve me përgjegjësi për arkitekturë, cloud modernisation, security dhe delivery.
 
-### Senior Java Engineer — Mandat Modernizimi në Sektorin Publik
+- **Këshillim Teknologjik i Drejtimit Ekzekutiv** — Linjë raportimi e drejtpërdrejtë me drejtimin ekzekutiv; këshillim për çështje teknologjike, arkitekturore dhe të sigurisë.
+- **Multi-team Steering** — Drejtim teknik i katër ekipeve të zhvillimit me rreth 20 engineers në Brazil; vendosja e strukturave të qarta për delivery dhe bashkëpunim.
+- **Cloud Modernisation** — Drejtimi i nismave cloud migration me reduktim të dokumentuar të kostove operative me rreth 30%, krahas përmirësimit të scalability.
+- **Security & Controls** — Vendosja e protokolleve më të mira të sigurisë, auditimeve të rregullta dhe kontrolleve operative; reduktim i dokumentuar i incidenteve të sigurisë me rreth 50%.
+- **API Platform** — Ndërtimi i një API platform për integrime me palë të treta me reduktim të dokumentuar të time-to-market me rreth 25%.
+- **Delivery System** — Vendosja dhe përmirësimi i mënyrave agile të punës sipas Scrum dhe Kanban, me rritje të dokumentuar të efikasitetit të zhvillimit me rreth 45% dhe të shkallës së përfundimit të projekteve me rreth 40%.
+
+---
+
+### Senior Java Engineer · Mandat Modernizimi në Sektorin Publik
+
 **Virtual7 GmbH** · Gjermani · Remote · Me kohë të pjesshme · 05/2022 – 10/2022
 
-Analizë dhe Refactoring i bazave të kodit Java të vjetra (Legacy) në aplikacione të rregulluara të sektorit publik; zbatim i paketave teknike të punës nën kërkesat operacionale, të pajtueshmërisë (compliance) dhe të besueshmërisë; mbështetje e praktikave Delivery të orientuara nga DevOps përmes një dorëzimi dhe dokumentimi të strukturuar.
+Mandat teknik modernizimi në një mjedis të rregulluar të sektorit publik.
 
-### Technical Business Consultant — Dixhitalizim i CRM-së dhe i Workflow-ut
+- Analizë dhe refactoring i Java codebases të zhvilluara ndër vite.
+- Zbatim i paketave teknike të punës nën kërkesa për operim, compliance dhe reliability.
+- Dokumentim teknik dhe handover i strukturuar.
+- Mbështetje e DevOps-oriented delivery practices.
+- Punë në ndërthurjen ndërmjet legacy systems, modernisation dhe operueshmërisë së qëndrueshme.
+
+---
+
+### Technical Business Consultant · Dixhitalizim CRM & Workflow
+
 **Royal Business Club GmbH** · Zvicër · Remote · Me kohë të pjesshme · 01/2020 – 03/2022
 
-Konceptimi i një Setup-i CRM dhe Workflow për dixhitalizimin e proceseve qendrore të biznesit në fushën e investimit / Private Equity-t; drejtim teknik i një ekipi Delivery prej tre zhvilluesish; koordinim i stakeholder-ëve, i prioriteteve dhe i cilësisë së zbatimit.
+- Konceptimi i një CRM dhe workflow setup për dixhitalizimin e proceseve qendrore të biznesit në fushën investment/private equity.
+- Drejtim teknik i një delivery team me tre zhvillues.
+- Përkthim i kërkesave funksionale në struktura teknike të zgjidhjes.
+- Koordinim i stakeholder-ëve, prioriteteve dhe cilësisë së implementimit.
 
 ---
 
-## Përvoja sipërmarrëse
+## Përvoja Sipërmarrëse
 
 ### Themelues
+
 **EMPICE-IT** · 09/2006 – 09/2012
 
-Ndërtimi dhe drejtimi i një agjencie të zhvillimit të softuerit dhe të Managed-Hosting-ut për ndërmarrjet lokale; përgjegjësi për fitimin e klientëve, konceptimin teknik, zhvillimin e softuerit, operimin e serverëve Linux, Hosting dhe mbështetje.
+Ndërtimi dhe operimi i një agjencie software development dhe managed hosting për biznese lokale.
+
+Përgjegjësi për të gjithë lifecycle të zgjidhjeve të klientëve: acquisition, requirements analysis, technical conception, software development, administrim serverësh Linux, hosting, operations dhe support. Kjo përvojë vazhdon të jetë baza e një këndvështrimi gjithëpërfshirës mbi sistemet IT përtej development, architecture, operations dhe kërkesave të klientit.
 
 ---
 
-## Mësimdhënia dhe transferimi i dijes
+## Mësimdhënie & Transferim i Dijes
 
 ### Pedagog për Java dhe AI Automation
-**Volkshochschule Leer** · me kohë të pjesshme · 08/2024 – aktualisht
 
-Mësimdhënie e bazave të Java-s, e njohurive të avancuara në Java dhe e qasjeve praktike ndaj automatizimit të mbështetur nga AI për të rritur me nivele të ndryshme njohurish paraprake. Shembuj praktikë me mjete moderne LLM si ChatGPT dhe Claude.
+**Volkshochschule Leer** · Me kohë të pjesshme · 08/2024 – aktualisht
+
+Mësimdhënie e bazave të Java, temave të avancuara Java dhe qasjeve praktike për automatizim të mbështetur nga AI për të rritur me nivele të ndryshme njohurish paraprake.
+
+Fokusi është te strukturimi i kuptueshëm i temave komplekse teknike, transferimi i tyre në situata konkrete përdorimi dhe përdorimi praktik i mjeteve moderne LLM si ChatGPT dhe Claude.
 
 ---
 
-## Arsimimi
+## Sfondi Teknologjik
+
+**Gjuhë & Frameworks:** Java 21 · Spring Boot · Quarkus · Apache Wicket
+
+**Arkitekturë & Integrim:** REST APIs · Microservices · API Design · Domain-Driven Design · Hexagonal Architecture · Event-Driven Architecture · Resilience Patterns
+
+**Data & Workflow:** Oracle · MySQL · MarkLogic · Camunda
+
+**Platform & DevOps:** Linux · Bash · GitLab CI/CD · Docker · Kubernetes · AWS · Maven · NGINX · Tomcat
+
+**Quality & Observability:** Grafana · SonarQube · CI/CD Quality Gates · Logging · Monitoring · Metrikat DORA
+
+**Security:** Secure Coding i orientuar nga OWASP · DevSecOps · Secure SDLC · Mjedis certifikimi ISO 27001
+
+---
+
+## Arsimi
 
 ### Bachelor of Science (B.Sc.) në Informatikë
+
 **Hochschule Emden/Leer** · 09/2006 – 09/2011
 
-Punimi i diplomës: *Vlerësim i Framework-ut Apache Wicket*
+Punimi i diplomës: *Evaluation of the Apache Wicket Framework*
 
 ---
 
-## Trajnime dhe certifikata
+## Trajnime & Certifikata
 
-| Data    | Certifikata                                    | Ofruesi                                   |
-|---------|------------------------------------------------|-------------------------------------------|
-| 04/2026 | Scrum Master: Online Specialization            | Coursera / LearnQuest                     |
-| 01/2026 | Digital Product Management                     | University of Virginia Darden / Coursera  |
-| 01/2026 | Siemens Cybersecurity Training 2026            | Siemens                                   |
-| 10/2025 | E drejta e punës për drejtuesit                | Tannenfelde                               |
-| 10/2024 | Amazon Web Services: Architecture              | LinkedIn Learning                         |
-| 07/2024 | License to Lead                                | IU Group                                  |
-| 05/2024 | Delegation & Accountability                    | LinkedIn Learning                         |
-| 05/2024 | Conflict Management & Difficult Conversations  | LinkedIn Learning                         |
-| 03/2023 | AGG (ligji kundër diskriminimit) për drejtuesit| Haufe Akademie                            |
-| 11/2022 | Agile Project Leadership                       | LinkedIn Learning                         |
-
----
-
-## Portfolio
-
-**Engineering Leadership Portfolio** — [github.com/empishaj/emiliano-pishaj-portfolio](https://github.com/empishaj/emiliano-pishaj-portfolio)
-
-Tekste profesionale për tema të Engineering Leadership-it (ndër të tjera, metrikat DORA si instrument qeverisjeje, Ownership si gjendje sistemi, një vështrim strategjik mbi Java-n); shkrime reflektuese mbi lidhjen ndërmjet të menduarit Sociotechnical-Systems dhe kulturës inxhinierike.
+| Data | Certifikata / Trajnimi | Ofruesi |
+|---|---|---|
+| 04/2026 | Scrum Master: Online Specialization | Coursera / LearnQuest |
+| 01/2026 | Digital Product Management | University of Virginia Darden / Coursera |
+| 01/2026 | Siemens Cybersecurity Training 2026 | Siemens |
+| 10/2025 | E drejta e punës për drejtuesit | Tannenfelde |
+| 10/2024 | Amazon Web Services: Architecture | LinkedIn Learning |
+| 07/2024 | License to Lead | IU Group |
+| 05/2024 | Delegation & Accountability | LinkedIn Learning |
+| 05/2024 | Conflict Management & Difficult Conversations | LinkedIn Learning |
+| 03/2023 | AGG për drejtuesit | Haufe Akademie |
+| 11/2022 | Agile Project Leadership | LinkedIn Learning |
 
 ---
 
-🌐 **Gjuhë të tjera:** [Deutsch](./README.de.md) · [English (UK)](./README.en.md)
+## Portfolio & Zhvillim Profesional
+
+**Enterprise Architecture · Engineering Leadership · Java Engineering**  
+[github.com/empishaj/emiliano-pishaj-portfolio](https://github.com/empishaj/emiliano-pishaj-portfolio)
+
+Portfolio dokumenton zhvillimin profesional nga ekspertiza e thellë në software dhe Java, përmes Engineering Leadership, drejt Enterprise Architecture. Ai përmban punime teknike dhe metodike, ndër të tjera, për:
+
+- Enterprise Architecture dhe TOGAF/ADM
+- Vendime arkitekturore dhe ADRs
+- Arkitekturë softueri, integrimi dhe platformash
+- REST APIs dhe Event-Driven Architecture
+- Domain-Driven Design dhe Hexagonal Architecture
+- Security, DevSecOps dhe Observability
+- CI/CD, Delivery Governance dhe cilësi teknike
+- Engineering Leadership, zhvillim organizativ dhe procese vendimmarrjeje
+
+Fokusi është te lidhja ndërmjet **misionit funksional, arkitekturës teknike, governance, operueshmërisë dhe transformimit të zbatueshëm** — veçanërisht për organizata komplekse dhe sektorin publik.
+
+---
+
+🌐 **Gjuhë të tjera:** [Deutsch](./cv-de.md) · [English (UK)](./cv-en.md)

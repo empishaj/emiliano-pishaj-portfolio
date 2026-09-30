@@ -3,12 +3,12 @@ id: AK-052
 legacy_ids:
   - ADR-052
 title: Immutability, Invarianten und defensive Grenzen
-artifact_type: engineering-principle
+artifact_type: architecture-principle
 domain: software-design
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-09-30
 technology_baseline:
   java: "21+"
 review_trigger:
@@ -262,6 +262,6 @@ Versteckt fachliche Regeln und erlaubt ungültige Zustandsübergänge.
 - AK-033 — Concurrency und Thread Safety
 - AK-001 — Records als Datenträger
 
-## 15. Coach-Merksatz
+## 15. Merksatz
 
 > Das Ziel ist nicht „immutable um jeden Preis“. Das Ziel ist, dass **Ownership, erlaubte Zustandsänderungen und Invarianten im Modell so klar sind, dass falsche Zustände schwer entstehen können**.

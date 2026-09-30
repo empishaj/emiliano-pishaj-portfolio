@@ -15,30 +15,29 @@ Legende:
 - [x] Branch für Überarbeitung angelegt
 - [x] Hauptstruktur des Ordners erfasst
 - [x] `README.md` geprüft
-- [x] `00_governance/ARTIFACT-MODEL.md` geprüft
-- [~] alle Dateien in `00_governance` prüfen
-- [~] alle Dateien in `01_principles` prüfen
-- [~] alle Dateien in `02_decision-guides` prüfen
-- [~] alle Dateien in `03_standards` prüfen
-- [~] alle Dateien in `04_reference-architectures` prüfen
-- [~] alle Dateien in `05_operating-guides` prüfen
-- [~] alle Dateien in `06_operating-models` prüfen
-- [~] alle Dateien in `07_learning-guides` prüfen
-- [ ] alle historischen `QG-JAVA-*` vollständig prüfen
-- [ ] kompletten `v2/`-Bestand prüfen
-- [ ] Dublettenmatrix fertigstellen
-- [ ] Tone-of-Voice-Fundstellen vollständig erfassen
-- [ ] interne Links / Cross-References prüfen
+- [x] alle Dateien in `00_governance` geprüft
+- [x] alle Dateien in `01_principles` geprüft
+- [x] alle Dateien in `02_decision-guides` geprüft
+- [x] alle Dateien in `03_standards` geprüft
+- [x] alle Dateien in `04_reference-architectures` geprüft
+- [x] alle Dateien in `05_operating-guides` geprüft
+- [x] alle Dateien in `06_operating-models` geprüft
+- [x] alle Dateien in `07_learning-guides` geprüft
+- [x] alle historischen `QG-JAVA-*` geprüft
+- [x] kompletten `v2/`-Bestand geprüft
+- [x] Dubletten- und Rewrite-Matrix erstellt
+- [x] Tone-of-Voice-Muster identifiziert
+- [~] interne Links / Cross-References bereinigen
 
 ## AP2 — Zielstruktur
 
 - [x] Artefakttypen als Ausgangsbasis identifiziert
-- [ ] endgültige Verzeichnisstruktur festlegen
-- [ ] Regeln für Knowledge-IDs festlegen
-- [ ] Regeln für echte ADR-IDs festlegen
-- [ ] Engineering-Guidelines als eigene Kategorie prüfen
-- [ ] Policy vs. Standard verbindlich abgrenzen
-- [ ] Regeln für Zusammenführen / Splitten definieren
+- [x] endgültige Verzeichnisstruktur festgelegt
+- [x] `08_engineering-guidelines` als eigene Kategorie festgelegt
+- [x] Knowledge-ID `AK-*` und echte ADR-ID getrennt
+- [x] keine künstlichen Portfolio-ADRs
+- [x] Grundregel für Zusammenführen / Splitten definiert
+- [~] Policy vs. Standard im Artifact Model noch präzisieren
 
 ## AP3 — Governance und Schreibstandard
 
@@ -46,47 +45,49 @@ Legende:
 - [ ] Artifact Model final überarbeiten
 - [ ] Validation Policy final überarbeiten
 - [ ] ADR Lifecycle/Template final überarbeiten
-- [ ] Metadatenstandard festlegen
-- [ ] Schreibstilregel aufnehmen: keine `Coach-*`-Labels
-- [ ] `Coach-Perspektive` ersetzen
-- [ ] `Coach-Merksatz` durch `Merksatz` ersetzen
-- [ ] `Coach-Prüfung` durch `Prüfung`/`Prüffragen` ersetzen
+- [ ] Metadatenstandard final vereinheitlichen
+- [x] Schreibstilregel: keine `Coach-*`-Labels
+- [~] `Coach-Perspektive` ersetzen
+- [~] `Coach-Merksatz` durch `Merksatz` ersetzen
+- [~] `Coach-Prüfung` durch `Prüfung`/`Prüffragen` ersetzen
+- [~] `Coach-Ziel` neutral umbenennen
 
 ## AP4 — Konsolidierung der drei Generationen
 
-- [ ] Mapping `QG-JAVA-*` → `AK-*` → `v2/*` vollständig erstellen
-- [ ] je Thema kanonische Fassung festlegen
-- [ ] Redundanzen entfernen
-- [ ] Legacy-IDs erhalten, wo sinnvoll
-- [ ] überflüssiges `v2/` nach Migration entfernen
-- [ ] historische Flat-Files nach Migration entfernen/archivieren
+- [x] Mapping `QG-JAVA-*` → `AK-*` → `v2/*` erstellt
+- [x] `v2/` vollständig geprüft
+- [x] relevante v2-Inhalte `001–005` übernommen
+- [x] `v2/` entfernt
+- [~] je Legacy-Thema kanonische Fassung umsetzen
+- [~] redundante Flat-Files entfernen
+- [~] Legacy-Querverweise auf `QG-JAVA-*` bereinigen
+- [~] Verweise auf fehlendes `QG-JAVA-006` entfernen/ersetzen
 
 ## AP5 — Fachliche Validierung
 
-- [ ] Java/JVM
-- [ ] Testing
-- [ ] Application Security
-- [ ] REST/OpenAPI
-- [ ] AsyncAPI/Eventing/Kafka
-- [ ] OAuth2/OIDC/JWT
-- [ ] Datenbank/JPA/PostgreSQL/Flyway
-- [ ] Docker/Kubernetes/GitOps/IaC
-- [ ] Observability/SLO/Incident
-- [ ] Supply Chain/DevSecOps
-- [ ] Privacy/Data Governance
-- [ ] AI/LLM
+- [x] Java/JVM für AK-001 bis AK-005
+- [~] Testing
+- [~] Application Security
+- [~] REST/OpenAPI
+- [~] AsyncAPI/Eventing/Kafka
+- [x] OAuth2/OIDC/JWT im kanonischen Decision Guide bereits bereinigt
+- [~] Datenbank/JPA/PostgreSQL/Flyway
+- [~] Docker/Kubernetes/GitOps/IaC
+- [~] Observability/SLO/Incident
+- [~] Supply Chain/DevSecOps
+- [~] Privacy/Data Governance
+- [~] AI/LLM
 
 ## AP6 — Neufassung
 
-- [ ] Principles
-- [ ] Decision Guides
-- [ ] Standards/Policies
-- [ ] Reference Architectures
-- [ ] Engineering Guidelines
-- [ ] Operating Guides
-- [ ] Operating Models
-- [ ] Learning Guides
-- [ ] echte ADR-Beispiele nur falls sinnvoll und klar als Beispiel markiert
+- [~] Principles — vorhandene Basis gut, Stilbereinigung offen
+- [~] Decision Guides — vorhandene Basis gut, Stilbereinigung offen
+- [~] Standards/Policies — vorhandene Basis gut, Präzisierung offen
+- [~] Reference Architectures — vorhandene Basis gut
+- [~] Engineering Guidelines — AK-001 bis AK-005 erstellt; weitere offen
+- [~] Operating Guides — Basis vorhanden; Chaos Engineering offen
+- [~] Operating Models — Basis vorhanden; Tonbereinigung offen
+- [~] Learning Guides — Basis vorhanden; Code Smells/Java Patterns offen
 
 ## AP7 — Navigation
 
@@ -101,11 +102,11 @@ Legende:
 
 ## AP8 — Löschen / Archivieren
 
-- [ ] redundante Flat-Files löschen
-- [ ] redundante `v2/`-Dateien löschen
-- [ ] veraltete Migrationsartefakte entfernen
+- [~] redundante Flat-Files löschen
+- [x] redundante `v2/`-Dateien gelöscht
+- [ ] veraltete Migrationsartefakte am Ende entfernen
 - [ ] leere / irrelevante Dateien entfernen
-- [ ] keine wichtige Aussage unbeabsichtigt verlieren
+- [~] keine wichtige Aussage unbeabsichtigt verlieren
 
 ## AP9 — Gesamtprüfung
 

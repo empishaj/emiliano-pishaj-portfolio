@@ -8,22 +8,21 @@ domain: java-runtime
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-09-30
 technology_baseline:
   java: "21+; Virtual Threads final since JEP 444"
 review_trigger:
   - JDK-Major-Wechsel mit relevanten Loom-/Concurrency-Änderungen
+  - Änderung des Lastprofils oder der Downstream-Kapazität
 ---
 
 # AK-004 — Virtual Threads richtig entscheiden
 
 ## 1. Was Virtual Threads lösen
 
-Virtual Threads sind seit Java 21 als finales Feature verfügbar.
+Virtual Threads sind seit Java 21 final. Sie reduzieren die Kosten, viele blockierende Tasks mit einem Thread-per-request- beziehungsweise Thread-per-task-Modell auszuführen.
 
-Sie reduzieren die Kosten, große Mengen blockierender Tasks mit einem thread-per-request-or-task-Programmiermodell auszuführen.
-
-Sie ändern damit vor allem die **Skalierbarkeit von Thread-Ressourcen**.
+Sie verbessern damit vor allem die Skalierbarkeit threadgebundener I/O-Concurrency.
 
 Sie lösen nicht automatisch:
 
@@ -32,7 +31,7 @@ Sie lösen nicht automatisch:
 - Datenbankpool-Limits,
 - externe API-Kapazität,
 - CPU-bound Workloads,
-- Backpressure.
+- Backpressure oder Admission Control.
 
 ## 2. Gute Kandidaten
 
@@ -40,89 +39,97 @@ Virtual Threads sind besonders interessant bei:
 
 - vielen gleichzeitig wartenden I/O-Operationen,
 - klassischem blocking JDBC,
-- HTTP-Aufrufen,
+- synchronen HTTP-Aufrufen,
 - Thread-per-request-Code,
 - hoher Concurrent-Request-Zahl bei moderater CPU-Arbeit.
 
-## 3. Schlechte Erwartung
+## 3. Die eigentliche Entscheidungsfrage
 
-> „Mit Virtual Threads brauchen wir keine Ressourcenlimits mehr.“
+Nicht:
 
-Falsch.
+> Wie viele Threads können wir starten?
 
-Wenn 50.000 Virtual Threads gleichzeitig auf eine Datenbank mit 50 Connections zugreifen, bleibt die Datenbank der Engpass.
+Sondern:
 
-Daraus folgt:
+> Welche Ressource limitiert den tatsächlichen Durchsatz und wird der Platform Thread dabei selbst zum unnötigen Engpass?
+
+Beispiel:
 
 ```text
-billige Threads
-≠
-unbegrenzte Downstream-Kapazität
+50.000 Virtual Threads
+        ↓
+50 DB Connections
+        ↓
+Datenbankkapazität bleibt die Grenze
 ```
+
+Billige Threads bedeuten keine unbegrenzte Downstream-Kapazität.
 
 ## 4. CPU-bound Arbeit
 
-Für CPU-intensive Arbeit bestimmt weiterhin CPU-Kapazität den Durchsatz.
+Für CPU-intensive Arbeit bestimmen weiterhin CPU-Kerne und Scheduling den Durchsatz. Mehr Virtual Threads erzeugen keine zusätzliche Rechenkapazität.
 
-Mehr Virtual Threads erzeugen keine zusätzlichen Kerne.
+Bei CPU-lastigen Workloads sind begrenzte Parallelitätsmodelle häufig sinnvoller.
 
-Prüfen:
+## 5. Ressourcen und Admission Control
 
-- CPU-Auslastung,
-- Queueing,
-- Thread/Task-Zahl,
-- Latenz unter Last.
+Auch mit Virtual Threads bleiben notwendig:
 
-## 5. Backpressure / Admission Control
-
-Virtual Threads machen es leicht, sehr viele Tasks zu starten.
-
-Genau deshalb braucht die Architektur weiterhin:
-
-- Rate Limiting,
-- Semaphores/Bulkheads,
+- Timeouts,
 - Connection-Pool-Limits,
-- Queue-Bounds,
-- Timeouts.
+- Rate Limits,
+- Semaphores oder Bulkheads,
+- begrenzte Queues,
+- Backpressure, wo das Kommunikationsmodell sie benötigt.
 
-## 6. Pinning und Runtime-Verhalten
+Die Begrenzung schützt die knappe Ressource, nicht die Existenz virtueller Threads.
 
-Bei Implementierung müssen JDK-spezifische Hinweise zu Pinning beziehungsweise blocking inside certain synchronized/native regions gegen die verwendete Java-Version geprüft werden.
+## 6. Pinning versionsbezogen betrachten
 
-Nicht historische Warnungen blind fortschreiben; Loom-Verhalten entwickelt sich mit JDK-Versionen weiter.
+Historische Virtual-Thread-Empfehlungen enthalten häufig pauschale Warnungen zu `synchronized` und Pinning. Diese Aussagen dürfen nicht ohne JDK-Bezug übernommen werden.
+
+JEP 444 beschreibt die Java-21-Baseline. Spätere OpenJDK-Arbeiten, insbesondere JEP 491, verändern das Pinning-Verhalten weiter. Bei Performanceanalysen gilt deshalb immer die tatsächlich eingesetzte JDK-Version.
+
+Die dauerhafte Regel lautet:
+
+> Runtime-Verhalten messen und gegen die verwendete JDK-Version prüfen, statt alte Loom-Heuristiken fortzuschreiben.
 
 ## 7. Entscheidungsschritte
 
-1. Workloadprofil messen: CPU vs I/O.
-2. Concurrent Requests/Tasks verstehen.
-3. Downstream-Budgets bestimmen.
-4. bestehenden Threadpool-/Reactive-Code analysieren.
-5. repräsentativen Lasttest erstellen.
-6. Virtual-Thread-Variante vergleichen.
-7. CPU, Memory, Pool Saturation, P95/P99 beobachten.
-8. erst dann Standardisieren.
+1. Workloadprofil bestimmen: CPU, I/O und Blocking-Anteil.
+2. Gleichzeitige Requests beziehungsweise Tasks messen.
+3. Knappe Downstream-Ressourcen und deren Budgets bestimmen.
+4. Bestehendes Threadpool- oder Reactive-Modell verstehen.
+5. Repräsentativen Lasttest aufbauen.
+6. Virtual-Thread-Variante unter derselben Last vergleichen.
+7. CPU, Memory, Pool Saturation, Queueing sowie P95/P99 beobachten.
+8. Entscheidung und Grenzen dokumentieren.
 
-## 8. Virtual Threads vs. Reactive
+## 8. Virtual Threads und Reactive Programming
 
-Virtual Threads vereinfachen viele blocking I/O-Anwendungen.
+Virtual Threads können viele klassische blocking I/O-Anwendungen deutlich vereinfachen.
 
-Reactive Programming bleibt sinnvoll bei Anforderungen wie:
+Reactive Programming bleibt eine eigene Option, etwa wenn durchgängige Stream-Verarbeitung, explizite Backpressure oder ein nicht-blockierendes Ökosystem Teil der eigentlichen Anforderung sind.
 
-- durchgängige Stream-Verarbeitung,
-- explizite Backpressure,
-- nicht-blockierende APIs/Ökosysteme,
-- sehr spezifische Streamingmodelle.
+Die Wahl ist kein Reifegradvergleich. Sie hängt vom Verarbeitungsmodell ab.
 
-Siehe AK-091.
+## 9. Reviewfragen
 
-## 9. Quellen
+1. Ist der Workload überwiegend I/O- oder CPU-bound?
+2. Welche Ressource begrenzt die Kapazität tatsächlich?
+3. Welche Downstreams brauchen Concurrency Limits?
+4. Welche messbare Verbesserung erwarten wir?
+5. Welche JDK-Version läuft produktiv?
+6. Welche Messung bestätigt die Entscheidung vor und nach der Änderung?
 
-- JEP 444 — Virtual Threads  
-  https://openjdk.org/jeps/444
-- Java Concurrency Documentation
+## Merksatz
+
+> Virtual Threads machen Warten billiger. Sie machen externe Systeme nicht unendlich schnell und parallelen Code nicht automatisch korrekt.
+
+## Quellen
+
+- JEP 444 — Virtual Threads: https://openjdk.org/jeps/444
+- JEP 491 — Synchronize Virtual Threads without Pinning: https://openjdk.org/jeps/491
+- Java SE Thread API: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html
 - AK-033 — Thread Safety
 - AK-091 — Reactive Architecture
-
-## 10. Coach-Merksatz
-
-> Virtual Threads machen **Warten billiger**, nicht externe Systeme unendlich schnell und nicht parallelen Code automatisch korrekt.

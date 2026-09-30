@@ -4,7 +4,7 @@
 
 Ein ADR entsteht nur, wenn eine **konkrete Entscheidung** im konkreten Kontext getroffen werden muss.
 
-Coach-Prüfung:
+Prüffragen:
 
 1. Was muss entschieden werden?
 2. Warum jetzt?
@@ -214,7 +214,7 @@ Für viele Entscheidungen ist eine qualitative Trade-off-Matrix ehrlicher:
 ?  Evidenz fehlt
 ```
 
-Die Kategorie `?` ist wichtig. Ein Enterprise Architect darf Unsicherheit sichtbar machen.
+Die Kategorie `?` ist wichtig. Unsicherheit darf sichtbar bleiben, solange sie bewusst behandelt wird.
 
 ## 6. Ausnahme-ADR
 
@@ -231,8 +231,8 @@ Eine Ausnahme muss mindestens enthalten:
 - Ablaufdatum,
 - Exit-/Migrationsplan.
 
-## 7. Coach-Regel
+## 7. Regel
 
-Ein professioneller ADR beweist nicht, dass der Architekt die Antwort schon vorher wusste.
+Ein professioneller ADR beweist nicht, dass die Antwort schon vor der Analyse feststand.
 
-Er beweist, dass die Organisation **eine relevante Frage transparent, vergleichbar und nachvollziehbar entscheiden konnte**.
+Er zeigt, dass eine relevante Frage transparent, vergleichbar und nachvollziehbar entschieden wurde.

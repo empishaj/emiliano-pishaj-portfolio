@@ -3,12 +3,12 @@ id: AK-026
 legacy_ids:
   - QG-JAVA-026
 title: Einfachheit, DRY, YAGNI und geringe Wissenskopplung
-artifact_type: engineering-principle
+artifact_type: architecture-principle
 domain: software-design
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-09-30
 review_trigger:
   - grundlegende Änderung der Designprinzipien
 ---
@@ -54,7 +54,7 @@ Prüffragen:
 - Ist der Daten- und Kontrollfluss nachvollziehbar?
 - Wird Komplexität nur verschoben?
 
-### Coach-Beispiel
+### Beispiel
 
 Wenn drei statische Konfigurationswerte benötigt werden, ist ein selbstgebautes Plugin-/Registry-System wahrscheinlich zu groß.
 
@@ -210,6 +210,6 @@ Zu oberflächlich. Es geht um Wissens- und Strukturkopplung.
 - AK-025 — SOLID als Designheuristik
 - AK-084 — Kopplung und Kohäsion
 
-## 11. Coach-Merksatz
+## 11. Merksatz
 
 > Einfachheit ist nicht das Weglassen notwendiger Architektur. Einfachheit ist das konsequente Entfernen von **Komplexität, für die es im aktuellen Kontext keinen belastbaren Treiber gibt**.

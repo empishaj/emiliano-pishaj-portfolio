@@ -2,89 +2,106 @@
 
 ## 1. Ziel
 
-Das Compendium braucht eine klare semantische Trennung zwischen **Wissen**, **Vorgabe**, **Muster**, **Betriebsprozess** und **Entscheidung**. Ohne diese Trennung entsteht ein falscher Eindruck: Ein allgemeiner Artikel über Kafka, GraphQL oder PostgreSQL wäre dann scheinbar dieselbe Art Artefakt wie eine konkrete Entscheidung „System X nutzt Kafka für Ereignis Y“. Das ist fachlich nicht korrekt.
+Das Compendium trennt **Wissen**, **Vorgaben**, **Muster**, **Betriebsprozesse** und **konkrete Entscheidungen** bewusst voneinander. Ohne diese Trennung würde ein allgemeiner Artikel über Kafka, OAuth2 oder PostgreSQL denselben Status erhalten wie eine konkrete Entscheidung für ein bestimmtes System. Das wäre fachlich falsch.
 
-Das neue Modell verwendet deshalb einen stabilen Knowledge-Identifier `AK-xxx` und einen davon unabhängigen Artefakttyp.
+Alle wiederverwendbaren Wissensartefakte verwenden deshalb eine stabile Knowledge-ID `AK-xxx`. Echte Architecture Decision Records besitzen einen eigenen ADR-Namensraum.
 
 ## 2. Artefakttypen
 
 ### 2.1 Architecture Principle
 
-Ein Principle ist langlebig und technologiearm. Es beschreibt eine gewünschte Eigenschaft der Architektur oder Entscheidungsarbeit.
+Ein Principle ist langlebig und technologiearm. Es beschreibt eine gewünschte Eigenschaft von Architektur oder Entscheidungsarbeit.
 
 Beispiele:
 
 - Entscheidungen folgen Qualitätszielen, nicht Technologiepräferenzen.
 - Datenhoheit muss explizit sein.
 - Security und Betriebsfähigkeit werden im Zielbild berücksichtigt.
-- Bevor verteilte Komplexität eingeführt wird, muss ihr Treiber nachgewiesen werden.
+- Verteilte Komplexität braucht einen nachweisbaren Treiber.
 
-Ein Principle enthält **keine** konkrete Produktentscheidung.
+Ein Principle enthält keine konkrete Produktentscheidung.
 
 ### 2.2 Decision Guide
 
-Ein Decision Guide hilft bei einer wiederkehrenden, kontextabhängigen Entscheidung.
+Ein Decision Guide unterstützt eine wiederkehrende, kontextabhängige Architekturentscheidung.
 
 Beispiele:
 
 - Modulith oder Microservices?
-- REST, gRPC oder Events?
-- Read Replica, Cache, Suchindex oder CQRS-Projektion?
-- Virtual Threads oder reaktive Verarbeitung?
-- Partitionierung oder Sharding?
+- synchrone API oder Eventing?
+- Read Replica, Cache oder Suchindex?
+- CQRS oder gemeinsames Read-/Write-Modell?
 
 Pflichtinhalt:
 
-1. Problemklasse.
-2. Entscheidungstreiber.
-3. realistische Optionen.
-4. Eignung und Nicht-Eignung.
-5. Trade-offs.
-6. Mess- und Evidenzbedarf.
-7. typische Fehlentscheidungen.
+1. Problemklasse,
+2. Entscheidungstreiber,
+3. realistische Optionen,
+4. Eignung und Nicht-Eignung,
+5. Trade-offs,
+6. Mess- und Evidenzbedarf,
+7. typische Fehlentscheidungen,
 8. Fragen, die vor einer echten Entscheidung beantwortet werden müssen.
 
-Ein Decision Guide trifft **keine Entscheidung für ein konkretes System**.
+Ein Decision Guide trifft keine Entscheidung für ein konkretes System.
 
 ### 2.3 Architecture Standard
 
-Ein Standard ist normativ. Er beschreibt, was innerhalb eines definierten Geltungsbereichs **MUSS**, **SOLLTE** oder **DARF NICHT** gelten.
+Ein Standard ist normativ und technisch oder architektonisch konkret. Er beschreibt, was innerhalb eines definierten Geltungsbereichs gelten muss oder sollte.
 
 Beispiele:
 
-- API-Verträge werden als OpenAPI gepflegt.
+- API-Verträge werden maschinenlesbar gepflegt.
 - Logs enthalten definierte Korrelationsfelder.
-- Secrets werden nicht im Repository gespeichert.
-- Event-Verträge haben Owner und Versionierungsregeln.
+- Secrets liegen nicht im Repository.
+- Event-Verträge besitzen Owner und Evolutionsregeln.
 
-Jeder Standard braucht:
+Ein Standard braucht mindestens:
 
-- Geltungsbereich,
+- Zweck und Geltungsbereich,
 - normative Regeln,
-- Rationale,
+- Begründung,
 - Verifikationsmechanismus,
-- Ausnahmeprozess,
+- Ausnahmeweg,
 - Verantwortlichkeit,
 - Review-Trigger.
 
 ### 2.4 Policy
 
-Eine Policy definiert Governance- oder Risikoregeln oberhalb einzelner Implementierungen.
+Eine Policy legt organisatorische oder risikobezogene Leitplanken fest. Sie beantwortet primär:
+
+> Wer darf was unter welchen Bedingungen und mit welcher Verantwortung?
 
 Beispiele:
 
-- API Lifecycle Policy.
-- Data Governance Policy.
-- AI Usage Policy.
+- API Lifecycle Policy,
+- Data Governance Policy,
+- AI Usage Policy,
 - Technology Lifecycle Policy.
 
-Policies beantworten stärker **wer darf was unter welchen Bedingungen** als **wie wird es technisch implementiert**.
+Der Unterschied zum Standard:
+
+- **Policy:** definiert Entscheidungsspielraum, Zuständigkeit und Bedingungen.
+- **Standard:** konkretisiert wiederverwendbare technische oder architektonische Anforderungen innerhalb dieses Rahmens.
+
+Beispiel:
+
+```text
+Policy:
+Externe KI-Dienste dürfen nur für freigegebene Datenklassen verwendet werden.
+
+Standard:
+Freigegebene LLM-Integrationen müssen Provider, Datenflüsse, Telemetrie,
+PII-Schutz und Kostenmessung nach definiertem Schema dokumentieren.
+```
+
+Policy und Standard können im selben Themengebiet existieren, erfüllen aber unterschiedliche Funktionen.
 
 ### 2.5 Reference Architecture
 
-Eine Reference Architecture zeigt eine bewährte, anpassbare Struktur.
+Eine Reference Architecture beschreibt eine bewährte, anpassbare Lösungsstruktur.
 
-Sie enthält:
+Sie enthält typischerweise:
 
 - Kontext und Annahmen,
 - Qualitätsziele,
@@ -96,29 +113,30 @@ Sie enthält:
 - Deployment,
 - Failure Modes,
 - Variationspunkte,
-- Compliance-/Evidence-Punkte.
+- Compliance- und Evidence-Punkte.
 
-Eine Reference Architecture ist **kein Copy-and-Paste-Rezept**.
+Eine Reference Architecture ist kein Copy-and-Paste-Rezept. Verbindlichkeit entsteht erst durch Policy, Standard oder konkrete Entscheidung.
 
 ### 2.6 Engineering Guideline
 
-Eine Engineering Guideline ist implementierungsnah.
+Eine Engineering Guideline ist implementierungsnah und hat einen engeren Scope als ein organisationsweiter Architecture Standard.
 
 Beispiele:
 
-- Records für DTOs.
-- Mockito.
-- JavaDoc.
-- Test Data Builder.
-- MapStruct.
+- Records für Datenträger,
+- Test Doubles mit Mockito,
+- JPA-Zugriffe,
+- Feature Flags,
+- Code Review.
 
 Sie enthält:
 
-- Problem,
+- Problem und Einsatzbereich,
 - gute und schlechte Beispiele,
-- klare Einsatzgrenzen,
+- klare Grenzen,
+- normative Regeln für den definierten Scope,
 - Reviewfragen,
-- automatisierbare Checks,
+- gegebenenfalls automatisierbare Checks,
 - Verweise auf übergeordnete Standards.
 
 ### 2.7 Operating Model
@@ -127,12 +145,11 @@ Ein Operating Model beschreibt Rollen, Entscheidungswege, Routinen und Feedbacks
 
 Beispiele:
 
-- Incident Management.
-- Architecture Decision Process.
-- Technology Radar.
-- FinOps.
-- Code Review.
-- SLO/On-Call.
+- Incident Management,
+- Architecture Decision Process,
+- Technology Radar,
+- FinOps,
+- SLO-/On-Call-Modell.
 
 Ein Operating Model beantwortet insbesondere:
 
@@ -146,35 +163,34 @@ Ein Operating Model beantwortet insbesondere:
 
 ### 2.8 Operating Guide / Runbook
 
-Ein Operating Guide beschreibt konkrete Diagnose- oder Betriebsabläufe.
+Ein Operating Guide beschreibt konkrete Diagnose-, Betriebs- oder Wiederherstellungsabläufe.
 
 Beispiele:
 
-- JFR/Async-Profiler.
-- Docker Host auf Debian.
-- DLQ-Reprocessing.
-- Backup-/Restore-Übung.
+- JFR/Async-Profiler,
+- Docker Host auf Debian,
+- DLQ-Reprocessing,
+- Backup-/Restore-Übung,
+- kontrollierte Chaos-Experimente.
 
-Ein Runbook wird an einem **operativen Ereignis** ausgelöst und ist prozedural.
+Ein Runbook wird meist durch ein operatives Ereignis ausgelöst und ist stärker prozedural als ein Operating Model.
 
 ### 2.9 Learning Guide
 
-Ein Learning Guide erklärt Grundlagen, Modelle oder Synthesen.
-
-Er ist ausdrücklich **nicht normativ** und kein Kompetenznachweis.
+Ein Learning Guide erklärt Grundlagen, Modelle oder Synthesen. Er ist ausdrücklich nicht normativ und kein Kompetenznachweis.
 
 Beispiele:
 
 - Was ist Architektur?
-- Entwurfsmuster.
-- iSAQB-Synthese.
-- OOP-Grundverständnis.
+- Objektorientierung und Verantwortung,
+- Design Patterns,
+- Architektursynthesen.
 
 ### 2.10 Architecture Decision Record
 
-Ein ADR dokumentiert genau **eine konkrete architekturrelevante Entscheidung**.
+Ein ADR dokumentiert genau eine konkrete architekturrelevante Entscheidung.
 
-Ein ADR ist gerechtfertigt, wenn die Entscheidung:
+Ein ADR ist sinnvoll, wenn die Entscheidung:
 
 - Qualitätsziele wesentlich beeinflusst,
 - schwer oder teuer rückgängig zu machen ist,
@@ -182,13 +198,13 @@ Ein ADR ist gerechtfertigt, wenn die Entscheidung:
 - Security, Datenschutz, Betrieb, Datenhoheit, Kosten, Migration oder Lieferfähigkeit verändert,
 - später erklärungsbedürftig sein wird.
 
-Ein ADR ist **nicht**:
+Ein ADR ist nicht:
 
 - ein Tutorial,
 - ein Produktvergleich ohne konkreten Scope,
 - eine Coding Guideline,
 - eine allgemeine Best Practice,
-- ein Architecture Board ausgedacht für ein Portfolio-Dokument.
+- ein fiktiver Board-Beschluss für ein Portfolio.
 
 ## 3. Zwei Identitätsebenen
 
@@ -200,9 +216,9 @@ AK-002
 ...
 ```
 
-Die Knowledge-ID ist dauerhaft. Sie identifiziert das Thema unabhängig davon, ob das Dokument später von Guideline zu Standard oder Decision Guide umklassifiziert wird.
+Die Knowledge-ID identifiziert das Thema dauerhaft, auch wenn sich seine Klassifikation später ändert.
 
-Metadatum:
+Beispiel:
 
 ```yaml
 id: AK-021
@@ -220,7 +236,7 @@ ADR-2026-001
 ADR-2026-002
 ```
 
-Damit wird verhindert, dass eine allgemeine Wissenssammlung mit real getroffenen Projektentscheidungen verwechselt wird.
+Damit werden Wissenssammlung und reale Projektentscheidung nicht miteinander verwechselt.
 
 ## 4. Entscheidungs- und Wissensfluss
 
@@ -244,7 +260,7 @@ Runtime Evidence
 Review / Learning
 ```
 
-Nicht jeder ADR erzeugt einen neuen Standard. Nicht jeder Standard braucht für jedes Projekt einen neuen ADR. Die Beziehungen werden explizit verlinkt.
+Nicht jeder ADR erzeugt einen Standard. Nicht jeder Standard braucht in jedem Projekt einen ADR. Die Beziehungen werden explizit verlinkt.
 
 ## 5. Ziel-Metadaten für Knowledge-Items
 
@@ -272,7 +288,7 @@ supersedes: []
 related: []
 ```
 
-`technology_baseline` ist optional. Ein zeitloses Principle braucht sie nicht.
+`technology_baseline` ist optional. Ein zeitloses Principle benötigt sie nicht.
 
 ## 6. Statusmodell
 
@@ -296,33 +312,49 @@ draft
 → superseded | deprecated
 ```
 
-Ein ADR wird nach `accepted` nicht still inhaltlich auf eine neue Entscheidung umgeschrieben.
+Ein akzeptiertes ADR wird nicht still auf eine neue Entscheidung umgeschrieben. Eine neue Entscheidung erzeugt ein neues ADR und verlinkt den Vorgänger.
 
 ## 7. Normative Sprache
 
-Standards verwenden bewusst:
+Standards und Engineering Guidelines verwenden bewusst:
 
-- **MUSS / DARF NICHT** – verbindlich.
-- **SOLLTE / SOLLTE NICHT** – begründete Standarderwartung, Abweichung erklärbar.
+- **MUSS / DARF NICHT** – verbindlich innerhalb des definierten Scopes.
+- **SOLLTE / SOLLTE NICHT** – begründete Standarderwartung; Abweichung ist erklärbar.
 - **KANN** – zulässige Option.
 - **Beispiel** – nicht normativ.
 
-Decision Guides und Learning Guides vermeiden normative Sprache, solange keine Policy oder kein Standard referenziert wird.
+Decision Guides und Learning Guides vermeiden normative Sprache, solange sie keine bestehende Policy oder keinen Standard wiedergeben.
 
-## 8. Warum dieses Modell besser zum Enterprise-Architecture-Profil passt
+## 8. Merge- und Split-Regeln
 
-Es zeigt nicht nur technische Breite. Es zeigt, dass unterschiedliche Architekturartefakte unterschiedliche Aufgaben erfüllen:
+Mehrere Dokumente werden zusammengeführt, wenn:
 
-```text
-Principle       → Orientierung
-Decision Guide  → Urteilskraft
-ADR             → konkrete Entscheidung
-Standard        → Wiederverwendung
-Reference Arch  → Beschleunigung
-Guideline       → Implementierungsqualität
-Control         → Nachweis
-Operating Model → Verantwortungsfähigkeit
-Review          → Lernen und Evolution
-```
+- sie dieselbe Problemklasse behandeln,
+- ihre Zielgruppen und Entscheidungsebenen identisch sind,
+- getrennte Pflege nur Redundanz erzeugt.
 
-Genau diese Differenzierung trennt eine Wissenssammlung von einem belastbaren Architecture-Governance-System.
+Ein Dokument wird geteilt, wenn:
+
+- es mehrere unabhängige Entscheidungen vermischt,
+- normative und rein erklärende Inhalte nicht mehr sauber getrennt sind,
+- unterschiedliche Owner oder Review-Trigger gelten,
+- ein Teil stark versionsabhängig ist und der andere langlebig bleiben soll.
+
+Dateigröße allein ist weder Merge- noch Split-Kriterium.
+
+## 9. Qualitätsfrage pro Artefakttyp
+
+| Artefakttyp | zentrale Frage |
+|---|---|
+| Principle | Welche langlebige Leitidee soll Entscheidungen orientieren? |
+| Policy | Wer darf was unter welchen Bedingungen? |
+| Decision Guide | Welche Optionen passen zu welchen Treibern? |
+| ADR | Was wurde in diesem konkreten Kontext entschieden und warum? |
+| Standard | Welche wiederverwendbare Regel gilt im definierten Scope? |
+| Reference Architecture | Wie kann eine bewährte Lösungsstruktur aussehen? |
+| Engineering Guideline | Wie setzen Entwickler eine eng umrissene Praxis zuverlässig um? |
+| Operating Model | Wer tut was, wann und mit welchem Feedback? |
+| Operating Guide | Wie wird ein konkreter Betriebsfall ausgeführt? |
+| Learning Guide | Welches Konzept muss verstanden werden? |
+
+Diese Trennung macht aus einer Wissenssammlung ein belastbares Architecture-Governance-System.

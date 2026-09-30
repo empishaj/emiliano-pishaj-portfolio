@@ -8,7 +8,7 @@ domain: software-architecture
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-09-30
 review_trigger:
   - grundlegende Änderung der Modularitäts- oder Architekturstandards
 ---
@@ -256,6 +256,6 @@ Zu viele Grenzen können Verständlichkeit und Performance verschlechtern.
 - AK-085 — Sozio-technische Architektur
 - AK-089 — Strategic DDD
 
-## 13. Coach-Merksatz
+## 13. Merksatz
 
-> Kopplung erkennst du nicht nur daran, wer wen aufruft. Du erkennst sie daran, **welches Wissen, welche Verfügbarkeit, welche Daten und welche Abstimmung eine Änderung über Grenzen hinweg erzwingt**.
+> Kopplung zeigt sich nicht nur daran, wer wen aufruft. Entscheidend ist, **welches Wissen, welche Verfügbarkeit, welche Daten und welche Abstimmung eine Änderung über Grenzen hinweg erzwingt**.

@@ -3,12 +3,12 @@ id: AK-025
 legacy_ids:
   - QG-JAVA-025
 title: SOLID als Diagnose- und Gestaltungsheuristik
-artifact_type: engineering-principle
+artifact_type: architecture-principle
 domain: software-design
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-09-30
 review_trigger:
   - grundlegende Änderung der Design- oder Modularity-Standards
 ---
@@ -246,6 +246,6 @@ Ein Design ist ausreichend SOLID, wenn:
 - AK-026 — Einfachheit, DRY und YAGNI
 - AK-084 — Kopplung, Kohäsion und Information Hiding
 
-## 11. Coach-Merksatz
+## 11. Merksatz
 
-> SOLID ist kein Zielbild aus Interfaces. Es ist ein Satz von Fragen, mit denen du erkennst, **wo Verantwortungen, Verträge und Abhängigkeiten künftige Änderungen unnötig teuer machen**.
+> SOLID ist kein Zielbild aus Interfaces. Es ist ein Satz von Fragen, mit denen erkennbar wird, **wo Verantwortungen, Verträge und Abhängigkeiten künftige Änderungen unnötig teuer machen**.

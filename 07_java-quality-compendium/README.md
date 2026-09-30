@@ -1,94 +1,91 @@
-# Architecture Quality & Governance Compendium
+# Architecture & Engineering Compendium
 
-> Ein technisches Wissens- und Governance-System für Architekturentscheidungen, Standards, Referenzarchitekturen, Engineering-Qualität und Betriebsfähigkeit.
+Dieses Verzeichnis sammelt Architekturwissen, technische Standards und Engineering-Guidelines. Der Schwerpunkt liegt auf Java-basierten Systemen, der Inhalt reicht aber bewusst darüber hinaus: Integration, Security, Daten, Plattform, Betrieb, Governance und Transformation gehören zusammen.
 
-## Warum dieser Bereich neu geordnet wird
+Das Compendium ist **kein Projektarchiv echter Architekturentscheidungen**. Allgemeines Wissen und wiederverwendbare Regeln tragen stabile `AK-*`-IDs. Ein echtes ADR wird nur für eine konkrete Entscheidung in einem konkreten Kontext geschrieben.
 
-Der historische Ordner ist als **Java Quality Compendium** gewachsen. Mit der Zeit kamen jedoch Themen hinzu, die deutlich über Java hinausgehen: DDD, Integration, Datenarchitektur, IAM, Security, Kubernetes, GitOps, Observability, SLOs, FinOps, Platform Engineering, Technology Strategy, Architecture Evaluation, Incident Management und AI.
+## Navigation
 
-Die bisherige Nummerierung ist als Lernchronik wertvoll, aber die Bezeichnung vieler generischer Wissensdokumente als „ADR“ wäre fachlich irreführend. Ein Architecture Decision Record dokumentiert eine **konkrete, architekturrelevante Entscheidung in einem konkreten Kontext**. Ein allgemeiner Leitfaden zu PostgreSQL-Partitionierung, OAuth2, GraphQL oder Testdaten ist dagegen keine bereits getroffene Architekturentscheidung.
+| Bereich | Zweck |
+|---|---|
+| [`00_governance/`](00_governance/) | Artefaktmodell, Entscheidungsprozess, Qualitäts- und Validierungsregeln, Migrationsstatus |
+| [`01_principles/`](01_principles/) | langlebige Architektur- und Gestaltungsprinzipien |
+| [`02_decision-guides/`](02_decision-guides/) | Entscheidungslogik, Optionen und Trade-offs vor einer konkreten Entscheidung |
+| [`03_standards/`](03_standards/) | wiederverwendbare normative Architektur-, Security- und Qualitätsstandards |
+| [`04_reference-architectures/`](04_reference-architectures/) | wiederverwendbare Lösungsbilder und technische Zielstrukturen |
+| `05_engineering-guidelines/` | konkrete Java-, Test- und Implementierungsleitlinien; wird schrittweise aufgebaut |
+| [`06_operating-models/`](06_operating-models/) | Rollen, Decision Rights, Reviews und Governance-Abläufe |
+| `07_operating-guides/` | konkrete Betriebs- und Diagnoseanleitungen; wird aus dem bisherigen Bestand konsolidiert |
+| `08_learning-guides/` | Grundlagen und Synthesen ohne normative Verbindlichkeit |
+| `99_legacy-source/` | temporäres Quellarchiv für noch nicht vollständig migrierte Altinhalte |
 
-Deshalb wird dieser Bereich schrittweise zu einem **Architecture Knowledge System (AKS)** weiterentwickelt.
+## Dokumenttypen
 
-## Das zentrale Modell
+Das führende Modell steht in [`00_governance/ARTIFACT-MODEL.md`](00_governance/ARTIFACT-MODEL.md). Kurz zusammengefasst:
+
+- **Architecture Principle:** langlebige Leitidee.
+- **Decision Guide:** hilft, eine konkrete Entscheidung vorzubereiten.
+- **Architecture Standard / Policy:** verbindliche Regel in definiertem Geltungsbereich.
+- **Reference Architecture:** wiederverwendbares Lösungsbild.
+- **Engineering Guideline:** konkrete technische Umsetzungshilfe.
+- **Operating Model:** Rollen und Arbeitsweise.
+- **Operating Guide / Runbook:** konkrete Betriebsanleitung.
+- **Learning Guide:** erklärt Zusammenhänge ohne Vorgabecharakter.
+- **ADR:** dokumentiert genau eine konkrete architekturrelevante Entscheidung.
+
+## Arbeitsprinzip
+
+Die wichtigste Kette im Compendium ist:
 
 ```text
-Stakeholder / Auftrag / Problem
-            ↓
-      Quality & Constraints
-            ↓
-      Decision Drivers
-            ↓
-        Optionen
-            ↓
-   konkrete Entscheidung
-            ↓
-           ADR
-            ↓
-  Standards / Leitplanken
-            ↓
-Reference Architectures / Golden Paths
-            ↓
- Engineering & Delivery Controls
-            ↓
-     Runtime Evidence
-            ↓
-Review / Learning / Supersession
+Auftrag / Problem
+→ Stakeholder und Concerns
+→ Qualitätsziele und Constraints
+→ Optionen und Trade-offs
+→ konkrete Entscheidung
+→ Standard / Referenzarchitektur
+→ Engineering und Delivery
+→ Evidence im Betrieb
+→ Review und Weiterentwicklung
 ```
 
-Das System trennt künftig:
+Technologien werden nicht als Ziel behandelt. Erst das Problem und die Qualitätsanforderungen bestimmen, welche technische Option sinnvoll ist.
 
-1. **Principles** – langlebige Leitgedanken.
-2. **Decision Guides** – strukturierte Hilfe, um kontextabhängig zwischen Optionen zu entscheiden.
-3. **Standards & Policies** – normative, wiederverwendbare Vorgaben.
-4. **Reference Architectures** – bewährte Ziel- oder Umsetzungsmuster.
-5. **Engineering Guidelines** – konkrete technische Praktiken.
-6. **Operating Models & Runbooks** – Betriebs-, Governance- und Lernprozesse.
-7. **Learning Guides** – didaktische Grundlagen und Synthesen.
-8. **ADRs** – ausschließlich konkrete, echte Architekturentscheidungen mit Scope, Entscheidern und Konsequenzen.
+## Qualität und Quellen
 
-## Governance-Grundsätze
+Technische Aussagen werden bevorzugt gegen Primärquellen geprüft:
 
-- Ein ADR enthält **eine** wesentliche Entscheidung.
-- Kontext wird wertneutral beschrieben; die Lösung wird nicht im Kontext vorweggenommen.
-- Decision Drivers und Bewertungskriterien werden **vor** der Entscheidung sichtbar gemacht.
-- Optionen werden fair dargestellt, einschließlich konservativer oder „nichts ändern“-Optionen, wenn sie realistisch sind.
-- Negative Konsequenzen und neue Pflichten gehören ausdrücklich in die Entscheidung.
-- Akzeptierte ADRs werden nicht still umgeschrieben. Änderungen erfolgen durch neue Entscheidungen und `supersedes`/`superseded-by`.
-- Generische Standards erhalten keine erfundenen „Entscheider“ oder „Architecture Board“-Freigaben.
-- Zeitabhängige Fakten wie Toolversionen, Preise, Performancewerte und Produkt-APIs werden als **Baseline** mit Validierungsdatum geführt.
-- Zahlenwerte sind nur dann normative Schwellenwerte, wenn sie aus Anforderungen, Messungen oder formalen Policies abgeleitet sind.
-- Architekturqualität muss soweit sinnvoll durch Tests, Fitness Functions, Policy Checks, SLOs oder andere Evidence überprüfbar werden.
-- Abweichungen von Standards werden transparent als befristete Ausnahmeentscheidungen behandelt.
+1. Norm, RFC, JEP oder offizielle Spezifikation,
+2. offizielle Projekt- oder Herstellerdokumentation,
+3. etablierte Security-/Operations-Quellen wie OWASP, BSI, NIST oder Google SRE,
+4. Fachliteratur,
+5. Communityquellen nur ergänzend.
 
-## Übergang
+Heuristiken bleiben als Heuristiken gekennzeichnet. Es gibt keine organisationsweiten Magic Numbers für Coverage, Mutation Score, P95, Threadzahlen, Datenmengen oder ähnliche Werte ohne konkreten Anforderungskontext.
 
-Die bestehenden `QG-JAVA-*`-Dateien bleiben während der Migration erhalten. Der neue Governance-Bereich unter `00_governance/` definiert das Zielmodell. Der Migrationskatalog ordnet jeden historischen Eintrag einem geeigneten Artefakttyp zu und dokumentiert den notwendigen Validierungsgrad.
+## Sprache
 
-Die historischen IDs bleiben als `legacy_id` erhalten, damit Querverweise nachvollziehbar bleiben. Neue Knowledge-Items erhalten langfristig stabile `AK-xxx`-IDs. Echte Projektentscheidungen erhalten eigene ADR-IDs und werden nicht mit Wissensartikeln vermischt.
+Die Texte sind bewusst direkt gehalten. Fachbegriffe werden verwendet, wenn sie Präzision schaffen. Merksätze fassen einen Gedanken zusammen, ersetzen aber keine Begründung. Künstliche Rollen- oder Kompetenzinszenierung gehört nicht in das Compendium.
 
-## Verbindliche Grundlagen
+## Migration
+
+Der Bestand wird aktuell konsolidiert. Der Fortschritt ist nachvollziehbar in:
+
+- [`00_governance/REVIEW-NOTES.md`](00_governance/REVIEW-NOTES.md)
+- [`00_governance/REWORK-PLAN.md`](00_governance/REWORK-PLAN.md)
+- [`00_governance/REWORK-CHECKLIST.md`](00_governance/REWORK-CHECKLIST.md)
+- [`00_governance/MIGRATION-CATALOG.md`](00_governance/MIGRATION-CATALOG.md)
+
+Legacy-Dateien werden erst entfernt, wenn ihr Inhalt übernommen, fachlich verworfen oder bewusst durch ein besseres Artefakt ersetzt wurde.
+
+## Methodische Basis
 
 Das Modell orientiert sich unter anderem an:
 
 - Michael Nygard: *Documenting Architecture Decisions*
-  https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
-- MADR 4.x
-  https://adr.github.io/madr/
-- arc42 – Architecture Decisions
-  https://docs.arc42.org/section-9/
-- ISO/IEC/IEEE 42010:2022 – Architecture Description
-  https://www.iso.org/standard/74393.html
-- The Open Group – Architecture Governance / Compliance Reviews
-  https://www.opengroup.org/architecture/togaf7-doc/arch/p4/comp/comp.htm
+- MADR
+- arc42
+- ISO/IEC/IEEE 42010:2022
+- Architecture Governance und Compliance Reviews nach TOGAF/Open Group
 
-## Einstieg
-
-- [`00_governance/ARTIFACT-MODEL.md`](00_governance/ARTIFACT-MODEL.md)
-- [`00_governance/VALIDATION-POLICY.md`](00_governance/VALIDATION-POLICY.md)
-- [`00_governance/ADR-LIFECYCLE-AND-TEMPLATE.md`](00_governance/ADR-LIFECYCLE-AND-TEMPLATE.md)
-- [`00_governance/MIGRATION-CATALOG.md`](00_governance/MIGRATION-CATALOG.md)
-
----
-
-Dieses Compendium soll nicht beweisen, dass jede Technologie „beherrscht“ wird. Es soll zeigen, **wie Architekturfragen strukturiert, Entscheidungen begründet, Standards operationalisiert und technische Aussagen überprüfbar gemacht werden**.
+Die konkreten Quellen stehen jeweils am fachlichen Dokument, damit Aussagen dort geprüft werden können, wo sie verwendet werden.

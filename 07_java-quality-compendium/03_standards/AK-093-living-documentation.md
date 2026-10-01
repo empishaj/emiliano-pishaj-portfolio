@@ -3,13 +3,13 @@ id: AK-093
 legacy_ids:
   - ADR-093
 title: Living Documentation und Architecture Traceability
-artifact_type: documentation-standard
+artifact_type: architecture-standard
 domain: architecture-governance
 status: active
 maturity: reviewed
-normative_level: recommended
+normative_level: normative
 owner_role: Enterprise Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wiederkehrende Abweichung zwischen Dokumentation und Realität
   - Einführung neuer autoritativer Informationsquellen
@@ -295,7 +295,7 @@ Traceability muss Nutzen haben. Zu viele Custom-Annotations koppeln Business-/Go
 - arc42  
   https://docs.arc42.org/
 
-## 13. Coach-Merksatz
+## 13. Merksatz
 
 > Living Documentation bedeutet nicht, alles zu generieren.  
 > Sie bedeutet, dass für wichtige Architekturinformationen **Quelle, Owner, Aktualisierungsmechanismus und Drift-Erkennung** geklärt sind.

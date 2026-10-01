@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: recommended
 owner_role: Platform Operations
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 technology_baseline:
   os: "supported Debian release according to Docker documentation"
   docker_engine: "current supported stable line"
@@ -191,6 +191,6 @@ Dieses Dokument ersetzt nicht:
 - AK-037 — Container Image Standard
 - AK-057 — Software Supply Chain
 
-## 15. Coach-Merksatz
+## 15. Merksatz
 
 > Ein Docker-Host ist kein Entwicklerwerkzeug mehr, sobald er produktive Workloads trägt. Dann besitzt er **Patch-, Rechte-, Netzwerk-, Storage-, Recovery- und Nachweisverantwortung**.

@@ -8,7 +8,7 @@ domain: architecture-fundamentals
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Erweiterung des Pattern-Katalogs
 ---
@@ -159,6 +159,6 @@ Vor einer weitreichenden Einführung können sinnvoll sein:
 - Hexagonal Architecture mit fünf Schichten für triviales CRUD.
 - Patternkatalog als Reifegradmodell: mehr Patterns ≠ bessere Architektur.
 
-## 10. Coach-Merksatz
+## 10. Merksatz
 
-> Ein Pattern ist nicht die Antwort. Es ist **eine bekannte Antwort auf eine bestimmte Kräfteverteilung**. Seniorität zeigt sich darin, zu erkennen, wann diese Kräfte wirklich vorhanden sind.
+> Ein Pattern ist nicht die Antwort. Es ist **eine bekannte Antwort auf eine bestimmte Kräfteverteilung**. Reife zeigt sich darin, zu erkennen, wann diese Kräfte wirklich vorhanden sind.

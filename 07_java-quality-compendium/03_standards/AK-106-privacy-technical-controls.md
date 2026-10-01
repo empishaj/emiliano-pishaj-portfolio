@@ -4,13 +4,13 @@ legacy_ids:
   - QG-JAVA-106
   - ADR-106
 title: Privacy Technical Controls – Minimierung, Redaction, Pseudonymisierung und Löschung
-artifact_type: privacy-standard
+artifact_type: architecture-standard
 domain: privacy-data-protection
 status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Privacy Architecture / Security Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Änderung rechtlicher oder behördeninterner Datenschutzvorgaben
   - neue Datenklasse oder neue Telemetrie-/AI-Verarbeitung
@@ -198,9 +198,8 @@ Mögliche Evidence:
   https://eur-lex.europa.eu/eli/reg/2016/679/oj
 - OWASP Logging Cheat Sheet  
   https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
-- AK-035 — Privacy by Design Principle
 - AK-102 — Observability Reference Architecture
 
-## 11. Coach-Merksatz
+## 11. Merksatz
 
-> Datenschutz wird architektonisch greifbar, wenn du für jede relevante Information beantworten kannst: **Warum haben wir sie, wer besitzt sie, wohin fließt sie, welche Kopien entstehen und wie endet ihr Lebenszyklus?**
+> Datenschutz wird architektonisch greifbar, wenn für jede relevante Information beantwortet werden kann: **Warum haben wir sie, wer besitzt sie, wohin fließt sie, welche Kopien entstehen und wie endet ihr Lebenszyklus?**

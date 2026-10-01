@@ -3,12 +3,12 @@ id: AK-082
 legacy_ids:
   - ADR-082
 title: Qualitätsziele und Qualitätsszenarien
-artifact_type: architecture-method
+artifact_type: learning-guide
 domain: architecture-fundamentals
 status: active
 maturity: reviewed
-normative_level: recommended
-last_validated: 2026-09-28
+normative_level: informative
+last_validated: 2026-10-01
 review_trigger:
   - neue Ausgabe ISO/IEC 25010
   - wesentliche Änderung der Qualitätsziele des betrachteten Systems
@@ -132,7 +132,7 @@ Sie bedeutet:
 
 ## 6. Business Driver → Quality Scenario
 
-Ein Senior-Architekt übersetzt Managementsprache in technische Prüfbarkeit.
+Architekturarbeit übersetzt Managementsprache in technische Prüfbarkeit.
 
 ```text
 "Der Service darf den Fachprozess nicht aufhalten."
@@ -254,6 +254,6 @@ Dann existiert keine Priorisierung.
 - CMU/SEI – ATAM  
   https://www.sei.cmu.edu/library/architecture-tradeoff-analysis-method-collection/
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
-> Ein Qualitätsziel ist erst architektonisch brauchbar, wenn du erklären kannst, **welcher konkrete Stimulus unter welchen Bedingungen welche messbare Reaktion verlangt**.
+> Ein Qualitätsziel ist erst architektonisch brauchbar, wenn erklärt werden kann, **welcher konkrete Stimulus unter welchen Bedingungen welche messbare Reaktion verlangt**.

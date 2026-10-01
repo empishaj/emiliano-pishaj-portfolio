@@ -8,7 +8,7 @@ domain: application-architecture
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Änderung der Modul-/Teamstruktur
   - geplante Service-Extraktion
@@ -178,6 +178,6 @@ Erst dann ist Extraktion ein ADR-Kandidat.
 - AK-077 — Modulith vs. Microservices
 - AK-079 — Modulith Strategy
 
-## 13. Coach-Merksatz
+## 13. Merksatz
 
 > Der Wert eines Modulithen liegt nicht darin, dass er „noch keine Microservices“ hat. Er liegt darin, **fachliche Grenzen und Ownership zu beweisen, bevor verteilte Komplexität eingeführt wird**.

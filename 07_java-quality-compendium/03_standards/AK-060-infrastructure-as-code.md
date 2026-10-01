@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Platform Engineering
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Wechsel des IaC- oder Cloud-Plattformmodells
   - Infrastructure Drift / Security Incident
@@ -152,6 +152,6 @@ IaC ist besonders wertvoll für:
 
 Aber der Code ersetzt nicht Betriebsmodell, Schutzbedarfsprüfung oder Freigabeprozesse.
 
-## 11. Coach-Merksatz
+## 11. Merksatz
 
 > Infrastructure as Code ist nicht „Terraform benutzen“. Es bedeutet, Infrastrukturänderungen **wie kontrollierte Architekturänderungen versionierbar, reviewbar, reproduzierbar und evidenzfähig zu machen**.

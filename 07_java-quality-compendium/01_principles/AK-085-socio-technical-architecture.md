@@ -8,7 +8,7 @@ domain: organization-and-architecture
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Organisationsänderung
   - dauerhafte teamübergreifende Delivery-Blockaden
@@ -243,6 +243,6 @@ Menschen, Macht, Budget und Zuständigkeiten verändern sich nicht durch Modelln
 - AK-084 — Kopplung und Kohäsion
 - AK-089 — Strategic DDD / Context Mapping
 
-## 14. Coach-Merksatz
+## 14. Merksatz
 
 > Eine technische Grenze ist erst dann belastbar, wenn klar ist, **wer sie besitzen, verändern, betreiben und im Konfliktfall entscheiden kann**.

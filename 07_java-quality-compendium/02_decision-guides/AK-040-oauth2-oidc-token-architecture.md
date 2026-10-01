@@ -8,7 +8,7 @@ domain: iam-security
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue OAuth Security BCP
   - Änderung des zentralen IAM
@@ -30,7 +30,7 @@ Eine konkrete Organisation muss entscheiden:
 - wo Autorisierung stattfindet,
 - welche Vertrauensgrenzen gelten.
 
-AK-040 liefert die Entscheidungslogik. Es trifft keine projektspezifische IAM-Entscheidung.
+AK-040 liefert die Entscheidungslogik. Es trifft keine projektspezifische IAM-Entscheidung und ersetzt keinen verbindlichen Security-Standard.
 
 ## 2. Begriffe sauber trennen
 
@@ -118,12 +118,12 @@ Entscheidungstreiber:
 - Anzahl Resource Server,
 - Betriebsmodell.
 
-## 5. Mindestvalidierung eines JWT-basierten Access Tokens
+## 5. Was ein JWT-basierter Resource Server berücksichtigen muss
 
-Ein Resource Server MUSS passend zum Vertrag unter anderem prüfen:
+Wenn eine Architektur JWT-basierte Access Tokens vorsieht, muss der zugehörige Security-Standard festlegen, welche Prüfungen verbindlich sind. Typischerweise gehören dazu:
 
 - kryptografische Signatur,
-- erlaubten Algorithmus/Key,
+- erlaubter Algorithmus und Schlüssel,
 - `iss`,
 - Gültigkeitszeit (`exp`, gegebenenfalls `nbf`),
 - vorgesehene Audience, wenn im Modell verwendet,
@@ -132,18 +132,20 @@ Ein Resource Server MUSS passend zum Vertrag unter anderem prüfen:
 
 Claims dürfen nicht allein deshalb vertraut werden, weil sie syntaktisch in einem JWT stehen.
 
+Die konkrete Spring-Security-Umsetzung wird in `AK-101` behandelt.
+
 ## 6. RFC 9700 als aktuelle Sicherheitsbasis
 
 RFC 9700 wurde 2025 als OAuth 2.0 Security Best Current Practice veröffentlicht und aktualisiert beziehungsweise erweitert die Security-Empfehlungen zu OAuth2.
 
 Wichtige Konsequenzen für neue Architekturen:
 
-- veraltete/unsichere Flows nicht aus Kompatibilitätsbequemlichkeit fortschreiben,
+- veraltete oder unsichere Flows nicht aus Kompatibilitätsbequemlichkeit fortschreiben,
 - Redirect URIs streng behandeln,
 - Token Leakage und Replay berücksichtigen,
 - PKCE für geeignete Authorization-Code-Flows einsetzen,
 - Sender-Constrained Tokens in risikoreichen Szenarien prüfen,
-- TLS end-to-end als Baseline behandeln.
+- TLS als grundlegende Transportvoraussetzung behandeln.
 
 Die konkrete Anwendung hängt vom Client- und Deployment-Modell ab.
 
@@ -166,7 +168,7 @@ Nutzer darf nur Vorgänge der eigenen Organisationseinheit bearbeiten
 
 Die Ressourcen-/Objektentscheidung kann deshalb in der Anwendung, einem Policy Decision Point oder einem dedizierten Autorisierungsdienst liegen.
 
-Die Architektur MUSS explizit machen, **wo die maßgebliche Policy entschieden wird**.
+Die Architektur muss explizit machen, **wo die maßgebliche Policy entschieden wird**.
 
 ## 8. Token Propagation
 
@@ -186,12 +188,12 @@ Die Lösung kann je nach Kontext Token Exchange, Service Credentials oder bewuss
 
 Tokens sind keine bequemen Datencontainer.
 
-SOLLTE:
+Sinnvolle Leitfragen:
 
-- nur benötigte Claims enthalten,
-- keine unnötigen personenbezogenen Daten transportieren,
-- Logging von Tokens vermeiden,
-- Lebensdauer und Audience begrenzen.
+- Welche Claims werden tatsächlich benötigt?
+- Welche personenbezogenen Informationen verlassen dadurch ihre ursprüngliche Vertrauensgrenze?
+- Werden Tokens oder Claims in Logs, Traces oder Fehlern sichtbar?
+- Sind Lebensdauer und Audience angemessen begrenzt?
 
 ## 10. Entscheidungsmatrix
 
@@ -232,7 +234,8 @@ Dann werden konkrete Optionen, Constraints, Security Requirements, Betriebsmodel
 - RFC 6750 — Bearer Token Usage
 - Spring Security Resource Server Reference  
   https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/index.html
+- AK-101 — Spring Security Resource Server
 
-## 14. Coach-Merksatz
+## 14. Merksatz
 
 > Beginne IAM nicht mit „JWT oder nicht?“. Beginne mit **Akteur, Ressource, Vertrauensgrenze, Policy und Widerrufs-/Lebenszyklusbedarf**. Das Token ist erst danach eine Designentscheidung.

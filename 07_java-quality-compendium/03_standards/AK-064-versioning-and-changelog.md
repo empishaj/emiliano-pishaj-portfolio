@@ -7,9 +7,9 @@ artifact_type: architecture-standard
 domain: lifecycle-governance
 status: active
 maturity: reviewed
-normative_level: recommended
+normative_level: normative
 owner_role: Engineering Governance
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Änderung der Release-/Artifact-Strategie
 ---
@@ -135,6 +135,6 @@ Siehe AK-110.
 - AK-110 — API Lifecycle
 - AK-057 — Software Supply Chain
 
-## 11. Coach-Merksatz
+## 11. Merksatz
 
 > Versionierung ist nicht die Zahl auf dem Artefakt. Sie ist der Vertrag darüber, **wie Änderungen erkannt, bewertet und zu einem konkreten ausgelieferten Stand zurückverfolgt werden**.

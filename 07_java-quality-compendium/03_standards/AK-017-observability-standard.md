@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Operations / Platform Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Änderung der Telemetrieplattform
   - wiederkehrende Diagnoseprobleme
@@ -174,9 +174,8 @@ Beispiele:
 - OpenTelemetry Semantic Conventions  
   https://opentelemetry.io/docs/specs/semconv/
 - Google SRE — SLI/SLO
-- AK-054 — SLO/Alerting/On-Call
-- AK-102 — OTel Reference Architecture
+- AK-102 — OpenTelemetry Reference Architecture
 
-## 13. Coach-Merksatz
+## 13. Merksatz
 
 > Observability ist Betriebsarchitektur: Wir definieren vor dem Incident, **welche Signale uns erlauben, Zustand, Ursache und Auswirkung eines Systems nachvollziehbar zu erkennen**.

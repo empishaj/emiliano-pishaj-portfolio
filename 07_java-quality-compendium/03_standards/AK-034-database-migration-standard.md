@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Data / Application Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Wechsel des Migrationstools oder DBMS
   - schwerwiegender Migrationsincident
@@ -144,14 +144,18 @@ MUSS/SOLLTE je nach Risiko:
 - großer Backfill im gleichen blocking Transaction Step.
 - „Rollback“ behaupten, obwohl Daten bereits zerstört wurden.
 
-## 11. Quellen
+## 11. Verwandte Konzepte
+
+- Expand/Migrate/Contract für kompatible Übergänge,
+- Backup- und Restore-Fähigkeit für nicht reversierbare Änderungen,
+- Transition Architectures für größere Modernisierungsschritte.
+
+## 12. Quellen
 
 - Flyway Documentation  
   https://documentation.red-gate.com/flyway
 - PostgreSQL Documentation — DDL/Locking je verwendeter Version
-- AK-098 — Zero-Downtime Migration Pattern
-- AK-063 — Backup & Recovery
 
-## 12. Coach-Merksatz
+## 13. Merksatz
 
 > Eine Datenbankmigration ist kein SQL-File. Sie ist eine **kontrollierte Zustandsänderung eines produktiven Informationsbestands mit Locking-, Compatibility- und Recovery-Folgen**.

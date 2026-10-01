@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Integration Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue organisationsweite API-Policy
   - relevante neue HTTP-/OpenAPI-Spezifikation
@@ -214,6 +214,6 @@ dokumentieren.
 - AK-066 — API First / OpenAPI Governance
 - AK-110 — API Lifecycle
 
-## 15. Coach-Merksatz
+## 15. Merksatz
 
 > Ein gutes REST-API ist nicht „RESTful“ um der Reinheit willen. Es ist ein **stabiler, verständlicher, sicherer und evolvierbarer Vertrag zwischen Verantwortungsbereichen**.

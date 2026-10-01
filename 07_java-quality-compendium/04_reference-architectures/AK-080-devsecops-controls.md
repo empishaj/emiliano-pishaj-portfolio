@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: recommended
 owner_role: Security Architecture / Platform Engineering
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue Security-/Supply-Chain-Anforderungen
   - Wechsel zentraler CI/CD-Plattform
@@ -230,8 +230,7 @@ Hilfreicher:
 - AK-015 — Application Security Baseline
 - AK-036 — CI/CD Reference Pipeline
 - AK-057 — Software Supply Chain
-- AK-108 — Golden Path / Platform Engineering
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > DevSecOps ist reif, wenn aus Security-Anforderungen **konkrete Controls, klare Policies, verantwortete Ausnahmen und rückverfolgbare Evidence** werden.

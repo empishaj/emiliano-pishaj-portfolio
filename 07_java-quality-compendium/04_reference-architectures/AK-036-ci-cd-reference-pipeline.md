@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: recommended
 owner_role: Platform Engineering
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Wechsel der zentralen CI/CD-Plattform
   - Delivery-/Supply-Chain-Incident
@@ -174,6 +174,6 @@ Commit
 - AK-114 — GitOps
 - DORA / Accelerate — Delivery Performance als Lernkontext
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > Eine reife Pipeline ist keine Automatisierungsstrecke. Sie ist eine **kontrollierte Nachweiskette von Änderung zu geprüftem Artefakt zu beobachtbarem Deployment**.

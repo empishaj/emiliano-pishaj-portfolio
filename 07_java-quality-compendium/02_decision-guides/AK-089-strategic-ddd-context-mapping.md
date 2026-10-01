@@ -8,7 +8,7 @@ domain: domain-integration
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Änderung fachlicher Verantwortungsgrenzen
   - neue organisationsübergreifende Integration
@@ -147,7 +147,7 @@ Für jedes wichtige Informationsobjekt sollte klar sein:
 
 Upstream/Downstream ist nicht nur technisch.
 
-Ein gesetzlich/zentrales Register kann einen Vertrag vorgeben, den ein Fachverfahren nicht beeinflussen kann.
+Ein gesetzlich oder organisatorisch zentrales Register kann einen Vertrag vorgeben, den ein Fachverfahren nicht beeinflussen kann.
 
 Ein interner Plattformdienst kann dagegen eine echte Customer/Supplier-Beziehung mit Consumer-Feedback besitzen.
 
@@ -199,6 +199,6 @@ Damit wird sichtbar, ob technische Integrationsgrenzen zur fachlichen Verantwort
 - AK-085 — Sozio-technische Architektur
 - AK-023 — DDD Grundlagen
 
-## 14. Coach-Merksatz
+## 14. Merksatz
 
-> Strategic DDD hilft dir nicht primär, Services zu schneiden. Es hilft dir, **fachliche Bedeutungs-, Ownership- und Übersetzungsgrenzen sichtbar zu machen, bevor du technische Grenzen festlegst**.
+> Strategic DDD hilft nicht primär, Services zu schneiden. Es hilft, **fachliche Bedeutungs-, Ownership- und Übersetzungsgrenzen sichtbar zu machen, bevor technische Grenzen festgelegt werden**.

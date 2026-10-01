@@ -8,7 +8,7 @@ domain: transformation
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue Transformationsstrategie
   - wiederkehrende Architekturdrift
@@ -315,6 +315,6 @@ Eine Migration ist erst abgeschlossen, wenn alte Pfade, Flags, Datenkopien und B
 - AK-075 — Architecture Decision Process
 - AK-093 — Living Documentation
 
-## 15. Coach-Merksatz
+## 15. Merksatz
 
 > Eine Zielarchitektur ist nur dann wertvoll, wenn du auch erklären kannst, **welche sicheren Übergangszustände dorthin führen und welche Evidence dir zeigt, dass du noch auf dem richtigen Pfad bist**.

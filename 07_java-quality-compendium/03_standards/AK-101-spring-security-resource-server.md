@@ -3,7 +3,7 @@ id: AK-101
 legacy_ids:
   - ADR-101
 title: Spring Security Resource Server Baseline
-artifact_type: security-standard
+artifact_type: architecture-standard
 domain: iam-security
 status: active
 maturity: reviewed
@@ -11,7 +11,7 @@ normative_level: normative
 technology_baseline:
   spring_security: "current stable line; validate before implementation"
 owner_role: Application Security / Platform Engineering
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Spring-Security-Major-Version
   - Änderung des zentralen IAM-/Tokenmodells
@@ -194,6 +194,6 @@ SOLLTE:
 - OWASP CSRF Prevention Cheat Sheet  
   https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html
 
-## 13. Coach-Merksatz
+## 13. Merksatz
 
-> Spring Security implementiert einen Teil deiner IAM-Architektur. Es ersetzt nicht die Frage, **welche Identität auf welche fachliche Ressource unter welcher Policy zugreifen darf**.
+> Spring Security implementiert einen Teil der IAM-Architektur. Es ersetzt nicht die Frage, **welche Identität auf welche fachliche Ressource unter welcher Policy zugreifen darf**.

@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: recommended
 owner_role: Enterprise Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Änderung des Architecture-Governance-Modells
   - wiederkehrende Entscheidungen ohne dokumentierte Rationale
@@ -18,7 +18,7 @@ review_trigger:
 
 # AK-075 — Architecture Decision Process
 
-## 1. Coach-Ziel
+## 1. Ziel
 
 Architektur ist nicht die Fähigkeit, möglichst viele Technologien zu kennen. Architektur ist die Fähigkeit, **relevante Entscheidungen unter realen Randbedingungen nachvollziehbar herbeizuführen**.
 
@@ -93,7 +93,7 @@ Typische Signale:
 - Security, Datenschutz oder Betrieb verlangen eine bewusste Risikoentscheidung,
 - eine Ausnahme von einem Standard wird beantragt.
 
-### Coach-Frage
+### Prüffrage
 
 > Wird in sechs oder zwölf Monaten jemand fragen: „Warum haben wir das so gemacht?“
 
@@ -361,7 +361,7 @@ Primär bzw. maßgeblich:
 - The Open Group, Architecture Compliance  
   https://www.opengroup.org/architecture/togaf7-doc/arch/p4/comp/comp.htm
 
-## 19. Coach-Merksatz
+## 19. Merksatz
 
 > Der Architekt besitzt nicht automatisch die Entscheidung.  
 > Seine professionelle Leistung besteht darin, die Entscheidung **entscheidbar, nachvollziehbar und überprüfbar** zu machen.

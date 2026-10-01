@@ -8,7 +8,7 @@ domain: software-design
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-30
+last_validated: 2026-10-01
 ---
 
 # AK-027 — Code Smells und Refactoring als Diagnosewerkzeug

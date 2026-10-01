@@ -8,7 +8,7 @@ domain: domain-architecture
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Änderung der fachlichen Domänenstruktur
 ---
@@ -145,6 +145,6 @@ Für System-/Organisationsgrenzen siehe AK-089:
 - Vaughn Vernon, *Implementing Domain-Driven Design*
 - AK-089 — Strategic DDD
 
-## 14. Coach-Merksatz
+## 14. Merksatz
 
 > DDD lohnt sich dort, wo **fachliche Bedeutung und Regeln** die eigentliche Komplexität sind. Wenn die Domäne einfach ist, kann DDD selbst zur unnötigen Komplexität werden.

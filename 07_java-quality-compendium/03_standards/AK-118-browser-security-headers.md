@@ -3,13 +3,13 @@ id: AK-118
 legacy_ids:
   - ADR-118
 title: Browser Security – CORS, CSP und Response Header
-artifact_type: security-standard
+artifact_type: architecture-standard
 domain: web-security
 status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Application Security
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - relevante Browser-/OWASP-Empfehlungsänderung
   - Frontend-Hosting- oder Authentisierungsänderung
@@ -161,6 +161,6 @@ MUSS/SOLLTE je nach Kontext:
 - MDN Strict-Transport-Security  
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > Browser Security wird gefährlich, wenn Headernamen mit Sicherheitszielen verwechselt werden. Kläre zuerst **Angriffsmodell und Credential-Verhalten**, dann CORS, CSRF, CSP und Header als passende Controls.

@@ -7,9 +7,9 @@ artifact_type: architecture-standard
 domain: integration-testing
 status: active
 maturity: reviewed
-normative_level: recommended
+normative_level: normative
 owner_role: Integration Architecture / QA
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Änderung der API-/Event-Vertragsstrategie
   - wiederkehrende Consumer-Brüche
@@ -153,6 +153,6 @@ Ziel:
 - Spring Cloud Contract  
   https://spring.io/projects/spring-cloud-contract
 
-## 11. Coach-Merksatz
+## 11. Merksatz
 
 > Contract Testing schützt nicht „die Schnittstelle“ abstrakt. Es schützt **konkrete Erwartungen zwischen verantworteten Consumer- und Provider-Grenzen**.

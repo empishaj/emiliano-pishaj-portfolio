@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Integration Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 technology_baseline:
   asyncapi: "3.1.x"
 review_trigger:
@@ -188,8 +188,7 @@ Bei größerer Event-Landschaft SOLLTE ein Katalog mindestens sichtbar machen:
   https://www.asyncapi.com/blog/release-notes-3.1.0
 - AK-019 — Contract Testing
 - AK-041 — Event-Driven Architecture Decision Guide
-- AK-097 — DLQ / Messaging Operations
 
-## 13. Coach-Merksatz
+## 13. Merksatz
 
 > Ein Event ist nicht nur ein JSON-Objekt auf Kafka. Es ist ein **fachlicher Vertrag mit Owner, Semantik, Lifecycle und Betriebsfolgen**.

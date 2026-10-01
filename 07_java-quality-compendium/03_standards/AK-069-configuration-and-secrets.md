@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Platform Engineering / Security Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Wechsel des Secret-Management-Systems
   - Credential-/Configuration-Incident
@@ -151,7 +151,7 @@ Beispiele:
 
 Secret Management ist nicht automatisch Privacy Management.
 
-## 8. Verification
+## 8. Verifikation
 
 - Secret Scan im Repository und Build,
 - Starttests bei fehlender Pflichtkonfiguration,
@@ -160,6 +160,6 @@ Secret Management ist nicht automatisch Privacy Management.
 - Audit der Secret-Zugriffe,
 - Drift Detection.
 
-## 9. Coach-Merksatz
+## 9. Merksatz
 
 > Konfigurierbar bedeutet nicht beliebig. Ein gutes Configuration Model macht **Unterschiede zwischen Umgebungen explizit, Secrets kurzlebig und Änderungen nachvollziehbar**.

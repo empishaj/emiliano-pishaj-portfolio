@@ -8,7 +8,7 @@ domain: integration
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-30
+last_validated: 2026-10-01
 review_trigger:
   - Änderung der Integrationsstrategie
   - Wechsel der Kafka-Major-Version
@@ -120,9 +120,11 @@ Die konkrete Strategie richtet sich nach Seiteneffekt und Datenmodell. Eine zent
 
 Wenn eine Anwendung in derselben fachlichen Operation sowohl ihre Datenbank ändern als auch ein Event veröffentlichen muss, entsteht ein Dual-Write-Problem.
 
-Der Transactional-Outbox-Ansatz wird in `AK-042` behandelt. Seine Rolle ist nicht „Kafka braucht Outbox“, sondern:
+Der Transactional-Outbox-Ansatz ist dafür ein mögliches Muster. Seine Rolle ist nicht „Kafka braucht Outbox“, sondern:
 
 > Datenbankzustand und zu publizierendes Ereignis werden zunächst atomar in einer lokalen Transaktion festgehalten; die Publikation folgt zuverlässig danach.
+
+Ob dieses Muster benötigt wird, ist eine eigene Architekturentscheidung.
 
 ## 9. Schema und Vertrag
 
@@ -169,7 +171,7 @@ Risiken:
 - zusätzliche zentrale Verantwortung,
 - Gefahr eines fachlich übermächtigen Orchestrators.
 
-Die Wahl folgt Prozesskomplexität, Ownership und Beobachtbarkeit. `AK-065` behandelt Saga-Entscheidungen vertieft.
+Die Wahl folgt Prozesskomplexität, Ownership und Beobachtbarkeit. Für langlaufende fachliche Prozesse kann ein Saga-Muster relevant sein; das ist eine separate Entscheidung.
 
 ## 11. Retry, DLT und Poison Messages
 
@@ -186,7 +188,7 @@ fachlicher Konflikt
 → fachlicher Fehlerpfad / Kompensation
 ```
 
-Ein DLT ist kein Archiv, in dem Fehler ungesehen liegen dürfen. Siehe `AK-097`.
+Ein DLT ist kein Archiv, in dem Fehler ungesehen liegen dürfen. Reprocessing braucht Ownership, Idempotenz und einen kontrollierten Betriebsablauf.
 
 ## 12. Security und Datenschutz
 
@@ -250,10 +252,7 @@ Eine Datenbanktabelle oder Job Queue kann ausreichend sein, wenn nur einfache Hi
 ## 17. Verwandte Knowledge-Items
 
 - `AK-019` — Contract Testing
-- `AK-042` — Transactional Outbox
-- `AK-065` — Saga
 - `AK-095` — AsyncAPI Event Contracts
-- `AK-097` — DLQ / Messaging Operations
 
 ## 18. Merksatz
 

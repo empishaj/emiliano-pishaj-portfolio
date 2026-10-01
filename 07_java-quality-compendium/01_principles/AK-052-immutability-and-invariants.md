@@ -8,7 +8,7 @@ domain: software-design
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-30
+last_validated: 2026-10-01
 technology_baseline:
   java: "21+"
 review_trigger:
@@ -138,7 +138,7 @@ Frage:
 
 - Ist dies eine öffentliche oder externe Grenze?
 - garantiert der aufrufende Typ bereits die Invariante?
-- wäre ein eigener Value Object sinnvoller?
+- wäre ein eigenes Value Object sinnvoller?
 
 Beispiel:
 
@@ -172,7 +172,7 @@ Weiterhin relevant sind:
 - Locks oder Compare-and-Set,
 - Ressourcenlimits.
 
-Die Concurrency-Regeln werden separat behandelt.
+Diese Aspekte werden jeweils im konkreten Runtime-, Persistenz- oder Resilience-Kontext bewertet.
 
 ## 8. Wann Immutability besonders sinnvoll ist
 
@@ -254,13 +254,14 @@ Copies haben Kosten. Sie sind dort sinnvoll, wo Ownership- oder Mutationrisiko b
 
 Versteckt fachliche Regeln und erlaubt ungültige Zustandsübergänge.
 
-## 14. Quellen
+## 14. Quellen und Beziehungen
 
 - Java SE 21 `java.lang.Record`: Records sind shallowly immutable  
   https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html
 - Java Language Specification — `final` variables
-- AK-033 — Concurrency und Thread Safety
-- AK-001 — Records als Datenträger
+- [AK-001 — Records als Datenträger](../08_engineering-guidelines/AK-001-records-for-data-carriers.md)
+- [AK-016 — JPA/Persistence Access](../08_engineering-guidelines/AK-016-jpa-persistence-access.md)
+- [AK-022 — Resilience Patterns](../08_engineering-guidelines/AK-022-resilience-patterns.md)
 
 ## 15. Merksatz
 

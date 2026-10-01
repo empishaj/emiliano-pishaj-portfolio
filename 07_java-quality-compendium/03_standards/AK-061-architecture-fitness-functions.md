@@ -3,13 +3,13 @@ id: AK-061
 legacy_ids:
   - ADR-061
 title: Architecture Fitness Functions und automatisierte Guardrails
-artifact_type: governance-standard
+artifact_type: architecture-standard
 domain: architecture-governance
 status: active
 maturity: reviewed
-normative_level: recommended
+normative_level: normative
 owner_role: Architecture Governance
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue Architekturstandards
   - hohe False-Positive-Rate bestehender Gates
@@ -190,6 +190,6 @@ Sie werden überprüft, wenn:
 | GitOps Compliance | Drift/Policy Check |
 | Privacy Logging | Telemetry-/Log-Test |
 
-## 10. Coach-Merksatz
+## 10. Merksatz
 
 > Eine Fitness Function ist dann wertvoll, wenn sie **eine wirklich wichtige Architektureigenschaft schnell und zuverlässig sichtbar macht** – nicht weil „mehr Gates“ automatisch bessere Governance bedeuten.

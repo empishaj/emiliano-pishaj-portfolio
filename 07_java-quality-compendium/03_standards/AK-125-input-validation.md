@@ -3,13 +3,13 @@ id: AK-125
 legacy_ids:
   - QG-JAVA-125
 title: Input Validation und Trust Boundaries
-artifact_type: security-standard
+artifact_type: architecture-standard
 domain: application-security
 status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Application Security
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue Eingabe-/Datei-/Deserialisierungswege
   - Änderung der API- oder Messaging-Standards
@@ -227,6 +227,6 @@ Intern:
 - OWASP File Upload Cheat Sheet
 - OWASP SSRF Prevention Cheat Sheet
 
-## 13. Coach-Merksatz
+## 13. Merksatz
 
 > Validierung bedeutet nicht, gefährliche Strings zu erraten. Sie bedeutet, an jeder Trust Boundary **den zulässigen Vertrag, die fachliche Bedeutung und die Berechtigung explizit zu machen**.

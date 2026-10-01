@@ -3,13 +3,13 @@ id: AK-086
 legacy_ids:
   - ADR-086
 title: Querschnittskonzepte als Architecture Standards
-artifact_type: architecture-standard-framework
+artifact_type: architecture-standard
 domain: cross-cutting-architecture
 status: active
 maturity: reviewed
-normative_level: recommended
+normative_level: normative
 owner_role: Architecture Governance
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue organisationsweite Querschnittsanforderung
   - wiederkehrende inkonsistente Implementierung über Systeme hinweg
@@ -141,6 +141,6 @@ Prüfen:
 - Golden Path ohne Ausnahmeweg.
 - jedes Team macht Security/Logging/Errors vollständig anders.
 
-## 9. Coach-Merksatz
+## 9. Merksatz
 
 > Querschnittskonzepte werden reif, wenn die Organisation klar trennt: **Was muss überall gleich sein, was bleibt bewusst lokal, und wie wird beides technisch und organisatorisch überprüft?**

@@ -3,13 +3,13 @@ id: AK-096
 legacy_ids:
   - ADR-096
 title: Teststrategie als Quality Evidence
-artifact_type: quality-standard
+artifact_type: architecture-standard
 domain: testing
 status: active
 maturity: reviewed
-normative_level: recommended
+normative_level: normative
 owner_role: Engineering / QA Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wiederkehrende Produktionsfehler trotz grüner Tests
   - wesentliche Architektur-/Delivery-Änderung
@@ -141,7 +141,7 @@ Tests SOLLEN:
 - personenbezogene Produktionsdaten vermeiden,
 - Aufbaukosten reduzieren.
 
-Siehe AK-119.
+Für Testdaten sind Builder, Fixtures oder synthetische Datengeneratoren je nach Testart mögliche Mittel. Entscheidend sind Lesbarkeit, Reproduzierbarkeit und Datenschutz.
 
 ## 8. Flaky Tests
 
@@ -194,6 +194,6 @@ Das konkrete Modell folgt Risikoklasse und Delivery-Frequenz.
 - Integrationstest gegen dauerhaft instabile Shared Environment.
 - Tests, die Implementierungsdetails statt Verhalten fixieren.
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > Die richtige Testfrage lautet nicht „Welche Testart fehlt uns?“, sondern: **Welches Risiko wollen wir mit welcher kosteneffizienten Evidence früh genug sichtbar machen?**

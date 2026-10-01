@@ -3,13 +3,13 @@ id: AK-110
 legacy_ids:
   - ADR-110
 title: API Lifecycle, Deprecation und Sunset
-artifact_type: lifecycle-policy
+artifact_type: policy
 domain: integration-governance
 status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Integration Architecture / API Governance
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue HTTP-Lifecycle-Spezifikation
   - Änderung der organisationsweiten API-Governance
@@ -191,6 +191,6 @@ Vor endgültigem Retirement:
 - AK-064 — Versionierung
 - AK-066 — API First
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > Eine API abzuschalten ist kein technischer Toggle. Es ist **Consumer- und Veränderungsmanagement mit messbarer Nutzung, klarer Verantwortung und kontrolliertem Exit**.

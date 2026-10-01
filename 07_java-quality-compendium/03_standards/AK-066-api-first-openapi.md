@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Integration Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 technology_baseline:
   openapi: "3.2.x current specification line at validation date"
 review_trigger:
@@ -196,6 +196,6 @@ API Need
 - AK-021 — REST API Standard
 - AK-110 — API Lifecycle
 
-## 13. Coach-Merksatz
+## 13. Merksatz
 
 > API First bedeutet nicht „YAML first“. Es bedeutet, den **organisationsübergreifenden Vertrag bewusst zu entscheiden, zu reviewen und automatisiert gegen Drift und inkompatible Änderungen zu schützen**.

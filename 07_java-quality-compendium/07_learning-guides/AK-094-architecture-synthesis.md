@@ -8,7 +8,7 @@ domain: architecture-learning
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Änderung des Architecture-Knowledge-Modells
   - neue übergreifende Governance-Domäne
@@ -100,7 +100,7 @@ Fragen:
 - Welche technische Schuld verändert das Risiko?
 - Welche Transition ist als Nächstes sinnvoll?
 
-## 3. Sieben Denkmuster eines reifen Architekten
+## 3. Sieben Denkmuster reifer Architekturarbeit
 
 ### 3.1 Problem vor Technologie
 
@@ -163,7 +163,7 @@ Isolation
 ↔ Kosten / Betriebsaufwand
 ```
 
-Seniorität zeigt sich darin, beide Seiten verständlich machen zu können.
+Reife zeigt sich darin, beide Seiten verständlich machen zu können.
 
 ### 3.5 Evidence statt Architekturbehauptung
 
@@ -242,6 +242,8 @@ Kubernetes, IaC, GitOps, Golden Paths und DevSecOps machen technische Standards 
 ### Operations
 
 Observability, SLOs, Backup/Restore, Profiling, Incident Management und Post-Mortems schließen den Feedback Loop.
+
+Die genannten Themen sind Wissensdomänen. Nicht jede historische Nummer besitzt im kanonischen Bestand ein eigenes Dokument.
 
 ## 5. Enterprise-Architecture-Transfer
 
@@ -367,7 +369,6 @@ Dadurch können Teams selbstständiger entscheiden, ohne dass Enterprise-Kohäre
 - Neal Ford et al., *Building Evolutionary Architectures* — konzeptionelle Grundlage
 - Matthew Skelton, Manuel Pais, *Team Topologies* — sozio-technische Organisationsperspektive
 
-## 10. Coach-Merksatz
+## 10. Merksatz
 
-> Der Sprung vom Spezialisten zum Architekten geschieht nicht dadurch, dass du noch mehr Technologien lernst.  
-> Er geschieht, wenn du **Auftrag, Qualität, Verantwortung, Entscheidung, Umsetzung, Evidence und Evolution als einen zusammenhängenden Regelkreis denken kannst**.
+> Der Sprung vom Spezialisten zur Architekturarbeit geschieht nicht dadurch, noch mehr Technologien zu lernen. Entscheidend ist, **Auftrag, Qualität, Verantwortung, Entscheidung, Umsetzung, Evidence und Evolution als einen zusammenhängenden Regelkreis zu denken**.

@@ -8,7 +8,7 @@ domain: architecture-fundamentals
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Änderung der zugrunde gelegten Architekturstandards
 ---
@@ -19,7 +19,7 @@ review_trigger:
 
 Dieses Kapitel ist kein ADR. Es gibt keine konkrete Entscheidung zu treffen.
 
-Es schafft die gemeinsame Sprache, die du brauchst, bevor du über APIs, Microservices, Cloud, Daten oder Plattformen entscheidest.
+Es schafft eine gemeinsame Sprache, bevor über APIs, Microservices, Cloud, Daten oder Plattformen entschieden wird.
 
 Die wichtigste Verschiebung lautet:
 
@@ -294,7 +294,6 @@ Das ist kein Zeichen schlechter Planung. Es ist die normale Evolution komplexer 
 - Michael Nygard, Architecture Decision Records  
   https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
-> Ein Senior-Architekt erkennt nicht daran, dass er viele Lösungen kennt.  
-> Man erkennt ihn daran, dass er **die richtige Ebene, die richtige Frage, den relevanten Trade-off und die passende Evidence** findet.
+> Architektonische Reife zeigt sich nicht daran, möglichst viele Lösungen zu kennen. Entscheidend ist, **die richtige Ebene, die richtige Frage, den relevanten Trade-off und die passende Evidence** zu finden.

@@ -8,7 +8,7 @@ domain: resilience
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-30
+last_validated: 2026-10-01
 review_trigger:
   - Änderung kritischer Betriebsarchitektur
   - schwerer Resilience-Incident

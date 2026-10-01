@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: recommended
 owner_role: Platform / Operations Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche OpenTelemetry-Spec-/Collector-Änderung
   - Wechsel des Telemetrie-Backends
@@ -78,11 +78,11 @@ Baggage ist mit Vorsicht zu verwenden: Es wird propagiert und darf keine unnöti
 
 OpenTelemetry Semantic Conventions standardisieren Namen und Bedeutungen für viele Signale.
 
-Zum Validierungszeitpunkt wird eine eigenständige SemConv-Version gepflegt; einzelne Bereiche besitzen unterschiedliche Stability Levels.
+Einzelne Bereiche besitzen unterschiedliche Stability Levels und entwickeln sich unabhängig vom Architekturgrundsatz weiter.
 
 Daraus folgt:
 
-> Nicht jede aktuelle SemConv ist gleich stabil. Technology Baselines müssen bei Implementierung erneut geprüft werden.
+> Nicht jede aktuelle Semantic Convention ist gleich stabil. Technology Baselines müssen bei Implementierung erneut geprüft werden.
 
 ## 6. Collector-Rollen
 
@@ -177,6 +177,6 @@ Ein Referenzservice sollte nachweisen:
 - AK-017 — Observability Standard
 - AK-106 — Privacy Controls
 
-## 14. Coach-Merksatz
+## 14. Merksatz
 
 > OpenTelemetry ist die **gemeinsame Sprache und Transportebene der Telemetrie**, nicht die Garantie für gute Observability. Gute Observability beginnt bei den Fragen, die Betrieb und Fachseite beantworten müssen.

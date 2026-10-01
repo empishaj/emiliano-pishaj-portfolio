@@ -8,7 +8,7 @@ domain: application-architecture
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Modulgrenzen verändern sich wesentlich
   - wiederkehrende Cross-Module-Verletzungen
@@ -167,6 +167,6 @@ Nicht jeder Schritt ist immer nötig.
 - Service-Extraktion wegen Dateigröße statt Architekturtreiber.
 - Module entsprechen technischen Layern statt Verantwortungen.
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > Ein Modulith bleibt nur dann Architektur und wird nicht wieder zum Big Ball of Mud, wenn **Grenzen einen Owner, einen Vertrag und überprüfbare Regeln besitzen**.

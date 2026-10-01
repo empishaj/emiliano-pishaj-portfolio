@@ -8,7 +8,7 @@ domain: application-architecture
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Änderung der Application Architecture
 ---
@@ -163,6 +163,6 @@ Dazu werden Qualitätsziele und Änderungsrisiken bewertet.
 - David Parnas — Information Hiding
 - AK-084 — Kopplung und Information Hiding
 
-## 14. Coach-Merksatz
+## 14. Merksatz
 
 > Hexagonal Architecture ist erfolgreich, wenn **fachlich wichtige Entscheidungen stabiler sind als die technischen Adapter um sie herum** – nicht wenn das Projekt möglichst viele Packages namens `port` und `adapter` besitzt.

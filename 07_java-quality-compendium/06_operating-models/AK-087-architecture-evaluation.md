@@ -8,7 +8,7 @@ domain: architecture-governance
 status: active
 maturity: reviewed
 normative_level: recommended
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Änderung der Qualitätsziele
   - neue kritische Architekturentscheidung
@@ -240,7 +240,7 @@ Nicht alles lässt sich automatisieren. Organisatorische Ownership oder fachlich
   https://www.iso.org/standard/74393.html
 - AK-082 Qualitätsziele und Qualitätsszenarien
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > Bewerte nicht, ob dir die Architektur gefällt.  
 > Bewerte, **wie belastbar ihre Entscheidungen gegen die wichtigsten Szenarien, Risiken und Trade-offs sind**.

@@ -3,13 +3,13 @@ id: AK-015
 legacy_ids:
   - QG-JAVA-015
 title: Application Security Baseline für Java-/Web-Services
-artifact_type: security-standard
+artifact_type: architecture-standard
 domain: application-security
 status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Security Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue OWASP-ASVS-Hauptversion
   - wesentliche Änderung des Authentisierungs- oder Plattformmodells
@@ -206,6 +206,6 @@ Eine Ausnahme benötigt:
 - RFC 9700 — OAuth 2.0 Security Best Current Practice  
   https://www.rfc-editor.org/rfc/rfc9700.html
 
-## 10. Coach-Merksatz
+## 10. Merksatz
 
 > Security ist kein Framework-Häkchen. Ein belastbarer Security-Standard verbindet **Threat, Control, Ownership, technische Durchsetzung und überprüfbare Evidence**.

@@ -4,6 +4,14 @@ Dieses Verzeichnis bündelt wiederverwendbares Wissen zu Softwarearchitektur, In
 
 Es ist bewusst **keine Sammlung fiktiver Architecture Decision Records**. Allgemeine Prinzipien, Standards, Entscheidungshilfen und technische Guidelines erfüllen unterschiedliche Aufgaben und werden deshalb getrennt geführt. Ein echtes ADR entsteht erst dann, wenn in einem konkreten Systemkontext tatsächlich eine architekturrelevante Entscheidung getroffen werden muss.
 
+## Einstieg
+
+Der vollständige Katalog und die empfohlenen Lesepfade stehen in:
+
+- [`INDEX.md`](INDEX.md)
+
+Die Regeln des Wissenssystems stehen unter [`00_governance/`](00_governance/).
+
 ## Struktur
 
 | Ordner | Zweck |
@@ -11,10 +19,10 @@ Es ist bewusst **keine Sammlung fiktiver Architecture Decision Records**. Allgem
 | [`00_governance/`](00_governance/) | Regeln des Wissenssystems: Artefakttypen, Validierung, ADR-Lifecycle und Templates. |
 | [`01_principles/`](01_principles/) | Langlebige Gestaltungsprinzipien wie Kopplung, Kohäsion, Einfachheit und Evolution. |
 | [`02_decision-guides/`](02_decision-guides/) | Entscheidungshilfen für kontextabhängige Architekturfragen. |
-| [`03_standards/`](03_standards/) | Normative, wiederverwendbare Architektur- und Engineering-Standards. |
+| [`03_standards/`](03_standards/) | Normative, wiederverwendbare Architektur- und Engineering-Standards sowie Policies. |
 | [`04_reference-architectures/`](04_reference-architectures/) | Wiederverwendbare Lösungsbilder und technische Zielmuster. |
 | [`05_operating-guides/`](05_operating-guides/) | Konkrete Betriebs-, Diagnose- und Resilience-Anleitungen. |
-| [`06_operating-models/`](06_operating-models/) | Rollen, Entscheidungswege, Reviews, Incident- und Governance-Prozesse. |
+| [`06_operating-models/`](06_operating-models/) | Rollen, Entscheidungswege, Reviews und Governance-Prozesse. |
 | [`07_learning-guides/`](07_learning-guides/) | Grundlagen, Synthesen und erklärende Architekturtexte. |
 | [`08_engineering-guidelines/`](08_engineering-guidelines/) | Implementierungsnahe Regeln für Java, Testing, Persistence, Resilience und Delivery. |
 
@@ -82,7 +90,7 @@ Damit bleibt klar, ob ein Dokument allgemeines Wissen oder eine tatsächlich get
 
 1. [`00_governance/ARTIFACT-MODEL.md`](00_governance/ARTIFACT-MODEL.md)
 2. [`00_governance/ADR-LIFECYCLE-AND-TEMPLATE.md`](00_governance/ADR-LIFECYCLE-AND-TEMPLATE.md)
-3. [`00_governance/AK-082-quality-goals-and-scenarios.md`](00_governance/AK-082-quality-goals-and-scenarios.md)
+3. [`07_learning-guides/AK-082-quality-goals-and-scenarios.md`](07_learning-guides/AK-082-quality-goals-and-scenarios.md)
 4. passende Decision Guides unter [`02_decision-guides/`](02_decision-guides/)
 5. [`06_operating-models/AK-075-architecture-decision-process.md`](06_operating-models/AK-075-architecture-decision-process.md)
 

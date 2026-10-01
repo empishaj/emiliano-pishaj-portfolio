@@ -9,7 +9,7 @@ status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Platform Engineering / Security
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Container-Runtime-/Policy-Änderung
   - Supply-Chain-Incident
@@ -133,6 +133,6 @@ Source/Base Update
 - AK-057 — Software Supply Chain
 - AK-126 — Docker Host/Operations Guide
 
-## 11. Coach-Merksatz
+## 11. Merksatz
 
 > Ein Container ist ein Lieferartefakt. Seine Qualität zeigt sich daran, ob **Herkunft, Inhalt, Rechte, Patchstand und Runtime-Verhalten nachvollziehbar und kontrollierbar** sind.

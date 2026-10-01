@@ -3,13 +3,13 @@ id: AK-057
 legacy_ids:
   - ADR-057
 title: Software Supply Chain – SBOM, Abhängigkeiten, Provenance und Artefaktintegrität
-artifact_type: security-standard
+artifact_type: architecture-standard
 domain: supply-chain-security
 status: active
 maturity: reviewed
 normative_level: normative
 owner_role: Security Architecture / Platform Engineering
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - neue SBOM-/Provenance-Spezifikation
   - schwerwiegender Supply-Chain-Incident
@@ -147,7 +147,7 @@ Zusätzlich prüfen:
 - Image Scan,
 - Signierung/Attestation je Organisationsstandard.
 
-Ein „kleines Image“ ist nicht automatisch sicherer, aber reduziert typischerweise Angriffsfläche und Patchumfang.
+Ein „kleines Image“ ist nicht automatisch sicherer, kann aber Angriffsfläche und Patchumfang reduzieren.
 
 ## 7. Build-Pipeline als Security Boundary
 
@@ -176,7 +176,7 @@ Mögliche Evidence:
 
 ## 9. Ausnahmeprozess
 
-Eine nicht kurzfristig behebbaren Schwachstelle benötigt:
+Eine nicht kurzfristig behebbare Schwachstelle benötigt:
 
 - betroffene Komponente,
 - Exposure-/Exploitability-Bewertung,
@@ -196,6 +196,6 @@ Das bloße Label „false positive“ reicht nicht.
   https://slsa.dev/spec/
 - OWASP Software Component Verification / Dependency Guidance
 
-## 11. Coach-Merksatz
+## 11. Merksatz
 
 > Eine sichere Lieferkette beantwortet nicht nur, **welchen Code wir geschrieben haben**, sondern auch, **welche Bestandteile wir beziehen, wie das Artefakt erzeugt wurde und welche Evidence seine Herkunft und Integrität stützt**.

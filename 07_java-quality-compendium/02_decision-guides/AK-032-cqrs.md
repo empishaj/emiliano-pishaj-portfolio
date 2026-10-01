@@ -136,11 +136,13 @@ Vor Einführung verteilter CQRS-Strukturen sollten messbar oder belegbar sein:
 - keine Rebuild-Strategie für Projektionen.
 - Eventual Consistency wird dem Fachbereich erst nach Go-Live erklärt.
 
-## 11. Beziehungen
+## 11. Verwandte Themen
 
-- AK-055 — Event Sourcing
-- AK-104 — Search Read Model
-- AK-113 — Read Replicas
+- Event Sourcing als eigenständige Architekturentscheidung,
+- spezialisierte Read Models für Suche oder Reporting,
+- Datenbankreplikation und Read Replicas,
+- [AK-041 — Event-Driven Architecture](AK-041-event-driven-architecture.md),
+- [AK-024 — Caching](../08_engineering-guidelines/AK-024-caching.md).
 
 ## 12. Merksatz
 

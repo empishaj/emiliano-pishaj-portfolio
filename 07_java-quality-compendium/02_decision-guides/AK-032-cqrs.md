@@ -8,7 +8,7 @@ domain: application-architecture
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Änderung von Read-/Write-Anforderungen
 ---
@@ -142,6 +142,6 @@ Vor Einführung verteilter CQRS-Strukturen sollten messbar oder belegbar sein:
 - AK-104 — Search Read Model
 - AK-113 — Read Replicas
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > CQRS ist keine Infrastrukturmode. Es lohnt sich, wenn **Lesen und Schreiben tatsächlich unterschiedliche Modelle, Lastprofile oder Verantwortungen benötigen**.

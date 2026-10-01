@@ -7,9 +7,9 @@ artifact_type: architecture-standard
 domain: resilience-security
 status: active
 maturity: reviewed
-normative_level: recommended
+normative_level: normative
 owner_role: Platform / Security Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Änderung des API-Gateway- oder Traffic-Modells
   - Abuse-/Capacity-Incident
@@ -158,6 +158,6 @@ Mögliche Modelle:
 - Queue-/Wait-Time,
 - Load-Test mit Überschreitungsszenarien.
 
-## 10. Coach-Merksatz
+## 10. Merksatz
 
 > Rate Limiting beginnt nicht mit Token Bucket. Es beginnt mit der Frage: **Welche knappe Ressource schützen wir vor welchem Consumer- und Fehlverhalten?**

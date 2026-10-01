@@ -8,7 +8,7 @@ domain: application-architecture
 status: active
 maturity: reviewed
 normative_level: informative
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - wesentliche Skalierungs-, Team- oder Deploymentänderung
 ---
@@ -98,7 +98,7 @@ Die Tabelle ist keine Wertung. Die passende Option hängt vom Kontext ab.
 
 ## 6. Die Extraction Test Question
 
-Vor einer Service-Extraktion muss das Team mindestens beantworten können:
+Vor einer Service-Extraktion sollte das Team mindestens beantworten können:
 
 1. Welches Problem löst die Extraktion?
 2. Welche Daten gehören dem Service?
@@ -164,6 +164,6 @@ Dann werden konkrete Treiber, Quality Scenarios und Trade-offs bewertet.
 - AK-056 — Modularer Monolith
 - AK-085 — Sozio-technische Architektur
 
-## 12. Coach-Merksatz
+## 12. Merksatz
 
 > Eine Servicegrenze ist keine Belohnung für „saubere Architektur“. Sie ist eine **teure Betriebs- und Ownership-Grenze, die einen nachweisbaren Nutzen besitzen muss**.

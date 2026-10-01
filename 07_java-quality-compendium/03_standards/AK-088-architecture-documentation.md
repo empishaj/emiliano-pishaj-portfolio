@@ -3,13 +3,13 @@ id: AK-088
 legacy_ids:
   - ADR-088
 title: Architektur dokumentieren – Viewpoints, arc42, C4, UML und ArchiMate
-artifact_type: documentation-standard
+artifact_type: architecture-standard
 domain: architecture-documentation
 status: active
 maturity: reviewed
-normative_level: recommended
+normative_level: normative
 owner_role: Enterprise Architecture
-last_validated: 2026-09-28
+last_validated: 2026-10-01
 review_trigger:
   - Änderung der verwendeten Architekturmethoden
   - wiederkehrende Dokumentationslücken in Reviews oder Übergaben
@@ -351,6 +351,6 @@ Vor Veröffentlichung einer Architektursicht:
 - The Open Group — ArchiMate  
   https://www.opengroup.org/archimate-forum/archimate-overview
 
-## 14. Coach-Merksatz
+## 14. Merksatz
 
 > Beginne nie mit dem Diagramm. Beginne mit dem **Stakeholder, seinem Concern und der Entscheidung, die durch die Sicht möglich werden soll**.
